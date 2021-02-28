@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"
+	"$nocull" "1"		
+}
