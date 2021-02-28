@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "Scope\1"
+	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Lens"
 	"$nocull" 1
 	"$translucent" 1
 	"$envmaptint"   "[.15 .15 .15]"
