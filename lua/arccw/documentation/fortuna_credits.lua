@@ -11,6 +11,7 @@ slogkot:
 -Models
 -Textures
 -Animations
+-Sounds Mixing
 
 Infinity Ward:
 -Sounds (MW19)
