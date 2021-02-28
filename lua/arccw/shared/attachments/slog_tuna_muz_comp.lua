@@ -13,7 +13,7 @@ att.Slot = {"fortuna_muzzle"}
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/muz_comp.mdl"
 
-att.IsMuzzleDevice = true
+att.IsMuzzleDevice = false -- for now
 
 att.Add_BarrelLength = 2
 

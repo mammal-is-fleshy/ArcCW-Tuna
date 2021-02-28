@@ -9,15 +9,15 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = "muzzle"
+att.Slot = {"fortuna_muzzle"}
 
 att.SortOrder = 15
 
-att.Model = "models/arccw/slog_osi_suck/att/muz_pissd.mdl"
+att.Model = "models/weapons/arccw/slog_osi_suck/att/muz_pissd.mdl"
 
 att.Silencer = true
 att.Override_MuzzleEffect = "muzzleflash_suppressed"
-att.IsMuzzleDevice = true
+att.IsMuzzleDevice = false -- for now
 
 att.Mult_ShootPitch = 1
 att.Mult_ShootVol = 0.75
@@ -28,6 +28,8 @@ att.Mult_SightTime = 1.1
 att.Mult_HipDispersion = 1.15
 
 att.Add_BarrelLength = 8
+
+att.Override_MuzzleEffectAttachment = 1
 
 att.Hook_Compatible = function(wep)
     if wep:GetIsShotgun() then return false end
