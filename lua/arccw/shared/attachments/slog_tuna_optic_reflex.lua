@@ -1,4 +1,4 @@
-att.PrintName = "C87 (Reflex)"
+att.PrintName = "C87 (LP)"
 att.Icon = Material("entities/slog_tuna_optic_reflex.png", "mips smooth")
 att.Description = "Holographic option for small arms."
 
