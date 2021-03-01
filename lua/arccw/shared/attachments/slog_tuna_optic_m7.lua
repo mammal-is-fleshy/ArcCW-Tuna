@@ -2,7 +2,7 @@ att.PrintName = "M7 (LP)"
 att.Icon = Material("entities/slog_tuna_optic_holo.png", "mips smooth")
 att.Description = "Boxy holographic sight."
 
-att.SortOrder = 1
+att.SortOrder = 0.75
 
 att.Desc_Pros = {
     "autostat.holosight",
@@ -16,7 +16,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/m7.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 7, -0.95),
+        Pos = Vector(0, 7, -0.8),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ScrollFunc = ArcCW.SCROLL_NONE
@@ -30,4 +30,6 @@ att.HolosightSize = 2
 att.HolosightBone = "holosight"
 att.Colorable = true
 
-att.Mult_SightTime = 1.075
+att.Mult_SightTime = 1.025
+
+att.ModelOffset = Vector(0.15, 0, -0.15)
