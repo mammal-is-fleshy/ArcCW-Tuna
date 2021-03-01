@@ -1,6 +1,6 @@
 att.PrintName = "M7 (LP)"
-att.Icon = Material("entities/slog_tuna_optic_holo.png", "mips smooth")
-att.Description = "Boxy holographic sight."
+att.Icon = Material("entities/slog_tuna_optic_m7.png", "mips smooth")
+att.Description = "Simple holographic option reminiscent of ironsight."
 
 att.SortOrder = 0.75
 

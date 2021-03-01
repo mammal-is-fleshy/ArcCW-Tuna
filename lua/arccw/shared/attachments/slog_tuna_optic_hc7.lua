@@ -1,6 +1,6 @@
 att.PrintName = "HC7 (Holo)"
-att.Icon = Material("entities/slog_tuna_optic_holo.png", "mips smooth")
-att.Description = "Boxy holographic sight."
+att.Icon = Material("entities/slog_tuna_optic_hc7.png", "mips smooth")
+att.Description = "Mid range holographic sight."
 
 att.SortOrder = 1
 
