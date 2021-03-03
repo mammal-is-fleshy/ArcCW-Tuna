@@ -13,8 +13,8 @@ SWEP.Trivia_Year = "2174"
 
 SWEP.Slot = 1
 
-SWEP.CrouchPos = Vector(0, 3, -0.5)
-SWEP.CrouchAng = Angle(0, 0, 10)
+SWEP.CrouchPos = Vector(-1, -1, -1)
+SWEP.CrouchAng = Angle(0, 0, -15)
 
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 250
@@ -61,9 +61,9 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 6 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 250
+SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 150
 
 SWEP.Primary.Ammo = "ar2" 
 
@@ -81,12 +81,12 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SightTime = 0.2
+SWEP.SightTime = 0.3
 
-SWEP.SpeedMult = 1
-SWEP.SightedSpeedMult = 0.75
+SWEP.SpeedMult = 0.85
+SWEP.SightedSpeedMult = 0.65
 
-SWEP.BarrelLength = 14
+SWEP.BarrelLength = 22
 
 SWEP.ProceduralRegularFire = false
 SWEP.ProceduralIronFire = false
@@ -193,7 +193,7 @@ SWEP.Attachments = {
 }
 
 SWEP.Animations = {
----    ["idle"] = {Source = "idle",},
+	["idle"] = {Source = "idle",},
     ["ready"] = {
         Source = "draw",
     },
@@ -202,6 +202,7 @@ SWEP.Animations = {
     },
     ["fire"] = {
         Source = "fire",
+		Time = 0.4,
         ShellEjectAt = 0,
     },
     ["fire_iron"] = {
