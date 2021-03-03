@@ -3,11 +3,11 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Bravo-9"
-SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Futuristic ballistic pistol. Standard sidearm across the rim."
+SWEP.PrintName = "IMR"
+SWEP.Trivia_Class = "Assault Rifle"
+SWEP.Trivia_Desc = "Common bullpup rifle designed to be ergonomic. Packs quite a punch"
 SWEP.Trivia_Manufacturer = "DS Arms"
-SWEP.Trivia_Calibre = "9x19mm Para"
+SWEP.Trivia_Calibre = "7.62x54mm"
 SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2174"
 
@@ -16,19 +16,19 @@ SWEP.Slot = 1
 SWEP.CrouchPos = Vector(0, 3, -0.5)
 SWEP.CrouchAng = Angle(0, 0, 10)
 
-SWEP.NPCWeaponType = "weapon_pistol"
+SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 250
 
 SWEP.CamAttachment = 3
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_bravo9.mdl"
-SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_bravo9.mdl"
+SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_imr.mdl"
+SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_imr.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 32
-SWEP.DamageMin = 17 -- damage done at maximum range
+SWEP.Damage = 47
+SWEP.DamageMin = 23 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 6
 SWEP.DamageType = DMG_BULLET
@@ -41,22 +41,20 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 12 -- DefaultClip is automatically set.
-SWEP.ExtendedClipSize = 17
-SWEP.ReducedClipSize = 8
+SWEP.Primary.ClipSize = 25 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 3
 
 SWEP.Recoil = 0.75
-SWEP.RecoilSide = 0.35
+SWEP.RecoilSide = 0.5
 SWEP.RecoilRise = 1.25
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 700 -- 60 / RPM.
+SWEP.Delay = 60 / 600 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
     {
-        Mode = 1,
+        Mode = 2,
     },
     {
         Mode = 0
@@ -67,14 +65,14 @@ SWEP.AccuracyMOA = 6 -- accuracy in Minutes of Angle. There are 60 MOA in a degr
 SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 250
 
-SWEP.Primary.Ammo = "pistol" 
+SWEP.Primary.Ammo = "ar2" 
 
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
-SWEP.ShootSound = "weapons/arccw_slog/fortuna/pistol/fire.wav"
-SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/pistol/sd.wav"
-SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/pistol/echo.wav"
+SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/fire.wav"
+SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/sd.wav"
+SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
@@ -96,8 +94,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(0.984, 5, 2.585),
-    Ang = Angle(0, 0, 45),
+    Pos = Vector(-4.145, -4, 0.55),
+    Ang = Angle(0, 0, -5),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -108,14 +106,14 @@ SWEP.HoldtypeSights = "revolver"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
-SWEP.ActivePos = Vector(0, 4, 1)
+SWEP.ActivePos = Vector(0, 0, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(0.8, 5.836, 1.36)
-SWEP.HolsterAng = Angle(-9.551, 4.675, 5.392)
+SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
+SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
 
-SWEP.CustomizePos = Vector(8, 2, 3)
-SWEP.CustomizeAng = Angle(0, 23.763, 29.01)
+SWEP.CustomizePos = Vector(4, -2, 1)
+SWEP.CustomizeAng = Angle(0 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
@@ -142,10 +140,10 @@ SWEP.Attachments = {
     {
         PrintName = "Optic",
         DefaultAttName = "Iron Sights",
-        Slot = "fortuna_optic_s",
-        Bone = "W_Bolt", 
+        Slot = "fortuna_optic",
+        Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -0.75, -0.5), 
+            vpos = Vector(0, -4, 2), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -156,7 +154,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.15, 6.75),
+            vpos = Vector(0, -2.15, 16.25),
             vang = Angle(90, 0, -90),
         },
     },
@@ -195,8 +193,7 @@ SWEP.Attachments = {
 }
 
 SWEP.Animations = {
-    ["idle"] = {Source = "idle",},
-    ["idle_empty"] = {Source = "idle_last",	},
+---    ["idle"] = {Source = "idle",},
     ["ready"] = {
         Source = "draw",
     },
@@ -209,14 +206,6 @@ SWEP.Animations = {
     },
     ["fire_iron"] = {
         Source = "iron",
-        ShellEjectAt = 0,
-    },
-    ["fire_empty"] = {
-        Source = "fire_last",
-        ShellEjectAt = 0,
-    },
-    ["fire_iron_empty"] = {
-        Source = "iron_last",
         ShellEjectAt = 0,
     },
     ["reload"] = {

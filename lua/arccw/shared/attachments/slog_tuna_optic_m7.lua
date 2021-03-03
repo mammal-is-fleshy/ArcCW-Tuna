@@ -10,7 +10,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = {"fortuna_optic"}
+att.Slot = {"fortuna_optic_s"}
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/m7.mdl"
 
