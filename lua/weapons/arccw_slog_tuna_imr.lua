@@ -46,16 +46,19 @@ SWEP.MaxRecoilBlowback = 3
 
 SWEP.Recoil = 0.75
 SWEP.RecoilSide = 0.5
-SWEP.RecoilRise = 1.25
+SWEP.RecoilRise = 0.8
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 600 -- 60 / RPM.
+SWEP.Delay = 60 / 570 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
     {
         Mode = 2,
     },
+	    {
+        Mode = 1,
+    },	
     {
         Mode = 0
     }
@@ -100,9 +103,9 @@ SWEP.IronSightStruct = {
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
 
-SWEP.HoldtypeHolstered = "normal"
-SWEP.HoldtypeActive = "pistol"
-SWEP.HoldtypeSights = "revolver"
+SWEP.HoldtypeHolstered = "passive"
+SWEP.HoldtypeActive = "ar2"
+SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 

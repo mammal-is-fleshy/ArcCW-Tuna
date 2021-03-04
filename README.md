@@ -1,2 +1,2 @@
 # ArcCW-Tuna
- fish
+ its pronounced "chew-na"

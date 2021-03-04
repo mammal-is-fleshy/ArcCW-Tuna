@@ -11,14 +11,32 @@ slogkot:
 -Models
 -Textures
 -Animations
--Sounds Mixing
+-Firing sounds "mixing"
 
 Infinity Ward:
--Sounds (MW19)
+-Sounds (MW19, IW)
 
 DICE:
 -Sounds (BF4)
 
-
+Respawn Entertainment:
+-Sounds (Titan Fall 1/2)
 
 fish 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+just to see how far can i push before going to insanity 
