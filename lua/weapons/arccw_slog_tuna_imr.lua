@@ -52,6 +52,16 @@ SWEP.VisualRecoilMult = 0.8
 SWEP.Delay = 60 / 570 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
+SWEP.Hook_ModifyRPM = function(wep, delay)
+    local max = math.min(7, wep:GetCapacity())
+
+    local delta = wep:GetBurstCount() / max
+
+    local mult = Lerp(delta, 1, 1.25)
+
+    return delay / mult
+end
+
 SWEP.Firemodes = {
     {
         Mode = 2,
