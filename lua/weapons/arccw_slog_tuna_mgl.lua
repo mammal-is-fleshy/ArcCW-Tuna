@@ -75,9 +75,9 @@ SWEP.ShellRotateAngle = Angle(0, 180, 0)
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SightTime = 0.2
-SWEP.SpeedMult = 0.98
-SWEP.SightedSpeedMult = 0.775
+SWEP.SightTime = 0.5
+SWEP.SpeedMult = 0.75
+SWEP.SightedSpeedMult = 0.55
 
 SWEP.BulletBones = { 
     [5] = "W_Ammo_1",
