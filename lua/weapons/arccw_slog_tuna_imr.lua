@@ -11,7 +11,7 @@ SWEP.Trivia_Calibre = "7.62x54mm"
 SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2174"
 
-SWEP.Slot = 1
+SWEP.Slot = 2
 
 SWEP.CrouchPos = Vector(-1, -1, -1)
 SWEP.CrouchAng = Angle(0, 0, -15)

@@ -16,7 +16,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/hc7.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 7, -1.3),
+        Pos = Vector(0, 7, -1.125),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ScrollFunc = ArcCW.SCROLL_NONE
@@ -31,3 +31,6 @@ att.HolosightBone = "holosight"
 att.Colorable = true
 
 att.Mult_SightTime = 1.075
+
+att.ModelScale = Vector(0.9, 0.9, 0.9)
+att.ModelOffset = Vector(0, 0, -0.1)

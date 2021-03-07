@@ -110,3 +110,33 @@ sound.Add({
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/rifle/bolt.wav"}
 })
+
+
+
+
+//LMG
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_LMG.Open",
+	channel = 		CHAN_ITEM1,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/lmg/open.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_LMG.Close",
+	channel = 		CHAN_ITEM2,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/lmg/close.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_LMG.Chain",
+	channel = 		CHAN_ITEM1,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/lmg/belt.wav"}
+})
+
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_LMG.Out",
+	channel = 		CHAN_ITEM2,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/lmg/out.wav"}
+})
