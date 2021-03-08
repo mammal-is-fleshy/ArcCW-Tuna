@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = {"fortuna_muzzle"}
+att.Slot = {"fortuna_muzzle", "fortuna_muzzle_pist"}
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/muz_comp.mdl"
 

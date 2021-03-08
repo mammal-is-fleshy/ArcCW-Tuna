@@ -11,17 +11,6 @@ att.Slot = {"fortuna_tac"}
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/laser_piss2.mdl"
 
-att.KeepBaseIrons = true
-att.AdditionalSights = {
-    {
-        Pos = Vector(-2, 10, -4), -- relative to where att.Model is placed
-        Ang = Angle(0, 0, 20),
-        GlobalPos = false,
-        GlobalAng = true,
-        Magnification = 1
-    }
-}
-
 att.Laser = true
 att.LaserStrength = 0.5
 att.LaserBone = "laser"

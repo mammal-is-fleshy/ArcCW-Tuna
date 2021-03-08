@@ -9,7 +9,7 @@ ENT.Spawnable 			= false
 
 AddCSLuaFile()
 
-ENT.Model = "models/items/ar2_grenade.mdl"
+ENT.Model = "models/weapons/arccw/mifl/fas2/shell/40mm.mdl"
 ENT.Ticks = 0
 ENT.FuseTime = 0.1
 ENT.Defused = false
@@ -91,7 +91,7 @@ function ENT:Detonate()
         attacker = self.Owner
     end
 
-    util.BlastDamage(self, attacker, self:GetPos(), 300, 150)
+    util.BlastDamage(self, attacker, self:GetPos(), 170, 120)
 
     self:FireBullets({
         Attacker = attacker,

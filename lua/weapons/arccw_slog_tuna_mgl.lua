@@ -26,7 +26,7 @@ SWEP.ViewModelFOV = 70
 
 SWEP.Num = 1
 SWEP.ShootEntity = "arccw_mifl_fas2_m203" -- entity to fire, if any
-SWEP.MuzzleVelocity = 3000
+SWEP.MuzzleVelocity = 12000
 
 SWEP.TracerNum = 1 -- tracer every X
 SWEP.TracerCol = Color(255, 25, 25)
