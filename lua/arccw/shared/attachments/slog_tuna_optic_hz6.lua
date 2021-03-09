@@ -17,7 +17,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/hz6.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 11, -0.95),
+        Pos = Vector(0, 12, -1.185),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
@@ -28,15 +28,15 @@ att.AdditionalSights = {
 }
 
 att.Holosight = true
-att.HolosightReticle = Material("slog_tuna_reticle/parentheses.png", "mips smooth")
+att.HolosightReticle = Material("slog_tuna_reticle/parenth_scope.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 5
+att.HolosightSize = 10.5
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/slog_osi_suck/att/hz6_hsp.mdl"
 att.Colorable = true
 
 att.HolosightMagnification = 2
-att.HolosightBlackbox = false --- for now
+att.HolosightBlackbox = true
 
 att.HolosightMagnification = 2.5
 att.HolosightMagnificationMin = 2.5
@@ -46,3 +46,6 @@ att.Mult_SightTime = 1.125
 att.Mult_SightedSpeedMult = 0.92
 
 att.ModelOffset = Vector(0, 0, -0.1)
+
+
+att.ModelScale = Vector(1.25, 1.25, 1.25)
