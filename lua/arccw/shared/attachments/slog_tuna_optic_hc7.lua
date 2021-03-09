@@ -26,7 +26,7 @@ att.AdditionalSights = {
 att.Holosight = true
 att.HolosightReticle = Material("slog_tuna_reticle/combat.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 3.5
+att.HolosightSize = 2.5
 att.HolosightBone = "holosight"
 att.Colorable = true
 

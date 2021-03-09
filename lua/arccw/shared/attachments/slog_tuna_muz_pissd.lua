@@ -9,7 +9,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = {"fortuna_muzzle", "fortuna_muzzle_pist"}
+att.Slot = {"fortuna_muzzle_pist"}
 
 att.SortOrder = 15
 
