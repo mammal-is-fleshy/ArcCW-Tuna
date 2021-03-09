@@ -1,5 +1,5 @@
 att.PrintName = "Muzzle Brake"
-att.Icon = Material("entities/slog_tuna_muz_boost.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_muz_brake.png", "mips smooth")
 att.Description = "Muzzle device that redirect gas sideways. Decreases horizontal recoil but increases that of vertical."
 
 att.SortOrder = 1

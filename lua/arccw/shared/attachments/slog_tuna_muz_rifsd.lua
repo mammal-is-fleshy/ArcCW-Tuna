@@ -1,5 +1,5 @@
 att.PrintName = "Sandman Suppressor"
-att.Icon = Material("entities/slog_tuna_muz_pissd.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_muz_rif_sd.png", "mips smooth")
 att.Description = "Combat suppressor issues for rifles."
 
 att.SortOrder = 2
