@@ -3,3 +3,17 @@
 	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"
 	"$nocull" "1"		
 }
+
+
+//Phong shading	
+"$phong" 				"1"
+"$phongboost" 				"10"
+"$phongalbedotint"			 "1"
+"$phongexponent" 			"30"
+"$phongfresnelranges" 			"[1 5 22.5]"
+
+//Reflections
+"$envmap"				"env_cubemap"
+"$envmaptint"				"[ .1 .1 .1 ]"
+"$envmapfresnel"			 ".1"
+"$normalmapalphaenvmapmask" 	"1"
