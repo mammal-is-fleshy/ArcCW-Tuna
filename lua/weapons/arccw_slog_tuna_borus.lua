@@ -3,17 +3,17 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "IMR"
-SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Common bullpup rifle designed to be ergonomic. Packs quite a punch."
+SWEP.PrintName = "Borus-27"
+SWEP.Trivia_Class = "Sniper Rifle"
+SWEP.Trivia_Desc = "Single shot bolt action sniper rifle."
 SWEP.Trivia_Manufacturer = "DS Arms"
-SWEP.Trivia_Calibre = "7.62x54mm"
+SWEP.Trivia_Calibre = "45x25mm"
 SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2174"
 
 SWEP.Slot = 2
 
-SWEP.CrouchPos = Vector(-1, -1, -1)
+SWEP.CrouchPos = Vector(-1, 2, -1)
 SWEP.CrouchAng = Angle(0, 0, -15)
 
 SWEP.NPCWeaponType = "weapon_ar2"
@@ -23,50 +23,37 @@ SWEP.CamAttachment = 3
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_imr.mdl"
-SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_imr.mdl"
+SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
+SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 47
-SWEP.DamageMin = 23 -- damage done at maximum range
-SWEP.Range = 50 -- in METRES
-SWEP.Penetration = 6
+SWEP.Damage = 65
+SWEP.DamageMin = 180 -- damage done at maximum range
+SWEP.Range = 70 -- in METRES
+SWEP.Penetration = 25
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
-SWEP.MuzzleVelocity = 950 -- projectile or phys bullet muzzle velocity
+SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 -- IN M/S
 
 SWEP.TracerNum = 1 -- tracer every X
 SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
-SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 25 -- DefaultClip is automatically set.
-SWEP.MaxRecoilBlowback = 3
+SWEP.ChamberSize = 0 -- how many rounds can be chambered.
+SWEP.Primary.ClipSize = 1 -- DefaultClip is automatically set.
+SWEP.MaxRecoilBlowback = 5
 
-SWEP.Recoil = 0.75
-SWEP.RecoilSide = 0.5
-SWEP.RecoilRise = 0.8
+SWEP.Recoil = 2
+SWEP.RecoilSide = 5
+SWEP.RecoilRise = 3
 SWEP.VisualRecoilMult = 0.8
 
 SWEP.Delay = 60 / 570 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
-SWEP.Hook_ModifyRPM = function(wep, delay)
-    local max = math.min(7, wep:GetCapacity())
-
-    local delta = wep:GetBurstCount() / max
-
-    local mult = Lerp(delta, 1, 1.25)
-
-    return delay / mult
-end
-
 SWEP.Firemodes = {
-    {
-        Mode = 2,
-    },
-	    {
+	{
         Mode = 1,
     },	
     {
@@ -74,9 +61,9 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150
+SWEP.AccuracyMOA = 0.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 520 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 300
 
 SWEP.Primary.Ammo = "ar2" 
 
@@ -107,8 +94,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.145, -4, 0.55),
-    Ang = Angle(0, 0, -5),
+    Pos = Vector(-3.441, -1, 0.519),
+    Ang = Angle(0.945, 0, -5),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -119,7 +106,7 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
-SWEP.ActivePos = Vector(0, 0, 0.5)
+SWEP.ActivePos = Vector(0, 3, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
@@ -132,7 +119,7 @@ SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 SWEP.ShellRotateAngle = Angle(5, 0, 40)
 
-SWEP.ExtraSightDist = 5
+SWEP.ExtraSightDist = 2.5
 
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
@@ -143,7 +130,7 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-9, 6, -4),
+    pos = Vector(-4.8, 5.5, -4.5),
     ang = Angle(-10, 0, 180-5)
 }
 
@@ -156,7 +143,7 @@ SWEP.Attachments = {
         Slot = "fortuna_optic",
         Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -4, 2), 
+            vpos = Vector(0, -4.1, 2.5), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -167,7 +154,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2, 15),
+            vpos = Vector(0, -3.1, 17),
             vang = Angle(90, 0, -90),
         },
     },
@@ -219,21 +206,15 @@ SWEP.Animations = {
         ShellEjectAt = 0,
     },
     ["fire_iron"] = {
-        Source = "iron",
+        Source = "idle",
         ShellEjectAt = 0,
     },
     ["reload"] = {
-        Source = "wet",
+        Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        LHIK = true,
-        LHIKIn = 0.2,
-        LHIKOut = 0.3,
     },
     ["reload_empty"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        LHIK = true,
-        LHIKIn = 0.2,
-        LHIKOut = 0.3,
     },	
 }
