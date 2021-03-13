@@ -31,7 +31,7 @@ SWEP.Damage = 65
 SWEP.DamageMin = 180 -- damage done at maximum range
 SWEP.Range = 70 -- in METRES
 SWEP.Penetration = 25
-SWEP.DamageType = DMG_BULLET
+SWEP.DamageType = DMG_BULLET + DMG_BLAST + DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 -- IN M/S
@@ -45,8 +45,8 @@ SWEP.Primary.ClipSize = 1 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 5
 
 SWEP.Recoil = 2
-SWEP.RecoilSide = 5
-SWEP.RecoilRise = 3
+SWEP.RecoilSide = 2
+SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
 SWEP.Delay = 60 / 570 -- 60 / RPM.
@@ -81,12 +81,12 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SightTime = 0.3
+SWEP.SightTime = 0.275
 
 SWEP.SpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.65
 
-SWEP.BarrelLength = 22
+SWEP.BarrelLength = 32
 
 SWEP.ProceduralRegularFire = false
 SWEP.ProceduralIronFire = false
@@ -202,7 +202,7 @@ SWEP.Animations = {
     },
     ["fire"] = {
         Source = "fire",
-		Time = 0.4,
+		Time = 0.6,
         ShellEjectAt = 0,
     },
     ["fire_iron"] = {

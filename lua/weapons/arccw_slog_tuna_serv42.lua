@@ -94,12 +94,12 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SightTime = 0.3
+SWEP.SightTime = 0.25
 
 SWEP.SpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.65
 
-SWEP.BarrelLength = 22
+SWEP.BarrelLength = 17
 
 SWEP.ProceduralRegularFire = false
 SWEP.ProceduralIronFire = false
