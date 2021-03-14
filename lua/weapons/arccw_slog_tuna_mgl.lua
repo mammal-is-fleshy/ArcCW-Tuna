@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "MGL-4"
+SWEP.PrintName = "EGL-4"
 SWEP.Trivia_Class = "Grenade Launcher"
 SWEP.Trivia_Desc = "Magnetic grenade launcher fed from a heavy box."
 SWEP.Trivia_Manufacturer = "AZ Arms"
