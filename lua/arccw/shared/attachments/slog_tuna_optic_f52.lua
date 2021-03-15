@@ -34,6 +34,14 @@ att.Mult_SightTime = 1.025
 
 att.LHIK_Animation = true
 
+att.Hook_SightToggle = function(wep, enter) 
+	if wep:GetState() == ArcCW.STATE_SIGHTS then
+        return wep:DoLHIKAnimation("ads_up", 20/60) 
+	else 
+		return wep:DoLHIKAnimation("idle", 20/60)
+	end
+end
+
 att.Hook_LHIK_TranslateAnimation = function(wep, key)
     if key == "idle" then
         if wep:GetState() == ArcCW.STATE_SIGHTS then
