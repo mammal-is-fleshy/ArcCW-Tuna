@@ -128,8 +128,6 @@ sound.Add({
 })
 
 
-
-
 //SNIP
 sound.Add({
 	name = 			"ArcCW_Slog_FTuna_Snip.Foley",

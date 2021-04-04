@@ -130,7 +130,6 @@ SWEP.CustomizeAng = Angle(0 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
-SWEP.ShellRotateAngle = Angle(5, 0, 40)
 
 SWEP.ExtraSightDist = 2.5
 
