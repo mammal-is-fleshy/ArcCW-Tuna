@@ -171,6 +171,17 @@ SWEP.Attachments = {
         },
     },
     {
+        PrintName = "Underbarrel",
+        Slot = {"fortuna_fg"},
+        Bone = "W_Main",
+        Offset = {
+            vpos = Vector(0, 0, 7),
+            vang = Angle(90, 0, -90),
+            wpos = Vector(14.329, 0.602, -4.453),
+            wang = Angle(-10.216, 0, 180)
+        },
+    },		
+    {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
         Bone = "W_Main",
@@ -223,20 +234,18 @@ SWEP.Animations = {
     },
     ["reload"] = {
         Source = "wet",
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
-        Checkpoints = {36, 57, 77},
-        FrameRate = 60,
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.2,
-        LHIKOut = 0.3,
+        LHIKOut = 0.8,
+        LHIKEaseOut = 0.4
     },
     ["reload_empty"] = {
         Source = "dry",
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
-        Checkpoints = {36, 57, 77, 88},
-        FrameRate = 60,
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.2,
-        LHIKOut = 0.3,
+        LHIKOut = 0.8,
+        LHIKEaseOut = 0.4
     },	
 }
