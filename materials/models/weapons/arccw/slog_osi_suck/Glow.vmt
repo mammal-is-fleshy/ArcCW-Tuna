@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	$color2 "[0.25 0.75 1]"
+	$selfillum 1
+
+	"$nocull" "1"			
+}

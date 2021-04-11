@@ -1,17 +1,11 @@
 Project ForTuna 
 
 [Created by slogkot and Itzal]
-[Ask me(slogkot) If you want to reuse some of my assets]
+[Ask me(slogkot) If you want to reuse some of *my* assets]
 
 
 Itzal:
--Concept Art
-
-slogkot:
--Models
--Textures
--Animations
--Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
+-Concept Art (Bravo-9, Borus-27, EGL-4, IMR)
 
 Infinity Ward:
 -Sounds (MW19, IW)
@@ -20,7 +14,15 @@ DICE:
 -Sounds (BF4)
 
 Respawn Entertainment:
--Sounds (Titan Fall 1/2)
+-Sounds (Titan Fall 1/2, Apex Legend)
+
+
+slogkot:
+-Concept Art (IMR, SeRv-45, DB-10)
+-Models
+-Textures
+-Animations
+-Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
 
 fish 
 
@@ -28,7 +30,7 @@ fish
 
 Sanity Check List:
 [Weapons]
-Exotic/Hybrid/Makeshift Weapons (3/8)
+Exotic/Hybrid/Makeshift Weapons (6/8)
 BioMechanic Weapons (0/2)
 
 ExHybird is: not so m4 and ak, design stolen from IW and TF2, mostly bullpup cuz for some reason you see alot of bullpup and p90 in sci-fi
@@ -50,6 +52,10 @@ early ww2 french resistance weapon
 
 at least one original design*
 
+Weapon Design:
+[IMR] - bullpup based on late cold war russian prototype with boxy NATO look
+[SeRv-45] - based on a not glock in a not airsoft roni frame
+[DB-10] - marlin + spas 12 hybrid, Load like a winchester cuz the m1887 style loading gate is too hard for my brain to handle 
 
 ofc all of these will have their sci-fi momento 
 to cover my lack of gun experience, which i think its a fucking waste of Time, i just want to make cool looking stuff, no one fucking cares about the lack of gas block or something,
@@ -61,7 +67,7 @@ i dont plan to be a gun 3d artist and never will but some knowledge on specific 
 
 
 
-the focus of FAS2 was how much shit can i add to an existing gun before burnout
+the focus of FS2R was how much shit can i add to an existing gun before burnout
 the focus of Tuna is how much shit can i design/make before boredom 
 therefore, individual customisation like fas2 -as much as i want- is not and will not be a priority
 im tired of stealing, this is my attempt to create something all by me
@@ -78,3 +84,6 @@ i fucking hate how every bloody game no matter how far to the future or past MUS
 
 why Do i have all these dev blog for big projects? self reflection
 to see how far i has changed in both my goal and my philosophy over the course of a project 
+
+and looking back, i see i was trully a retard
+but at least my scopes are feasible
