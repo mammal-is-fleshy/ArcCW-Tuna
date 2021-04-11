@@ -1,5 +1,5 @@
 att.PrintName = "Combat Foregrip"
-att.Icon = Material("entities/arccw_mifl_roni_grip.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_fg.png", "mips smooth")
 att.Description = "Heavy foregrip provides limited recoil and hipfire control."
 att.Desc_Pros = {
 }

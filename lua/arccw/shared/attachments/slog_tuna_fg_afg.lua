@@ -1,5 +1,5 @@
 att.PrintName = "Angled Foregrip"
-att.Icon = Material("entities/arccw_mifl_roni_grip2.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_fg_afg.png", "mips smooth")
 att.Description = "Undegrip improves handling and fast sight acquisition."
 att.Desc_Pros = {
 }
