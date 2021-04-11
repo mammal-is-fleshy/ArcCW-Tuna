@@ -205,7 +205,7 @@ SWEP.Animations = {
     },
     ["fire"] = {
         Source = "fire",
-		MinProgress = 0.15,
+		MinProgress = 0.16,
     },
     ["cycle"] = {
         Source = {"pump1","pump1","pump2"},
