@@ -157,25 +157,25 @@ sound.Add({
 
 //DB14
 sound.Add({
-	name = 			"ArcCW_Slog_FTuna_Snip.Foley1",
+	name = 			"ArcCW_Slog_FTuna_Shotgun.Foley1",
 	channel = 		CHAN_ITEM3,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/shotgun/foley1.wav"}
 })
 sound.Add({
-	name = 			"ArcCW_Slog_FTuna_Snip.Foley2",
+	name = 			"ArcCW_Slog_FTuna_Shotgun.Foley2",
 	channel = 		CHAN_ITEM7,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/shotgun/foley2.wav"}
 })
 sound.Add({
-	name = 			"ArcCW_Slog_FTuna_Snip.Foley3",
+	name = 			"ArcCW_Slog_FTuna_Shotgun.Foley3",
 	channel = 		CHAN_ITEM8,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/shotgun/foley2.wav"}
 })
 sound.Add({
-	name = 			"ArcCW_Slog_FTuna_Snip.Foley4",
+	name = 			"ArcCW_Slog_FTuna_Shotgun.Foley4",
 	channel = 		CHAN_ITEM9,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/shotgun/foley4.wav"}

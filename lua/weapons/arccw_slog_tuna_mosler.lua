@@ -31,7 +31,7 @@ SWEP.Damage = 12
 SWEP.DamageMin = 5 -- damage done at maximum range
 SWEP.Range = 70 -- in METRES
 SWEP.Penetration = 5
-SWEP.DamageType = DMG_BULLET + DMG_BLAST + DMG_AIRBOAT
+SWEP.DamageType = DMG_BULLET + DMG_BLAST + DMG_BUCKSHOT
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 -- IN M/S
@@ -41,12 +41,12 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 0 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 6 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 5
 
-SWEP.Recoil = 2
+SWEP.Recoil = 3
 SWEP.RecoilSide = 2
-SWEP.RecoilRise = 1.5
+SWEP.RecoilRise = 1.75
 SWEP.VisualRecoilMult = 0.8
 
 SWEP.Delay = 60 / 120 -- 60 / RPM.
@@ -70,8 +70,8 @@ SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
-SWEP.ShootSound = "weapons/arccw_slog/fortuna/snip/fire.wav"
-SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/snip/sd.wav"
+SWEP.ShootSound = "weapons/arccw_slog/fortuna/shotgun/fire.mp3"
+SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/shotgun/sd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
@@ -94,8 +94,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.441, -1, 0.519),
-    Ang = Angle(0.945, 0, -5),
+    Pos = Vector(-2.609, 5, 1.036),
+    Ang = Angle(0, 0, 5),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -146,7 +146,7 @@ SWEP.Attachments = {
         Slot = "fortuna_optic",
         Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -4.1, 2.5), 
+            vpos = Vector(0, -2.9, 3.5), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -166,8 +166,8 @@ SWEP.Attachments = {
         Slot = "fortuna_tac",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -1.25, 4.5), 
-            vang = Angle(90, 0, -90),
+            vpos = Vector(-0.65, -0.9, 8), 
+            vang = Angle(90, 0, 180),
         },
         ExtraSightDist = 10,
         CorrectivePos = Vector(0.75, 3, 0),					
