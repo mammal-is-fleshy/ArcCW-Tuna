@@ -75,8 +75,8 @@ SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/shotgun/sd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
-SWEP.ShellScale = 1.5
+SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_shotgun.mdl"
+SWEP.ShellScale = 1.25
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
