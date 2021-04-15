@@ -138,6 +138,11 @@ SWEP.AttachmentElements = {
         VMBodygroups = {
             {ind = 1, bg = 1},
         },
+    },
+    ["rail_yes"] = {
+        VMBodygroups = {
+            {ind = 2, bg = 1},
+        },
     },	
 }
 
@@ -180,6 +185,7 @@ SWEP.Attachments = {
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)
         },
+        InstalledEles = {"rail_yes"},		
     },		
     {
         PrintName = "Tactical",

@@ -1,5 +1,5 @@
 att.PrintName = "Fractured Shell"
-att.Icon = nil ---Material("entities/slog_tuna_fg.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_ammo_frac.png", "mips smooth")
 att.Description = "Unstable tip that fractures into smaller chunks when shot."
 att.Desc_Pros = {
 }
@@ -10,7 +10,7 @@ att.Slot = {"fortuna_ammo"}
 
 att.Mult_RPM = 0.8
 att.Mult_Recoil = 1.15
-att.Mult_AccuracyMOA = 5
+att.Mult_AccuracyMOA = 10
 att.Mult_Damage = 1.5
 att.Mult_DamageMin = 1.2
 att.Mult_Range = 0.5
