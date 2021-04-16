@@ -122,8 +122,8 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.ActivePos = Vector(0, 2, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
-SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
+SWEP.HolsterPos = Vector(-2, 1, 1)
+SWEP.HolsterAng = Angle(-13.101, 12, -16.496)
 
 SWEP.CustomizePos = Vector(4, -2, 1)
 SWEP.CustomizeAng = Angle(0 , 21.236, 17)
@@ -180,7 +180,7 @@ SWEP.Attachments = {
         Slot = {"fortuna_fg"},
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, 0, 7),
+            vpos = Vector(0, 1.5, 8),
             vang = Angle(90, 0, -90),
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)
@@ -243,7 +243,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.2,
-        LHIKOut = 0.8,
+        LHIKOut = 0.6,
         LHIKEaseOut = 0.4
     },
     ["reload_empty"] = {
@@ -251,7 +251,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.2,
-        LHIKOut = 0.8,
+        LHIKOut = 1.6,
         LHIKEaseOut = 0.4
     },	
 }

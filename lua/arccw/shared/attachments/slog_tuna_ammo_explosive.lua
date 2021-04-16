@@ -35,7 +35,7 @@ att.Hook_BulletHit = function(wep, data)
     effectdata:SetOrigin( data.tr.HitPos )
     util.Effect( "Explosion", effectdata)
 	
-    local rad = math.Clamp(math.ceil(wep:GetDamage(0)), 150, 350)
+    local rad = math.Clamp(math.ceil(wep:GetDamage(0)), wep.Damage*5, wep.Damage*8)
     util.BlastDamage(wep, wep:GetOwner(), data.tr.HitPos, rad, wep:GetDamage(data.range))
 	
     if ent:IsValid() and ent:GetClass() == {"npc_helicopter"} then
