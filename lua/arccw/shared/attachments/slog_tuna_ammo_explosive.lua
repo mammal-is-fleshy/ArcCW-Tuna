@@ -1,5 +1,5 @@
 att.PrintName = "Explosive Tip"
-att.Icon = nil ---Material("entities/slog_tuna_fg.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_ammo_frag.png", "mips smooth")
 att.Description = "Explosive rounds."
 att.Desc_Pros = {
 }
