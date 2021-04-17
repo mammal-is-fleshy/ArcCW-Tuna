@@ -76,7 +76,7 @@ SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_shotgun.mdl"
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 0.5
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -117,7 +117,7 @@ SWEP.CustomizeAng = Angle(0 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
-SWEP.ShellRotateAngle = Angle(0, -90, 40)
+SWEP.ShellRotateAngle = Angle(15, -50, 40)
 
 SWEP.ExtraSightDist = 2.5
 
@@ -213,11 +213,10 @@ SWEP.Animations = {
     },
     ["cycle_iron"] = {
         Source = {"pump3"},
-        ShellEjectAt = 0,
+        ShellEjectAt = 0.3,
     },	
     ["fire_iron"] = {
         Source = "idle",
-        ShellEjectAt = 0,
     },
     ["sgreload_start"] = {
         Source = "start",
@@ -226,6 +225,7 @@ SWEP.Animations = {
     ["sgreload_start_empty"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
+        ShellEjectAt = 0.3,		
         LHIK = true,
         LHIKIn = 0.5,
         LHIKOut = 0,
