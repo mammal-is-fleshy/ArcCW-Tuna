@@ -11,12 +11,12 @@ SWEP.Trivia_Calibre = "10 Gauge"
 SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2165"
 
-SWEP.Slot = 2
+SWEP.Slot = 3
 
 SWEP.CrouchPos = Vector(-1, 2, -1)
 SWEP.CrouchAng = Angle(0, 0, -15)
 
-SWEP.NPCWeaponType = "weapon_ar2"
+SWEP.NPCWeaponType = "weapon_shotgun"
 SWEP.NPCWeight = 250
 
 SWEP.CamAttachment = 3
@@ -65,7 +65,7 @@ SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a deg
 SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 300
 
-SWEP.Primary.Ammo = "ar2" 
+SWEP.Primary.Ammo = "buckshot" 
 
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
@@ -216,7 +216,8 @@ SWEP.Animations = {
         ShellEjectAt = 0.3,
     },	
     ["fire_iron"] = {
-        Source = "idle",
+        Source = "fire",
+		MinProgress = 0.16,		
     },
     ["sgreload_start"] = {
         Source = "start",
