@@ -97,6 +97,79 @@ sound.Add({
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/rifle/bolt.wav"}
 })
+------------------------------------------------------------------------
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.Foley",
+	channel = 		CHAN_ITEM1,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2foley.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.Foley2",
+	channel = 		CHAN_ITEM2,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2foley2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.Foley3",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2foley3.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.Foley4",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2foley4.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.Out",
+	channel = 		CHAN_ITEM4,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2out.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.In1",
+	channel = 		CHAN_ITEM5,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2in1.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.In2",
+	channel = 		CHAN_ITEM5,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2in2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.Bolt",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2bolt.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.GLIn1",
+	channel = 		CHAN_ITEM5,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2glin1.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.GLIn2",
+	channel = 		CHAN_ITEM5,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2glin2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.GLBolt",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2glbolt.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif.GL",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/2gl.wav"}
+})
 
 
 
