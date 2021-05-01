@@ -83,8 +83,8 @@ SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
-SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/heavy_fire.wav"
-SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/heavy_firesd.wav"
+SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/2fire.mp3"
+SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/2firesd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
@@ -143,8 +143,8 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-9, 6, -4),
-    ang = Angle(-10, 0, 180-5)
+    pos = Vector(-8, 5, -6),
+    ang = Angle(-10, 0, 180-2.5)
 }
 
 SWEP.MirrorVMWM = true
@@ -174,9 +174,9 @@ SWEP.Attachments = {
     {
         PrintName = "Underbarrel",
         Slot = {"fortuna_fg"},
-        Bone = "W_Main",
+        Bone = "Weapon_Main",
         Offset = {
-            vpos = Vector(0, 0, 7),
+            vpos = Vector(0, 0.5, 12),
             vang = Angle(90, 0, -90),
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)
@@ -185,9 +185,9 @@ SWEP.Attachments = {
     {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
-        Bone = "W_Main",
+        Bone = "Weapon_Main",
         Offset = {
-            vpos = Vector(0.65, -2, 8), 
+            vpos = Vector(0.5, -1.5, 12), 
             vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,
@@ -235,7 +235,7 @@ SWEP.Animations = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
-        LHIKIn = 0.2,
+        LHIKIn = 0.35,
         LHIKOut = 0.8,
         LHIKEaseOut = 0.4
     },
@@ -243,8 +243,8 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
-        LHIKIn = 0.2,
-        LHIKOut = 0.8,
+        LHIKIn = 0.35,
+        LHIKOut = 0.6,
         LHIKEaseOut = 0.4
     },	
     ["enter_ubgl"] = {
@@ -252,7 +252,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
-        LHIKOut = 0.5,
+        LHIKOut = 0.2,
     },		
     ["exit_ubgl"] = {
         Source = "nade2rif",	
