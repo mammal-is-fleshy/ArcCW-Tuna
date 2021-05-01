@@ -32,6 +32,10 @@ Sanity Check List:
 [Weapons]
 Exotic/Hybrid/Makeshift Weapons (6/8)
 BioMechanic Weapons (0/2)
+THE FUCKING MUZZLE POSTIION (0)
+LASER FOR NORMAL WEAPONS (0)
+SHOTGUN AND SNIPER AMMO TYPE (0)
+
 
 ExHybird is: not so m4 and ak, design stolen from IW and TF2, mostly bullpup cuz for some reason you see alot of bullpup and p90 in sci-fi
 BioEngineered is the grand daddy of them all, the mentioned above have one thing in common: Symmetry 
@@ -56,6 +60,7 @@ Weapon Design:
 [IMR] - bullpup based on late cold war russian prototype with boxy NATO look
 [SeRv-45] - based on a not glock in a not airsoft roni frame
 [DB-10] - marlin + spas 12 hybrid, Load like a winchester cuz the m1887 style loading gate is too hard for my brain to handle 
+[FX-92] - just a fucking oicw, f2000 + xm8??? hybrid thing
 
 ofc all of these will have their sci-fi momento 
 to cover my lack of gun experience, which i think its a fucking waste of Time, i just want to make cool looking stuff, no one fucking cares about the lack of gas block or something,

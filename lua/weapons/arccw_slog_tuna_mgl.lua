@@ -140,10 +140,10 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Underbarrel",
-        Slot = {"foregrip", "bipod"},
-        Bone = "Weapon",
+        Slot = {"fortuna_fg"},
+        Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -0.5, 8),
+            vpos = Vector(0, 0.25, 11),
             vang = Angle(90, 0, -90),
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)
@@ -185,15 +185,17 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LastClip1OutTime = 47/40,		
         LHIK = true,
-        LHIKIn = 0.5,
-        LHIKOut = 1,
+        LHIKIn = 0.25,
+        LHIKOut = 0.5,
+        LHIKEaseOut = 0.4
     },
     ["reload"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LastClip1OutTime = 47/40,			
         LHIK = true,
-        LHIKIn = 0.5,
-        LHIKOut = 1,
+        LHIKIn = 0.25,
+        LHIKOut = 0.5,
+        LHIKEaseOut = 0.4
     },	
 }

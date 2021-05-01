@@ -1,5 +1,5 @@
 att.PrintName = "Overclocked Core"
-att.Icon = Material("entities/slog_tuna_perk_fast.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_perk_ovc.png", "mips smooth")
 att.Description = "Heats up the firing core. All you need is fire superiority."
 att.Desc_Pros = {
 }
