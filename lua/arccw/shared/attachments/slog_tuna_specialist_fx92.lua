@@ -53,7 +53,7 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep:SetClip2(wep:Clip2() - 1)
 
-    wep:SetNextPrimaryFire(CurTime() + 0.4)
+    wep:SetNextPrimaryFire(CurTime() + 0.5)
 
     wep:DoEffects()
 end

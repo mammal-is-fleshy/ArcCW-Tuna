@@ -41,11 +41,11 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 25 -- DefaultClip is automatically set.
-SWEP.MaxRecoilBlowback = 3
+SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
+SWEP.MaxRecoilBlowback = 2.5
 
-SWEP.Recoil = 0.75
-SWEP.RecoilSide = 0.5
+SWEP.Recoil = 0.5
+SWEP.RecoilSide = 0.25
 SWEP.RecoilRise = 0.8
 SWEP.VisualRecoilMult = 0.8
 
@@ -74,9 +74,9 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 150
+SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 420 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 200
 
 SWEP.Primary.Ammo = "ar2" 
 
@@ -94,7 +94,7 @@ SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SightTime = 0.3
+SWEP.SightTime = 0.325
 
 SWEP.SpeedMult = 0.85
 SWEP.SightedSpeedMult = 0.65
@@ -107,8 +107,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.145, -4, 0.55),
-    Ang = Angle(0, 0, -5),
+    Pos = Vector(-2.889, 2, 0.479),
+    Ang = Angle(0, 0, 2.5),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -122,8 +122,8 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.ActivePos = Vector(0, 2, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
-SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
+SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
+SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
 
 SWEP.CustomizePos = Vector(4, -2, 1)
 SWEP.CustomizeAng = Angle(0 , 21.236, 17)
@@ -154,9 +154,9 @@ SWEP.Attachments = {
         PrintName = "Optic",
         DefaultAttName = "Iron Sights",
         Slot = "fortuna_optic",
-        Bone = "W_Main", 
+        Bone = "Weapon_Main", 
         Offset = {
-            vpos = Vector(0, -4, 2), 
+            vpos = Vector(0, -6.1, 2), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -165,9 +165,9 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
         Slot = "fortuna_muzzle",
-        Bone = "W_Main",
+        Bone = "Weapon_Main",
         Offset = {
-            vpos = Vector(0, -2, 15),
+            vpos = Vector(0, -1.65, 21.5),
             vang = Angle(90, 0, -90),
         },
     },
@@ -205,7 +205,8 @@ SWEP.Attachments = {
         PrintName = "You aren't supposed to see this",
         Slot = {"slog_tuna_specialist_fx92"},
 		FreeSlot = true,
-		---Integral = true, DOESNT EVEN FUCKING WORK
+		---Integral = true, DOESNT EVEN WORK
+		---Hidden = true,
     },		
 }
 
