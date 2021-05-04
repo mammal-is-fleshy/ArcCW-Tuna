@@ -17,7 +17,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/muz_pissd.mdl"
 
 att.Silencer = true
 att.Override_MuzzleEffect = "muzzleflash_suppressed"
-att.IsMuzzleDevice = false -- for now
+att.IsMuzzleDevice = true
 
 att.Mult_ShootPitch = 1
 att.Mult_ShootVol = 0.75

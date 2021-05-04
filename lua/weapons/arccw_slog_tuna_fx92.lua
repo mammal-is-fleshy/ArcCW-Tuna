@@ -237,7 +237,8 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.35,
         LHIKOut = 0.8,
-        LHIKEaseOut = 0.4
+        LHIKEaseOut = 0.4,
+		MinProgress = 90/40	
     },
     ["reload_empty"] = {
         Source = "dry",
@@ -245,7 +246,8 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.35,
         LHIKOut = 0.6,
-        LHIKEaseOut = 0.4
+        LHIKEaseOut = 0.4,
+		MinProgress = 140/40			
     },	
     ["enter_ubgl"] = {
         Source = "rif2nade",	
