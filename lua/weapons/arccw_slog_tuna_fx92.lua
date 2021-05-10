@@ -205,8 +205,8 @@ SWEP.Attachments = {
         PrintName = "You aren't supposed to see this",
         Slot = {"slog_tuna_specialist_fx92"},
 		FreeSlot = true,
-		---Integral = true, DOESNT EVEN WORK
-		---Hidden = true,
+		Integral = true,
+		Hidden = true,
     },		
 }
 
@@ -269,7 +269,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
-        LHIKOut = 0.5,
+        LHIKOut = 0.5, 
     },		
     ["oicw_wet"] = {
         Source = "nade_wet",	

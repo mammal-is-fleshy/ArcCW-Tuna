@@ -18,7 +18,7 @@ Respawn Entertainment:
 
 
 slogkot:
--Concept Art (IMR, SeRv-45, DB-10)
+-Concept Art (IMR, SeRv-45, DB-10, FX-92)
 -Models
 -Textures
 -Animations
@@ -32,7 +32,6 @@ Sanity Check List:
 [Weapons]
 Exotic/Hybrid/Makeshift Weapons (6/8)
 BioMechanic Weapons (0/2)
-THE FUCKING MUZZLE POSTIION (0)
 LASER FOR NORMAL WEAPONS (0)
 SHOTGUN AND SNIPER AMMO TYPE (0)
 
