@@ -204,9 +204,9 @@ SWEP.Attachments = {
     {
         PrintName = "You aren't supposed to see this",
         Slot = {"slog_tuna_specialist_fx92"},
-		FreeSlot = true,
 		Integral = true,
 		Hidden = true,
+		Installed = "slog_tuna_specialist_fx92",	
     },		
 }
 
