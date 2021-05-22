@@ -136,6 +136,10 @@ SWEP.ShellRotateAngle = Angle(5, 0, 40)
 SWEP.ExtraSightDist = 5
 
 SWEP.AttachmentElements = {		
+    ["slog_tuna_specialist_fx92"] = {
+	---Override_SprintPos = Vector(-0.5, 3.247, 0.239),
+	---Override_SprintAng = Angle(-13.101, 15, -16.496),
+    },	
     ["iron_no"] = {
         VMBodygroups = {
             {ind = 1, bg = 1},
@@ -211,12 +215,22 @@ SWEP.Attachments = {
     },		
 }
 
+SWEP.Hook_TranslateAnimation = function(wep, anim)		
+    if wep.Attachments[7].Installed == "slog_tuna_specialist_fx92" and wep:GetInUBGL() then
+        return anim .. "_gl"
+    end
+end
+
+
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
-	["idle_sprint"] = {Source = "sprint",},	
-	["enter_sprint"] = {Source = "sprint_in",},	
-	["exit_sprint"] = {Source = "sprint_out",},		
+	["idle_sprint"] = {Source = "sprint", Time = 26/40}, -- this is extended, the default is 24/40 yes i animate at 40 shut up
+	["enter_sprint"] = {Source = "sprint_in", Time = 15/40,},	
+	["exit_sprint"] = {Source = "sprint_out", Time = 20/40,},		
 	["idle_ubgl"] = {Source = "nade_idle",},	
+
+	["idle_sprint_gl"] = {Source = "sprint", Time = 26/40}, -- y dis no work ):
+	
     ["ready"] = {
         Source = "draw",
     },
