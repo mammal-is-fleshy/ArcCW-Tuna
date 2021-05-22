@@ -124,7 +124,8 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
-
+SWEP.SprintPos = Vector(0, 5, 0)
+SWEP.SprintAng = Angle(0, 0, 0)
 SWEP.CustomizePos = Vector(4, -2, 1)
 SWEP.CustomizeAng = Angle(0 , 21.236, 17)
 
@@ -212,6 +213,9 @@ SWEP.Attachments = {
 
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
+	["idle_sprint"] = {Source = "sprint",},	
+	["enter_sprint"] = {Source = "sprint_in",},	
+	["exit_sprint"] = {Source = "sprint_out",},		
 	["idle_ubgl"] = {Source = "nade_idle",},	
     ["ready"] = {
         Source = "draw",

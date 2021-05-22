@@ -18,7 +18,7 @@ Respawn Entertainment:
 
 
 slogkot:
--Concept Art (IMR, SeRv-45, DB-10, FX-92)
+-Concept (IMR [partially], SeRv-45, DB-14, FX-92, AWRX-6)
 -Models
 -Textures
 -Animations
@@ -29,45 +29,24 @@ fish
 --- Basicall Dev Log ---
 
 Sanity Check List:
-[Weapons]
-Exotic/Hybrid/Makeshift Weapons (6/8)
-BioMechanic Weapons (0/2)
-LASER FOR NORMAL WEAPONS (0)
-SHOTGUN AND SNIPER AMMO TYPE (0)
+New check list:
+Belt Fed (Done)
+AR_GL Hybrid (Done)
+Bolt Action (Done)
+Lever Action (Done)
+Carbine Frame Pistol (Done) [its like a staple of my mods lmao]
+
+AR_SG Hybrid (in progress)
+
+Akimbo (atomic level)
+Bio Weapon (atomic level)
+Stationary MG (atomic level)
+Dual mode Melee (atomic level)
 
 
-ExHybird is: not so m4 and ak, design stolen from IW and TF2, mostly bullpup cuz for some reason you see alot of bullpup and p90 in sci-fi
-BioEngineered is the grand daddy of them all, the mentioned above have one thing in common: Symmetry 
-this does not
-it is a true test of asymmetry, volume, perpsective, depth, concepting and execution
-and stuff like sculpting and retopo to fit the lowpoly style
-hopefully i can Do atleast one of them
-
-
-[Theme]
-(exotic)
-victorian steam punk 
-<1890 west america 
-obscure early cold war era (hopefully from africa cuz i have never seen a game set in cold war africa)
-(hybrid/makeshift)
-1944-45 last ditch weapon
-early ww2 french resistance weapon
-
-at least one original design*
-
-Weapon Design:
-[IMR] - bullpup based on late cold war russian prototype with boxy NATO look
-[SeRv-45] - based on a not glock in a not airsoft roni frame
-[DB-10] - marlin + spas 12 hybrid, Load like a winchester cuz the m1887 style loading gate is too hard for my brain to handle 
-[FX-92] - just a fucking oicw, f2000 + xm8??? hybrid thing
-
-ofc all of these will have their sci-fi momento 
-to cover my lack of gun experience, which i think its a fucking waste of Time, i just want to make cool looking stuff, no one fucking cares about the lack of gas block or something,
-fuck are you gonna use gun knowledge for? killing people? anyways tangent
-its a mix between old and new so i can just say "its not a fucking real gun" to all those gun cunts that wont shut up
-
-* nothing is original, im saying that i want to make a thing that doesnt borrow the design of stuff like m4s and aks from stratch with no ref
-i dont plan to be a gun 3d artist and never will but some knowledge on specific modelling technique use on symmetrical design would help me greatly on the road to pure asymmetrical bionic design
+Extra/Non contribting (2)
++bravo9
++imr
 
 
 
@@ -89,5 +68,9 @@ i fucking hate how every bloody game no matter how far to the future or past MUS
 why Do i have all these dev blog for big projects? self reflection
 to see how far i has changed in both my goal and my philosophy over the course of a project 
 
-and looking back, i see i was trully a retard
+and looking back, i see i was truly a retard
 but at least my scopes are feasible
+
+
+
+
