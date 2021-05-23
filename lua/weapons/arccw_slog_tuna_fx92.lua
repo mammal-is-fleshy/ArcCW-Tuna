@@ -227,9 +227,11 @@ SWEP.Animations = {
 	["idle_sprint"] = {Source = "sprint", Time = 26/40}, -- this is extended, the default is 24/40 yes i animate at 40 shut up
 	["enter_sprint"] = {Source = "sprint_in", Time = 15/40,},	
 	["exit_sprint"] = {Source = "sprint_out", Time = 20/40,},		
-	["idle_ubgl"] = {Source = "nade_idle",},	
+	["idle_gl"] = {Source = "nade_idle",},	
 
 	["idle_sprint_gl"] = {Source = "sprint", Time = 26/40}, -- y dis no work ):
+	["enter_sprint_gl"] = {Source = "sprint_in_gl", Time = 15/40,},	
+	["exit_sprint_gl"] = {Source = "sprint_out_gl", Time = 20/40,},
 	
     ["ready"] = {
         Source = "draw",
@@ -256,7 +258,7 @@ SWEP.Animations = {
         LHIKIn = 0.35,
         LHIKOut = 0.8,
         LHIKEaseOut = 0.4,
-		MinProgress = 90/40	
+		MinProgress = 90/40
     },
     ["reload_empty"] = {
         Source = "dry",

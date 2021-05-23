@@ -17,7 +17,7 @@ SWEP.CrouchPos = Vector(-1, 2, -1)
 SWEP.CrouchAng = Angle(0, 0, -15)
 
 SWEP.NPCWeaponType = "weapon_ar2"
-SWEP.NPCWeight = 250
+SWEP.NPCWeight = 170
 
 SWEP.CamAttachment = 3
 
@@ -27,9 +27,9 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 65
-SWEP.DamageMin = 180 -- damage done at maximum range
-SWEP.Range = 70 -- in METRES
+SWEP.Damage = 80
+SWEP.DamageMin = 220 -- damage done at maximum range
+SWEP.Range = 80 -- in METRES
 SWEP.Penetration = 25
 SWEP.DamageType = DMG_BULLET + DMG_BLAST + DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any

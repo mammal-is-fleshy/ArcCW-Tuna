@@ -27,7 +27,7 @@ att.UBGL = true
 att.ExcludeFlags = {"ubgl"}
 
 att.UBGL_Icon = Material("entities/slog_tuna_specialist_fx92.png", "mips smooth")
-att.UBGL_BaseAnims = true
+att.UBGL_BaseAnims = false
 
 att.UBGL_PrintName = "OICW"
 att.UBGL_Automatic = false
