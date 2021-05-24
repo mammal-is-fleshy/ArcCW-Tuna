@@ -1,8 +1,8 @@
-att.PrintName = "Accelerator"
+att.PrintName = "Compensator"
 att.Icon = Material("entities/slog_tuna_muz_acc.png", "mips smooth")
-att.Description = "Special muzzle device built to sustain heat for longer suppressive fire. Quite heavy"
+att.Description = "Special muzzle device built to sustain upwards recoil. Quite unstable."
 
-att.SortOrder = 3
+att.SortOrder = 2
 
 att.Desc_Pros = {
 }
@@ -19,10 +19,12 @@ att.Add_BarrelLength = 6
 
 att.Mult_ShootPitch = 1.25
 
-att.Mult_SightTime = 1.2
+att.Mult_SightTime = 1.15
 
-att.Mult_MoveSpeed = 0.9
+att.Mult_MoveSpeed = 0.925
 
-att.Mult_RPM = 1.5
+att.Mult_Recoil = 0.85
+att.Mult_RecoilSide = 1.25
+att.Mult_VisualRecoilMult = 0.85
 
-att.Mult_Recoil = 1.15
+att.Mult_RPM = 1.125

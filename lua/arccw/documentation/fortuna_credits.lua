@@ -24,6 +24,9 @@ slogkot:
 -Animations
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
 
+google images:
+-references
+
 fish 
 
 --- Basicall Dev Log ---

@@ -233,6 +233,9 @@ SWEP.Animations = {
 	["enter_sprint_gl"] = {Source = "sprint_in_gl", Time = 15/40,},	
 	["exit_sprint_gl"] = {Source = "sprint_out_gl", Time = 20/40,},
 	
+    ["enter_ubgl"] = {Source = "rif2nade",},		
+    ["exit_ubgl"] = {Source = "nade2rif",},		
+	
     ["ready"] = {
         Source = "draw",
     },
@@ -268,20 +271,6 @@ SWEP.Animations = {
         LHIKOut = 0.6,
         LHIKEaseOut = 0.4,
 		MinProgress = 140/40			
-    },	
-    ["enter_ubgl"] = {
-        Source = "rif2nade",	
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        LHIK = true,
-        LHIKIn = 0.35,
-        LHIKOut = 0.2,
-    },		
-    ["exit_ubgl"] = {
-        Source = "nade2rif",	
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        LHIK = true,
-        LHIKIn = 0.35,
-        LHIKOut = 0.5,
     },	
 
     ["oicw_dry"] = {
