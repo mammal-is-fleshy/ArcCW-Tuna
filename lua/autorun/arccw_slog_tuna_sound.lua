@@ -171,6 +171,48 @@ sound.Add({
 	sound = {"weapons/arccw_slog/fortuna/rifle/2gl.wav"}
 })
 
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif3.Bolt",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3bolt.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif3.In",
+	channel = 		CHAN_ITEM5,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3in.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif3.Out",
+	channel = 		CHAN_ITEM5,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3out.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.SGBolt1",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3sgbolt1.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif2.SGBolt2",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3sgbolt2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif3.SGOut",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3sgout.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif3.SGIn",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/3sgin.wav"}
+})
 
 
 

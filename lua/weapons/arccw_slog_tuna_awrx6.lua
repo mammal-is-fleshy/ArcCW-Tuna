@@ -3,13 +3,13 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "FX-92"
+SWEP.PrintName = "AWRX-6"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Explosive specialist weapon, a two in one package."
+SWEP.Trivia_Desc = "Breaching specialist weapon, a two in one package."
 SWEP.Trivia_Manufacturer = "DS Arms"
 SWEP.Trivia_Calibre = "560x20mm"
 SWEP.Trivia_Country = "Unknown"
-SWEP.Trivia_Year = "2185"
+SWEP.Trivia_Year = "2179"
 
 SWEP.Slot = 2
 
@@ -23,8 +23,8 @@ SWEP.CamAttachment = 3
 
 SWEP.UseHands = true
 
-SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_fx92.mdl"
-SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_fx92.mdl"
+SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_awrx6.mdl"
+SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_awrx6.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 31
@@ -44,20 +44,20 @@ SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 2.5
 
-SWEP.Recoil = 0.5
-SWEP.RecoilSide = 0.25
+SWEP.Recoil = 0.35
+SWEP.RecoilSide = 0.35
 SWEP.RecoilRise = 0.8
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 700 -- 60 / RPM.
+SWEP.Delay = 60 / 800 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
-    local max = math.min(5, wep:GetCapacity())
+    local max = math.min(10, wep:GetCapacity())
 
     local delta = wep:GetBurstCount() / max
 
-    local mult = Lerp(delta, 1, 1.125)
+    local mult = Lerp(delta, 1, 1.25)
 
     return delay / mult
 end
@@ -74,9 +74,9 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 420 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 200
+SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 210
 
 SWEP.Primary.Ammo = "ar2" 
 
@@ -107,8 +107,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-2.889, 2, 0.479),
-    Ang = Angle(0, 0, 2.5),
+    Pos = Vector(-3.5, 2.4, 0.159),
+    Ang = Angle(0, 0, 5),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -119,13 +119,12 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
-SWEP.ActivePos = Vector(0, 2, 0.5)
+SWEP.ActivePos = Vector(0, 5, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
-SWEP.SprintPos = Vector(0, 5, 0)
-SWEP.SprintAng = Angle(0, 0, 0)
+
 SWEP.CustomizePos = Vector(4, -2, 1)
 SWEP.CustomizeAng = Angle(0 , 21.236, 17)
 
@@ -136,10 +135,6 @@ SWEP.ShellRotateAngle = Angle(5, 0, 40)
 SWEP.ExtraSightDist = 5
 
 SWEP.AttachmentElements = {		
-    ["slog_tuna_specialist_fx92"] = {
-	---Override_SprintPos = Vector(-0.5, 3.247, 0.239),
-	---Override_SprintAng = Angle(-13.101, 15, -16.496),
-    },	
     ["iron_no"] = {
         VMBodygroups = {
             {ind = 1, bg = 1},
@@ -159,9 +154,9 @@ SWEP.Attachments = {
         PrintName = "Optic",
         DefaultAttName = "Iron Sights",
         Slot = "fortuna_optic",
-        Bone = "Weapon_Main", 
+        Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -6.1, 2), 
+            vpos = Vector(0, -4.5, 3.5), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -170,29 +165,18 @@ SWEP.Attachments = {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
         Slot = "fortuna_muzzle",
-        Bone = "Weapon_Main",
+        Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -1.65, 21.5),
+            vpos = Vector(0, -2.9, 21),
             vang = Angle(90, 0, -90),
         },
     },
     {
-        PrintName = "Underbarrel",
-        Slot = {"fortuna_fg"},
-        Bone = "Weapon_Main",
-        Offset = {
-            vpos = Vector(0, 0.5, 12),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(14.329, 0.602, -4.453),
-            wang = Angle(-10.216, 0, 180)
-        },
-    },	
-    {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
-        Bone = "Weapon_Main",
+        Bone = "W_Main",
         Offset = {
-            vpos = Vector(0.5, -1.5, 12), 
+            vpos = Vector(0.75, -2.75, 12), 
             vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,
@@ -208,15 +192,15 @@ SWEP.Attachments = {
     },		
     {
         PrintName = "You aren't supposed to see this",
-        Slot = {"slog_tuna_specialist_fx92"},
+        Slot = {"slog_tuna_specialist_awrx6"},
 		Integral = true,
 		Hidden = true,
-		Installed = "slog_tuna_specialist_fx92",	
+		Installed = "slog_tuna_specialist_awrx6",	
     },		
 }
 
 SWEP.Hook_TranslateAnimation = function(wep, anim)		
-    if wep.Attachments[7].Installed == "slog_tuna_specialist_fx92" and wep:GetInUBGL() then
+    if wep.Attachments[6].Installed == "slog_tuna_specialist_awrx6" and wep:GetInUBGL() then
         return anim .. "_gl"
     end
 end
@@ -224,17 +208,15 @@ end
 
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
-	["idle_sprint"] = {Source = "sprint", Time = 26/40}, -- this is extended, the default is 24/40 yes i animate at 40 shut up
-	["enter_sprint"] = {Source = "sprint_in", Time = 15/40,},	
-	["exit_sprint"] = {Source = "sprint_out", Time = 20/40,},		
-	["idle_gl"] = {Source = "nade_idle",},	
-
-	["idle_sprint_gl"] = {Source = "sprint", Time = 26/40},
-	["enter_sprint_gl"] = {Source = "sprint_in_gl", Time = 15/40,},	
-	["exit_sprint_gl"] = {Source = "sprint_out_gl", Time = 20/40,},
+	["idle_ubgl"] = {Source = "shot_idle",},	
 	
-    ["enter_ubgl"] = {Source = "rif2nade",},		
-    ["exit_ubgl"] = {Source = "nade2rif",},		
+    ["enter_ubgl"] = {Source = "rif2shot",},		
+    ["exit_ubgl"] = {Source = "shot2rif",},		
+	
+    ["fire_ubgl"] = {
+        Source = "shot_fire",
+        ShellEjectAt = 0,
+    },	
 	
     ["ready"] = {
         Source = "draw",
@@ -246,8 +228,8 @@ SWEP.Animations = {
         Source = "fire",
         ShellEjectAt = 0,
     },
-    ["fire_gl"] = {
-        Source = "nade_fire",
+    ["shot_fire"] = {
+        Source = "shot_fire",
         ShellEjectAt = 0,
     },	
     ["fire_iron"] = {
@@ -261,7 +243,7 @@ SWEP.Animations = {
         LHIKIn = 0.35,
         LHIKOut = 0.8,
         LHIKEaseOut = 0.4,
-		MinProgress = 90/40
+		MinProgress = 65/40
     },
     ["reload_empty"] = {
         Source = "dry",
@@ -270,18 +252,18 @@ SWEP.Animations = {
         LHIKIn = 0.35,
         LHIKOut = 0.6,
         LHIKEaseOut = 0.4,
-		MinProgress = 140/40			
+		MinProgress = 90/40			
     },	
 
     ["oicw_dry"] = {
-        Source = "nade_dry",	
+        Source = "shot_dry",	
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
         LHIKOut = 0.5, 
     },		
     ["oicw_wet"] = {
-        Source = "nade_wet",	
+        Source = "shot_wet",	
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
