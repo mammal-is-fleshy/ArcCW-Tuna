@@ -13,7 +13,7 @@ SWEP.Trivia_Year = "2179"
 
 SWEP.Slot = 2
 
-SWEP.CrouchPos = Vector(-0.5, 1.5, -0.5)
+SWEP.CrouchPos = Vector(-0.5, 4, -0.5)
 SWEP.CrouchAng = Angle(0, 0, -5)
 
 SWEP.NPCWeaponType = "weapon_ar2"
