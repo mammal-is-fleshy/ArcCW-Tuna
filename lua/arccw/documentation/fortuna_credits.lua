@@ -35,11 +35,10 @@ Sanity Check List:
 New check list:
 Belt Fed (Done)
 AR_GL Hybrid (Done)
+AR_SG Hybrid (Done)
 Bolt Action (Done)
 Lever Action (Done)
 Carbine Frame Pistol (Done) [its like a staple of my mods lmao]
-
-AR_SG Hybrid (in progress)
 
 Akimbo (atomic level)
 Bio Weapon (atomic level)
@@ -51,6 +50,10 @@ Extra/Non contribting (2)
 +bravo9
 +imr
 
+
+Desing Explain Thing:
+FX-92: F2000 + (XM8/G36)
+AWRX-6: (M590/MASS26) + (ARX/SCAR/ZH06)
 
 
 the focus of FS2R was how much shit can i add to an existing gun before burnout
