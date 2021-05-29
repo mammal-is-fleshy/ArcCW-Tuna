@@ -73,7 +73,7 @@ att.UBGL_Fire = function(wep, ubgl)
 	
 	wep:EmitSound("weapons/arccw_slog/fortuna/lmg/gl_fire.wav", 100)	
     if wep:Clip2() > 0 then			    	
-		wep:SetNextPrimaryFire(CurTime() + 50/40)	
+		wep:SetNextPrimaryFire(CurTime() + 40/40)	
         wep:PlayAnimation("shot_fire")
     else
         wep:PlayAnimation("fire_last")
@@ -90,7 +90,7 @@ att.UBGL_Reload = function(wep, ubgl)
 
     if Ammo(wep) <= 0 then return end
 
-    wep:SetNextSecondaryFire(CurTime() + (wep:Clip2() == 0 and 120/40 or 105/40)) -- intentional delay
+    wep:SetNextSecondaryFire(CurTime() + (wep:Clip2() == 0 and 115/40 or 95/40)) 
 
     wep:PlayAnimation(wep:Clip2() == 0 and "oicw_dry" or "oicw_wet", nil, true)
 

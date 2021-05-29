@@ -96,8 +96,8 @@ SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
 SWEP.SightTime = 0.325
 
-SWEP.SpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.65
+SWEP.SpeedMult = 0.875
+SWEP.SightedSpeedMult = 0.7
 
 SWEP.BarrelLength = 22
 
@@ -125,8 +125,8 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
 
-SWEP.CustomizePos = Vector(4, -2, 1)
-SWEP.CustomizeAng = Angle(0 , 21.236, 17)
+SWEP.CustomizePos = Vector(4, 2, 1)
+SWEP.CustomizeAng = Angle(10 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)

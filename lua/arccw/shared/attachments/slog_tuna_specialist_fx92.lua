@@ -53,8 +53,6 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep:SetClip2(wep:Clip2() - 1)
 
-    wep:SetNextPrimaryFire(CurTime() + 0.5)
-
     wep:DoEffects()
 end
 
@@ -65,7 +63,7 @@ att.UBGL_Reload = function(wep, ubgl)
 
     if Ammo(wep) <= 0 then return end
 
-    wep:SetNextSecondaryFire(CurTime() + (wep:Clip2() == 0 and 175/40 or 145/40)) -- intentional delay
+    wep:SetNextSecondaryFire(CurTime() + (wep:Clip2() == 0 and 168/40 or 137/40))
 
     wep:PlayAnimation(wep:Clip2() == 0 and "oicw_dry" or "oicw_wet", nil, true)
 
