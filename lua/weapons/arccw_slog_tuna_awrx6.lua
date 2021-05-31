@@ -83,7 +83,8 @@ SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
-SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/2fire.mp3"
+SWEP.FirstShootSound = "weapons/arccw_slog/fortuna/rifle/3fire.ogg"
+SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/32fire.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/2firesd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
@@ -167,7 +168,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.9, 21),
+            vpos = Vector(0, -2.95, 21),
             vang = Angle(90, 0, -90),
         },
     },
