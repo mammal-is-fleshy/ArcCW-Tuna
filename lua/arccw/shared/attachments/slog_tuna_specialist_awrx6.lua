@@ -70,13 +70,13 @@ att.UBGL_Fire = function(wep, ubgl)
     })
 
     wep:SetClip2(wep:Clip2() - 1)
-	
+
 	wep:EmitSound("weapons/arccw_slog/fortuna/lmg/gl_fire.wav", 100)	
     if wep:Clip2() > 0 then			    	
 		wep:SetNextPrimaryFire(CurTime() + 40/40)	
-        wep:PlayAnimation("shot_fire")
+        wep:PlayAnimation("shot_fire", 1, true, nil, nil, nil, true)
     else
-        wep:PlayAnimation("fire_last")
+        wep:PlayAnimation("shot_last", 1, true, nil, nil, nil, true)
     end
 
     wep:DoEffects()

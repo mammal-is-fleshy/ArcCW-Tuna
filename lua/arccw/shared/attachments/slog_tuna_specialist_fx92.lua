@@ -45,7 +45,7 @@ end
 att.UBGL_Fire = function(wep, ubgl)
     if (wep:Clip2() <= 0) then return end
 
-    wep:PlayAnimation("fire_gl")
+    wep:PlayAnimation("fire_gl", 1, true, nil, nil, nil, true)
 
     wep:FireRocket("arccw_mifl_fas2_m203", 3000 * ArcCW.HUToM)
 
