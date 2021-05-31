@@ -39,9 +39,16 @@ SWEP.NotForNPCs = true
 SWEP.Firemodes = {
     {
         Mode = 1,
-        PrintName = "MELEE"
+        PrintName = "Slash"
     },
 }
+
+SWEP.WorldModelOffset = {
+    pos = Vector(-5, 8, -6),
+    ang = Angle(-10, 0, 180-2.5)
+}
+
+SWEP.MirrorVMWM = true
 
 SWEP.MeleeTime = 0.6	
 SWEP.MeleeAttackTime = 0.35
@@ -50,7 +57,7 @@ SWEP.Delay = 60 / 600
 SWEP.Melee2 = true
 SWEP.Melee2Damage = 50
 SWEP.Melee2DamageBackstab = 105
-SWEP.Melee2Range = 50
+SWEP.Melee2Range = 75
 SWEP.Melee2Time = 0.7
 SWEP.Melee2Gesture = nil
 SWEP.Melee2AttackTime = 0.4
@@ -100,7 +107,7 @@ SWEP.Animations = {
 
 SWEP.IronSightStruct = false
 
-SWEP.ActivePos = Vector(0, 4, 0)
+SWEP.ActivePos = Vector(0, 5, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.BashPreparePos = Vector(0, 0, 0)

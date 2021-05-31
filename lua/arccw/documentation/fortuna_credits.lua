@@ -39,11 +39,14 @@ AR_SG Hybrid (Done)
 Bolt Action (Done)
 Lever Action (Done)
 Carbine Frame Pistol (Done) [its like a staple of my mods lmao]
+Dual mode Melee (Done)
+
 
 Akimbo (atomic level)
 Bio Weapon (atomic level)
 Stationary MG (atomic level)
-Dual mode Melee (atomic level)
+Laser (in progress)
+Revolver (atomic level)
 
 
 Extra/Non contribting (2)
@@ -67,6 +70,7 @@ to show that m4s and aks (and guns in general)* are boring pieces of trash that 
 and how people are wrong to bash an art form that derives too much from the little cozy familiarity of genericallity (is that a word? fuck is a noun of generic???)
 i wish games would stop including generic shit like m4s and aks 
 i fucking hate how every bloody game no matter how far to the future or past MUST have a fucking ak
+kinda broke my own philosophy with the awxr6 but oh well it is based on an arx, which is just an italian m4 :/
 
 
 
