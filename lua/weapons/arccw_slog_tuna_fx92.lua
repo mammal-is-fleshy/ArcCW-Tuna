@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "FX-92"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Explosive specialist weapon, a two in one package."
+SWEP.Trivia_Desc = "Bulky explosive specialist weapon for barrage and push, a two in one package."
 SWEP.Trivia_Manufacturer = "DS Arms"
 SWEP.Trivia_Calibre = "560x20mm"
 SWEP.Trivia_Country = "Unknown"

@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Dawn Breaker-14D"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "Lever action shotgun."
+SWEP.Trivia_Desc = "Lever action shotgun. An odd choice for a calibre this size. Made for close range hunting."
 SWEP.Trivia_Manufacturer = "DS Arms"
 SWEP.Trivia_Calibre = "10 Gauge"
 SWEP.Trivia_Country = "Unknown"

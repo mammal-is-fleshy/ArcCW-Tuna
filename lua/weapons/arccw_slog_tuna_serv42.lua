@@ -66,9 +66,6 @@ SWEP.Firemodes = {
     {
         Mode = 2,
     },
-	    {
-        Mode = 1,
-    },	
     {
         Mode = 0
     }

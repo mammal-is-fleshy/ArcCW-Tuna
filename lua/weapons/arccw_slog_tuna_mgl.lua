@@ -5,9 +5,9 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "EGL-4"
 SWEP.Trivia_Class = "Grenade Launcher"
-SWEP.Trivia_Desc = "Magnetic grenade launcher fed from a heavy box."
+SWEP.Trivia_Desc = "Magnetic grenade launcher fed from a heavy box. A perfect tool for crowd control."
 SWEP.Trivia_Manufacturer = "AZ Arms"
-SWEP.Trivia_Calibre = "9x19mm Para"
+SWEP.Trivia_Calibre = "44V/mm"
 SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2180"
 
@@ -25,7 +25,7 @@ SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_mgl.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Num = 1
-SWEP.ShootEntity = "arccw_mifl_fas2_m203" -- entity to fire, if any
+SWEP.ShootEntity = "arccw_mifl_fas2_m203" -- ill change this later
 SWEP.MuzzleVelocity = 12000
 
 SWEP.TracerNum = 1 -- tracer every X

@@ -6,10 +6,10 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "IMR"
 SWEP.Trivia_Class = "Assault Rifle"
 SWEP.Trivia_Desc = "Common bullpup rifle designed to be ergonomic. Packs quite a punch."
-SWEP.Trivia_Manufacturer = "DS Arms"
+SWEP.Trivia_Manufacturer = "XLR Arms"
 SWEP.Trivia_Calibre = "7.62x54mm"
 SWEP.Trivia_Country = "Unknown"
-SWEP.Trivia_Year = "2174"
+SWEP.Trivia_Year = "2170"
 
 SWEP.Slot = 2
 

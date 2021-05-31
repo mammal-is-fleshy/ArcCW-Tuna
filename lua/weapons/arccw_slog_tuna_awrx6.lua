@@ -5,8 +5,8 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "AWRX-6"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Breaching specialist weapon, a two in one package."
-SWEP.Trivia_Manufacturer = "DS Arms"
+SWEP.Trivia_Desc = "Breaching specialist weapon for frontier assault, a two in one package."
+SWEP.Trivia_Manufacturer = "XLR Arms"
 SWEP.Trivia_Calibre = "560x20mm"
 SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2179"

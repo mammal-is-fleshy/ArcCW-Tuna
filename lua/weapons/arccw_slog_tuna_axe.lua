@@ -5,10 +5,10 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Combat Axe"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Ancient melee weapon with a hollow core for longer range lunge."
-SWEP.Trivia_Manufacturer = "DS Arms"
+SWEP.Trivia_Desc = "\"Ancient\" melee weapon with a hollow core for alternative longer range lunge."
+SWEP.Trivia_Manufacturer = "XLR Arms"
 SWEP.Trivia_Country = "Unknown"
-SWEP.Trivia_Year = "2120"
+SWEP.Trivia_Year = "2140"
 
 SWEP.Slot = 0
 
