@@ -15,6 +15,8 @@ SWEP.Slot = 0
 SWEP.NPCWeaponType = "weapon_crowbar"
 SWEP.NPCWeight = 250
 
+SWEP.CamAttachment = nil
+
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_axe.mdl"

@@ -16,7 +16,7 @@ att.Slot = "slog_tuna_specialist_awrx6"
 att.Mult_MoveSpeed = 0.85
 
 att.Mult_SightTime = 1.5
-att.Mult_Recoil = 0.8
+att.Mult_Recoil = 2
 att.Mult_RPM = 0.9
 
 att.Mult_ShootPitch = 0.8

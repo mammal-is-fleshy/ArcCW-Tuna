@@ -27,8 +27,8 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_awrx6.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_awrx6.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 31
-SWEP.DamageMin = 17 -- damage done at maximum range
+SWEP.Damage = 29
+SWEP.DamageMin = 12 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 7
 SWEP.DamageType = DMG_BULLET

@@ -32,7 +32,6 @@ fish
 --- Basicall Dev Log ---
 
 Sanity Check List:
-New check list:
 Belt Fed (Done)
 AR_GL Hybrid (Done)
 AR_SG Hybrid (Done)
@@ -41,11 +40,11 @@ Lever Action (Done)
 Carbine Frame Pistol (Done) [its like a staple of my mods lmao]
 Dual mode Melee (Done)
 
+Laser (in progress)
 
 Akimbo (atomic level)
 Bio Weapon (atomic level)
 Stationary MG (atomic level)
-Laser (in progress)
 Revolver (atomic level)
 
 
@@ -54,14 +53,15 @@ Extra/Non contribting (2)
 +imr
 
 
-Desing Explain Thing:
+Design Explain Thing:
 FX-92: F2000 + (XM8/G36)
 AWRX-6: (M590/MASS26) + (ARX/SCAR/ZH06)
+DB-14: Spas/Marlin
 
 
 the focus of FS2R was how much shit can i add to an existing gun before burnout
 the focus of Tuna is how much shit can i design/make before boredom 
-therefore, individual customisation like fas2 -as much as i want- is not and will not be a priority
+therefore, individual customisation like fas2 -as much as i want- is not and will not be a thing
 im tired of stealing, this is my attempt to create something all by me
 as long as you dont count concept art and sounds 
 
