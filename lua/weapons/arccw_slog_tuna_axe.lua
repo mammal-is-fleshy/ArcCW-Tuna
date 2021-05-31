@@ -49,7 +49,7 @@ SWEP.Delay = 60 / 600
 
 SWEP.Melee2 = true
 SWEP.Melee2Damage = 50
-SWEP.Melee2DamageBackstab = true
+SWEP.Melee2DamageBackstab = 105
 SWEP.Melee2Range = 50
 SWEP.Melee2Time = 0.7
 SWEP.Melee2Gesture = nil
