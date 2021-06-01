@@ -15,7 +15,7 @@ SWEP.Slot = 0
 SWEP.NPCWeaponType = "weapon_crowbar"
 SWEP.NPCWeight = 250
 
-SWEP.CamAttachment = nil
+SWEP.CamAttachment = 1
 
 SWEP.UseHands = true
 

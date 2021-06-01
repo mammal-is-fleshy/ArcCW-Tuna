@@ -19,7 +19,7 @@ SWEP.CrouchAng = Angle(0, 0, -5)
 SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 250
 
-SWEP.CamAttachment = 3
+---SWEP.CamAttachment = 3
 
 SWEP.UseHands = true
 
