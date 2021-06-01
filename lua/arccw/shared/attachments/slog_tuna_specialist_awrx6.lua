@@ -26,7 +26,7 @@ att.Add_BarrelLength = 15
 att.UBGL = true
 att.ExcludeFlags = {"ubgl"}
 
-att.UBGL_Icon = Material("entities/slog_tuna_specialist_fx92.png", "mips smooth")
+att.UBGL_Icon = Material("entities/slog_tuna_specialist_awrx6.png", "mips smooth")
 att.UBGL_BaseAnims = true
 
 att.UBGL_PrintName = "Master Key"
@@ -59,7 +59,7 @@ att.UBGL_Fire = function(wep, ubgl)
             local dmgmax = 21
             local dmgmin = 4
 
-            local delta = dist / 40
+            local delta = dist / 50
 
             delta = math.Clamp(delta, 0, 1)
 
