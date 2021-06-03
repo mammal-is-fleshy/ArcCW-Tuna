@@ -1,4 +1,4 @@
-"VertexLitGeneric"
+"UnlitGeneric"
 {
 	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"
 	"$nocull" "1"		
@@ -10,4 +10,8 @@
 "$phongalbedotint"			 "1"
 "$phongexponent" 			"20"
 "$phongfresnelranges" 			"[2 3 12]"
-}
+
+$selfillum 1
+
+$nocull 1		
+}	
