@@ -1,3 +1,8 @@
+player_manager.AddValidModel( "TUNA_ARMS", 		"models/player/group03/male_07.mdl" );
+list.Set( "PlayerOptionsModel", "TUNA_ARMS", 	"models/player/group03/male_07.mdl" );
+player_manager.AddValidHands( "TUNA_ARMS", "models/weapons/arccw/slog_osi_suck/c_arms.mdl", 0, "00000000" )
+
+
 //Handling
 
 //Pistol
