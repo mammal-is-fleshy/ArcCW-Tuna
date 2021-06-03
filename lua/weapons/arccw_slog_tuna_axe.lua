@@ -52,17 +52,17 @@ SWEP.WorldModelOffset = {
 
 SWEP.MirrorVMWM = true
 
-SWEP.MeleeTime = 0.6	
-SWEP.MeleeAttackTime = 0.35
+SWEP.MeleeTime = 0.575
+SWEP.MeleeAttackTime = 0.35*0.75
 SWEP.Delay = 60 / 600 
 
 SWEP.Melee2 = true
 SWEP.Melee2Damage = 50
 SWEP.Melee2DamageBackstab = 105
 SWEP.Melee2Range = 75
-SWEP.Melee2Time = 0.7
+SWEP.Melee2Time = 0.55
 SWEP.Melee2Gesture = nil
-SWEP.Melee2AttackTime = 0.4
+SWEP.Melee2AttackTime = 0.4*0.75
 
 SWEP.Backstab = true
 SWEP.BackstabMultiplier = 2
@@ -101,9 +101,11 @@ SWEP.Animations = {
     },
     ["bash"] = {
         Source = {"slash1","slash2","slash3"},
+		Mult = 0.75,
     },
     ["bash2"] = {
         Source = {"stab"},
+		Mult = 0.75,		
     },	
 }
 
