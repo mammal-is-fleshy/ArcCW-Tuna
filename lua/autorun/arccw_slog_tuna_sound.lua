@@ -2,6 +2,10 @@ player_manager.AddValidModel( "TUNA_ARMS", 		"models/player/group03/male_07.mdl"
 list.Set( "PlayerOptionsModel", "TUNA_ARMS", 	"models/player/group03/male_07.mdl" );
 player_manager.AddValidHands( "TUNA_ARMS", "models/weapons/arccw/slog_osi_suck/c_arms.mdl", 0, "00000000" )
 
+player_manager.AddValidModel( "TUNA_ARMS_2", 		"models/player/group03/male_07.mdl" );
+list.Set( "PlayerOptionsModel", "TUNA_ARMS_2", 	"models/player/group03/male_07.mdl" );
+player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck/c_arms2.mdl", 0, "00000000" )
+
 
 //Handling
 

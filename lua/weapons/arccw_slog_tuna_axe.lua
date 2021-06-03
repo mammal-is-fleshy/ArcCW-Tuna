@@ -46,8 +46,8 @@ SWEP.Firemodes = {
 }
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-5, 8, -6),
-    ang = Angle(-10, 0, 180-2.5)
+    pos = Vector(-10.5, 9, -8),
+    ang = Angle(-10, 0, 180+5)
 }
 
 SWEP.MirrorVMWM = true
@@ -111,7 +111,7 @@ SWEP.Animations = {
 
 SWEP.IronSightStruct = false
 
-SWEP.ActivePos = Vector(0, 5, 0)
+SWEP.ActivePos = Vector(0, 5, 1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.BashPreparePos = Vector(0, 0, 0)
