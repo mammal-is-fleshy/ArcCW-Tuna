@@ -1,6 +1,6 @@
 ENT.Type 				= "anim"
 ENT.Base 				= "base_entity"
-ENT.PrintName 			= "HE Round"
+ENT.PrintName 			= "40mm HE"
 ENT.Author 				= ""
 ENT.Information 		= ""
 
@@ -9,9 +9,10 @@ ENT.Spawnable 			= false
 
 AddCSLuaFile()
 
-ENT.Model = "models/items/ar2_grenade.mdl"
+ENT.Model = "models/weapons/arccw/mifl/fas2/shell/40mm.mdl"
 ENT.Ticks = 0
-ENT.FuseTime = 10
+ENT.FuseTime = 0.1
+ENT.Defused = false
 
 if SERVER then
 
@@ -35,16 +36,15 @@ function ENT:Initialize()
 end
 
 function ENT:Think()
-    if SERVER and CurTime() - self.SpawnTime >= self.FuseTime then
-        self:Detonate()
+    if SERVER and self.Defused and CurTime() - self.Defused_When >= self.Defused_RemoveIn then
+        self:Remove()
     end
 end
 
 else
 
 function ENT:Think()
-    if self.Ticks % 5 == 0 then
-        local emitter = ParticleEmitter(self:GetPos())
+	if self.Ticks % 5 == 0 then
 
         if !self:IsValid() or self:WaterLevel() > 2 then return end
         if !IsValid(emitter) then return end
@@ -52,14 +52,14 @@ function ENT:Think()
         local smoke = emitter:Add("particle/particle_smokegrenade", self:GetPos())
         smoke:SetVelocity( VectorRand() * 25 )
         smoke:SetGravity( Vector(math.Rand(-5, 5), math.Rand(-5, 5), math.Rand(-20, -25)) )
-        smoke:SetDieTime( math.Rand(1.5, 2.0) )
-        smoke:SetStartAlpha( 255 )
+        smoke:SetDieTime( math.Rand(1, 1.5) )
+        smoke:SetStartAlpha( 100 )
         smoke:SetEndAlpha( 0 )
         smoke:SetStartSize( 0 )
-        smoke:SetEndSize( 100 )
+        smoke:SetEndSize( 50 )
         smoke:SetRoll( math.Rand(-180, 180) )
         smoke:SetRollDelta( math.Rand(-0.2,0.2) )
-        smoke:SetColor( 20, 20, 20 )
+        smoke:SetColor( 113, 113, 113 )
         smoke:SetAirResistance( 5 )
         smoke:SetPos( self:GetPos() )
         smoke:SetLighting( false )
@@ -73,15 +73,16 @@ end
 
 function ENT:Detonate()
     if !self:IsValid() then return end
+    if self.Defused then return end
     local effectdata = EffectData()
         effectdata:SetOrigin( self:GetPos() )
 
     if self:WaterLevel() >= 1 then
         util.Effect( "WaterSurfaceExplosion", effectdata )
-        self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_AUTO)
+        --self:EmitSound("weapons/underwater_explode3.wav", 125, 100, 1, CHAN_AUTO)
     else
         util.Effect( "Explosion", effectdata)
-        self:EmitSound("phx/kaboom.wav", 125, 100, 1, CHAN_AUTO)
+        --self:EmitSound("phx/kaboom.wav", 125, 100, 1, CHAN_AUTO)
     end
 
     local attacker = self
@@ -90,7 +91,7 @@ function ENT:Detonate()
         attacker = self.Owner
     end
 
-    util.BlastDamage(self, attacker, self:GetPos(), 300, 150)
+    util.BlastDamage(self, attacker, self:GetPos(), 200, 100)
 
     self:FireBullets({
         Attacker = attacker,
@@ -108,7 +109,18 @@ function ENT:Detonate()
 end
 
 function ENT:PhysicsCollide(colData, collider)
-    self:Detonate()
+	if CurTime() - self.SpawnTime >= self.FuseTime then
+		self:Detonate()
+	else
+		self:Defuse()
+	end
+end
+
+function ENT:Defuse()
+	self.Defused = true
+	self.Defused_RemoveIn = 5
+	self.Defused_When = CurTime()
+	--self:Remove()
 end
 
 function ENT:Draw()

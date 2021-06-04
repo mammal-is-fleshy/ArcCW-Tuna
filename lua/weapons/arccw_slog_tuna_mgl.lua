@@ -25,7 +25,7 @@ SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_mgl.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Num = 1
-SWEP.ShootEntity = "arccw_mifl_fas2_m203" -- ill change this later
+SWEP.ShootEntity = "arccw_slog_tuna_mgl"
 SWEP.MuzzleVelocity = 12000
 
 SWEP.TracerNum = 1 -- tracer every X

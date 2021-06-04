@@ -16,7 +16,7 @@ SWEP.Slot = 2
 SWEP.CrouchPos = Vector(-0.5, 4, -0.5)
 SWEP.CrouchAng = Angle(0, 0, -5)
 
-SWEP.NPCWeaponType = "weapon_ar2"
+SWEP.NPCWeaponType = "weapon_smg1"
 SWEP.NPCWeight = 250
 
 SWEP.CamAttachment = 3
@@ -78,7 +78,7 @@ SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degr
 SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 210
 
-SWEP.Primary.Ammo = "ar2" 
+SWEP.Primary.Ammo = "smg1" 
 
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
