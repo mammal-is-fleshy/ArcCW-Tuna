@@ -349,6 +349,8 @@ sound.Add({
 	sound = {"weapons/arccw_slog/fortuna/shotgun/pump4.wav"}
 })
 
+
+// Axe
 sound.Add({
 	name = 			"ArcCW_Slog_FTuna_AxE.Foley",
 	channel = 		CHAN_ITEM1,
@@ -368,4 +370,31 @@ sound.Add({
 	channel = 		CHAN_ITEM2,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/axe/blade.wav"}
+})
+
+
+//SVR442
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rev.Open",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rev/open.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rev.In",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rev/in.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rev.Out",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rev/out.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rev.Close",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rev/close.wav"}
 })
