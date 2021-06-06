@@ -9,14 +9,14 @@ att.AutoStats = true
 att.Slot = {"fortuna_perk"}
 
 att.Mult_AccuracyMOA = 1.15
-att.Mult_Damage = 0.95
-att.Mult_DamageMin = 0.85
+att.Mult_Damage = 0.75
+att.Mult_DamageMin = 0.65
 att.Mult_Range = 0.8
 att.Mult_RPM = 1.25
 att.Mult_MuzzleVelocity = 1.25
 
 att.Hook_ModifyRPM = function(wep, delay)
-    local max = math.min(10, wep:GetCapacity())
+    local max = math.min(20, wep:GetCapacity())
 
     local delta = wep:GetBurstCount() / max
 
@@ -30,3 +30,7 @@ att.Override_Firemodes = {
         Mode = 2,
     },
 }
+
+att.Hook_GetCapacity = function(wep, cap)
+	wep.RegularClipSize * 4
+end

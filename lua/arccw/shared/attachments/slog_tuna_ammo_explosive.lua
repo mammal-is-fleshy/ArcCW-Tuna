@@ -8,13 +8,15 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Slot = {"fortuna_ammo"}
 
-att.Mult_RPM = 0.5
+att.Mult_RPM = 0.375
 att.Mult_AccuracyMOA = 5
 att.Mult_Damage = 1.5
 att.Mult_DamageMin = 0.85
-att.Mult_Range = 0.5
+att.Mult_Range = 0.25
 att.Mult_Penetration = 0
 att.Mult_MuzzleVelocity = 0.5
+
+att.Override_Num = 1
 
 att.Override_DamageType = DMG_BLAST + DMG_AIRBOAT
 
@@ -41,4 +43,13 @@ att.Hook_BulletHit = function(wep, data)
     if ent:IsValid() and ent:GetClass() == {"npc_helicopter"} then
         data.dmgtype = DMG_AIRBOAT
     end
+end
+
+att.Hook_Compatible = function(wep)
+    if wep:GetIsShotgun() then return false end
+end
+
+
+att.Hook_GetCapacity = function(wep, cap)
+	wep.RegularClipSize * (75/100)
 end

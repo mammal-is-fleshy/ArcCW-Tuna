@@ -97,7 +97,7 @@ function ENT:Detonate()
         Attacker = attacker,
         Damage = 0,
         Tracer = 0,
-        Distance = 20000,
+        Distance = 25000,
         Dir = self:GetVelocity(),
         Src = self:GetPos(),
         Callback = function(att, tr, dmg)

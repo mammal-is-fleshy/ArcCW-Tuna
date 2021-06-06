@@ -23,6 +23,8 @@ SWEP.CamAttachment = 3
 
 SWEP.UseHands = true
 
+SWEP.IsShotgun = true
+
 SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_dawnbreaker.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_dawnbreaker.mdl"
 SWEP.ViewModelFOV = 70

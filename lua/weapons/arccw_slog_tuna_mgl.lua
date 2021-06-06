@@ -26,7 +26,7 @@ SWEP.ViewModelFOV = 70
 
 SWEP.Num = 1
 SWEP.ShootEntity = "arccw_slog_tuna_mgl_exp"
-SWEP.MuzzleVelocity = 12000
+SWEP.MuzzleVelocity = 15000
 
 SWEP.TracerNum = 1 -- tracer every X
 SWEP.TracerCol = Color(255, 25, 25)
