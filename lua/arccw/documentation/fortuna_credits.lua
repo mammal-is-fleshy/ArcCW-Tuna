@@ -1,4 +1,4 @@
-Project ForTuna 
+Project ForTuna, a 98% self made mod
 
 [Created by slogkot and Itzal]
 [Ask me(slogkot) If you want to reuse some of *my* assets]
@@ -7,14 +7,15 @@ Project ForTuna
 Itzal:
 -Concept Art (Bravo-9, Borus-27, EGL-4, IMR)
 
+Fesiug:
+-MW2 hand port/C_hands convert
+
 Infinity Ward:
 -Sounds (MW19, IW)
+-Base mesh for c_hands (MW2)
 
-DICE:
--Sounds (BF4)
-
-Respawn Entertainment:
--Sounds (Titan Fall 1/2, Apex Legend)
+google images:
+-references, sorry i forgot to bookmark all the artist i stole the design from :\
 
 
 slogkot:
@@ -22,10 +23,8 @@ slogkot:
 -Models
 -Textures
 -Animations
+-Custom C_hands
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
-
-google images:
--references
 
 fish 
 
