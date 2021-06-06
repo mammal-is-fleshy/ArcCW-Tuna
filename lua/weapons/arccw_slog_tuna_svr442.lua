@@ -71,7 +71,7 @@ SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
 SWEP.ShootSound = "weapons/arccw_slog/fortuna/rev/fire.ogg"
-SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rev/fire_sd.wav"
+SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rev/fire_sd.ogg"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
@@ -154,6 +154,15 @@ SWEP.Attachments = {
         },
     },
     {
+        PrintName = "Underbarrel",
+        Slot = {"fortuna_fg"},
+        Bone = "W_Main",
+        Offset = {
+            vpos = Vector(0, 0, 12),
+            vang = Angle(90, 0, -90),
+        },
+    },		
+    {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
         Bone = "W_Main",
@@ -192,11 +201,19 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-		MinProgress = 90/40		
+        LHIK = true,		
+		MinProgress = 90/40,
+        LHIKIn = 0.2,
+        LHIKOut = 0.5,
+        LHIKEaseOut = 0.3		
     },
     ["reload_empty"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-		MinProgress = 90/40			
+        LHIK = true,		
+		MinProgress = 90/40,
+        LHIKIn = 0.2,
+        LHIKOut = 0.5,
+        LHIKEaseOut = 0.3	
     },	
 }

@@ -162,6 +162,17 @@ SWEP.Attachments = {
         },
     },
     {
+        PrintName = "Underbarrel",
+        Slot = {"fortuna_fg"},
+        Bone = "W_Main",
+        Offset = {
+            vpos = Vector(0, 1, 8),
+            vang = Angle(90, 0, -90),
+            wpos = Vector(14.329, 0.602, -4.453),
+            wang = Angle(-10.216, 0, 180)
+        },
+    },	
+    {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
         Bone = "W_Main",
@@ -195,6 +206,15 @@ SWEP.Attachments = {
     },	
 }
 SWEP.ShotgunReload = true
+
+SWEP.Hook_TranslateAnimation = function(wep, anim)		
+    if wep.Attachments[3].Installed then
+        if anim == "cycle" then
+            return "cycle_att"
+		end
+    end
+end
+
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
     ["ready"] = {
@@ -211,6 +231,10 @@ SWEP.Animations = {
         Source = {"pump1","pump3","pump2"},
         ShellEjectAt = 0.3,
     },
+    ["cycle_att"] = {
+        Source = {"pump1","pump3"},
+        ShellEjectAt = 0.3,
+    },	
     ["cycle_iron"] = {
         Source = {"pump3"},
         ShellEjectAt = 0.3,
@@ -227,9 +251,6 @@ SWEP.Animations = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         ShellEjectAt = 0.3,		
-        LHIK = true,
-        LHIKIn = 0.5,
-        LHIKOut = 0,
     },
     ["sgreload_insert"] = {
         Source = "reload",

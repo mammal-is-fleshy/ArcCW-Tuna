@@ -159,6 +159,15 @@ SWEP.Attachments = {
         },
     },
     {
+        PrintName = "Underbarrel",
+        Slot = {"fortuna_fg"},
+        Bone = "W_Main",
+        Offset = {
+            vpos = Vector(0, -0.75, 7.5),
+            vang = Angle(90, 0, -90),
+        },
+    },	
+    {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
         Bone = "W_Main",
