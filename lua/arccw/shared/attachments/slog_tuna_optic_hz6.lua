@@ -17,13 +17,13 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/hz6.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 12, -1.185),
+        Pos = Vector(0, 8, -1.185),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
         ScrollFunc = ArcCW.SCROLL_ZOOM,
         ZoomLevels = 2,
         ZoomSound = "weapons/arccw/fiveseven/fiveseven_slideback.wav",		
-        IgnoreExtra = true,
+        IgnoreExtra = false,
     }
 }
 

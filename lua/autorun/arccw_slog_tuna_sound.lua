@@ -382,13 +382,13 @@ sound.Add({
 })
 sound.Add({
 	name = 			"ArcCW_Slog_FTuna_Rev.In",
-	channel = 		CHAN_ITEM3,
+	channel = 		CHAN_ITEM1,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/rev/in.wav"}
 })
 sound.Add({
 	name = 			"ArcCW_Slog_FTuna_Rev.Out",
-	channel = 		CHAN_ITEM3,
+	channel = 		CHAN_ITEM2,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/rev/out.wav"}
 })

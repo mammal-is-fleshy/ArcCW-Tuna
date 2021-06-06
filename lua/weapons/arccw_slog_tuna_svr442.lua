@@ -49,7 +49,7 @@ SWEP.RecoilSide = 1.25
 SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 600 -- 60 / RPM.
+SWEP.Delay = 60 / 200 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
@@ -61,8 +61,8 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 0.5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 520 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 1 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.HipDispersion = 420 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 300
 
 SWEP.Primary.Ammo = "ar2" 
@@ -70,8 +70,8 @@ SWEP.Primary.Ammo = "ar2"
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
-SWEP.ShootSound = "weapons/arccw_slog/fortuna/snip/fire.ogg"
-SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/snip/sd.wav"
+SWEP.ShootSound = "weapons/arccw_slog/fortuna/rev/fire.ogg"
+SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rev/fire_sd.wav"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol"
@@ -139,7 +139,7 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},	
-		ExtraSightDist = -5,		
+		ExtraSightDist = -2,		
         CorrectivePos = Vector(-8.425, 5, 6.15),	--- why the fuck does this break like HOW	
         CorrectiveAng = Angle(90, -10, 85),		
     },

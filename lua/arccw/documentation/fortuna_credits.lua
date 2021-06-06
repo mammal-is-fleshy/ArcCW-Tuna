@@ -18,7 +18,7 @@ Respawn Entertainment:
 
 
 slogkot:
--Concept (IMR [partially], SeRv-45, DB-14, FX-92, AWRX-6)
+-Concept (IMR [partially], SeRv-45, DB-14, FX-92, AWRX-6, SVR-442)
 -Models
 -Textures
 -Animations
@@ -39,13 +39,14 @@ Bolt Action (Done)
 Lever Action (Done)
 Carbine Frame Pistol (Done) [its like a staple of my mods lmao]
 Dual mode Melee (Done)
+Revolver (Done)
 
 Laser (in progress)
 
-Akimbo (atomic level)
-Bio Weapon (atomic level)
+Bio Weapon (sketching)
+Akimbo (first draft)
 Stationary MG (atomic level)
-Revolver (atomic level)
+
 
 
 Extra/Non contribting (2)
@@ -57,7 +58,7 @@ Design Explain Thing:
 FX-92: F2000 + (XM8/G36)
 AWRX-6: (M590/MASS26) + (ARX/SCAR/ZH06)
 DB-14: Spas/Marlin
-
+SVR-442: Rsh12 + that one weird looking ass carbine revolver on google images
 
 the focus of FS2R was how much shit can i add to an existing gun before burnout
 the focus of Tuna is how much shit can i design/make before boredom 
