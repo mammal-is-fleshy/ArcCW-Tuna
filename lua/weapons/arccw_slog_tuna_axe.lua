@@ -4,7 +4,7 @@ SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "Combat Axe"
-SWEP.Trivia_Class = "Assault Rifle"
+SWEP.Trivia_Class = "Melee"
 SWEP.Trivia_Desc = "\"Ancient\" melee weapon with a hollow core for alternative longer range lunge."
 SWEP.Trivia_Manufacturer = "XLR Arms"
 SWEP.Trivia_Country = "Unknown"

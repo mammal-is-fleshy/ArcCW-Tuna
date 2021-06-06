@@ -4,7 +4,7 @@ SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "SVR-442"
-SWEP.Trivia_Class = "Rifle"
+SWEP.Trivia_Class = "Designated Marksman Rifle"
 SWEP.Trivia_Desc = "Carbine revolver with extra long cartridge."
 SWEP.Trivia_Manufacturer = "XLR Arms"
 SWEP.Trivia_Calibre = ".44-42 EX"
@@ -27,9 +27,9 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_svr442.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_svr442.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 42
+SWEP.Damage = 38
 SWEP.DamageMin = 120 -- damage done at maximum range
-SWEP.Range = 50 -- in METRES
+SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 17
 SWEP.DamageType = DMG_BULLET + DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any
