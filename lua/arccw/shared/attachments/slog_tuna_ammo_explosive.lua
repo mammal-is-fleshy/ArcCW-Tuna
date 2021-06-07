@@ -15,7 +15,7 @@ att.Mult_DamageMin = 0.85
 att.Mult_Range = 0.25
 att.Mult_Penetration = 0
 att.Mult_MuzzleVelocity = 0.5
-
+att.Hidden = true
 att.Override_Num = 1
 
 att.Override_DamageType = DMG_BLAST + DMG_AIRBOAT
@@ -47,9 +47,4 @@ end
 
 att.Hook_Compatible = function(wep)
     if wep:GetIsShotgun() then return false end
-end
-
-
-att.Hook_GetCapacity = function(wep, cap)
-	wep.RegularClipSize * (75/100)
 end

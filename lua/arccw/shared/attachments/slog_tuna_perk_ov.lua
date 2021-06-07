@@ -20,7 +20,7 @@ att.Hook_ModifyRPM = function(wep, delay)
 
     local delta = wep:GetBurstCount() / max
 
-    local mult = Lerp(delta, 1, 4)
+    local mult = Lerp(delta, 1, 2.5)
 
     return delay / mult
 end
@@ -32,5 +32,5 @@ att.Override_Firemodes = {
 }
 
 att.Hook_GetCapacity = function(wep, cap)
-	wep.RegularClipSize * 4
+	return wep.RegularClipSize * 3
 end
