@@ -1,17 +1,6 @@
 "UnlitGeneric"
 {
 	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"
-	"$nocull" "1"		
-
-
-//Phong shading	
-"$phong" 				"1"
-"$phongboost" 				"50"
-"$phongalbedotint"			 "1"
-"$phongexponent" 			"20"
-"$phongfresnelranges" 			"[2 3 12]"
-
-$selfillum 1
-
-$nocull 1		
+	$selfillum 1
+	
 }	
