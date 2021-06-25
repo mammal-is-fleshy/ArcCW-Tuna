@@ -218,16 +218,16 @@ end
 
 SWEP.Hook_TranslateAnimation = function(wep, anim)
     if wep:Clip2() == 0 then
-        if anim == "exit_ubgl" then
-            return "exit_ubgl2"
+        if anim == "exit_nade" then
+            return "exit_nade2"
 		elseif anim == "idle_ubgl" then
             return "idle"		
 		end	
 	end		
 
     if wep:Clip2() == 1 then
-        if anim == "enter_ubgl" then
-            return "enter_ubgl2"
+        if anim == "enter_nade" then
+            return "enter_nade2"
 		end	
 	end			
 end
@@ -236,13 +236,15 @@ end
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
 	["idle_ubgl"] = {Source = "nade_idle",},		
-    ["enter_ubgl"] = {Source = "idle",},		
-    ["exit_ubgl"] = {
+    ["enter_nade"] = {Source = "idle",},		
+    ["exit_nade"] = {
 		Source = "nade_deload",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
-        LHIKIn = 0.35,
+        LHIKEaseIn = 0.3,		
+        LHIKIn = 0.8,
         LHIKOut = 0.5,
+        LHIKEaseOut = 0.2,
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/ak/rpg_out.wav", 		t = 17/40},	
@@ -251,13 +253,15 @@ SWEP.Animations = {
 					},			
     },	
 
-    ["enter_ubgl2"] = {
+    ["enter_nade2"] = {
 		Source = "nade_load",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
+        LHIKEaseIn = 0.2,		
         LHIKIn = 0.35,
-        LHIKOut = 0.65,
-        LHIKEaseOut = 0.25,
+        LHIKOut = 0.8,
+        LHIKEaseOut = 0.4,
+		MinProgress = 95/40,		
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/ak/bolt2.wav", 		t = 20/40},	
@@ -265,7 +269,7 @@ SWEP.Animations = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 80/40},						
 					},			
     },		
-    ["exit_ubgl2"] = {Source = "idle",},		
+    ["exit_nade2"] = {Source = "idle",},		
 	
     ["ready"] = {
         Source = "draw",
