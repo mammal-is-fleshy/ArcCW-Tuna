@@ -61,11 +61,11 @@ SWEP.Delay = 60 / 600 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
-    local max = math.min(60, wep:GetCapacity())
+    local max = math.min(300, wep:GetCapacity())
 
     local delta = wep:GetBurstCount() / max
 
-    local mult = Lerp(delta, 1, 2)
+    local mult = Lerp(delta, 1, 1.75)
 
     return delay / mult
 end

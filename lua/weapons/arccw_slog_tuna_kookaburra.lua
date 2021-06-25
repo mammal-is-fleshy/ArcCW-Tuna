@@ -249,7 +249,7 @@ SWEP.Animations = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/ak/rpg_out.wav", 		t = 17/40},	
 						{s = "weapons/arccw_slog/fortuna/ak/bolt3.wav", 		t = 78/40},							
-						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 105/40},						
+						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 85/40},						
 					},			
     },	
 
@@ -263,8 +263,8 @@ SWEP.Animations = {
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/ak/bolt2.wav", 		t = 20/40},	
-						{s = "weapons/arccw_slog/fortuna/ak/rpg_in.wav", 		t = 60/40},					
-						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 105/40},						
+						{s = "weapons/arccw_slog/fortuna/ak/rpg_in.wav", 		t = 58/40},					
+						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 80/40},						
 					},			
     },		
     ["exit_ubgl2"] = {Source = "idle",},		
@@ -331,8 +331,8 @@ SWEP.Animations = {
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/ak/bolt2.wav", 		t = 20/40},	
-						{s = "weapons/arccw_slog/fortuna/ak/rpg_in.wav", 		t = 60/40},					
-						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 105/40},						
+						{s = "weapons/arccw_slog/fortuna/ak/rpg_in.wav", 		t = 58/40},					
+						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 80/40},						
 					},			
     },			
 }

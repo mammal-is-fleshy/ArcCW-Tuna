@@ -33,13 +33,13 @@ att.UBGL_PrintName = "RPG"
 att.UBGL_Automatic = false
 att.UBGL_MuzzleEffect = "muzzleflash_m79"
 att.UBGL_ClipSize = 1
-att.UBGL_Ammo = "smg1_grenade"
+att.UBGL_Ammo = "RPG_Round"
 att.UBGL_RPM = 120
 att.UBGL_Recoil = 1
 att.UBGL_Capacity = 1
 
 local function Ammo(wep)
-    return wep.Owner:GetAmmoCount("smg1_grenade")
+    return wep.Owner:GetAmmoCount("RPG_Round")
 end
 
 att.UBGL_Fire = function(wep, ubgl)
@@ -81,7 +81,7 @@ att.UBGL_Reload = function(wep, ubgl)
 
     local load = math.Clamp(5, 0, reserve)
 
-    wep.Owner:SetAmmo(reserve - load, "smg1_grenade")
+    wep.Owner:SetAmmo(reserve - load, "RPG_Round")
 
     wep:SetClip2(load)
 end

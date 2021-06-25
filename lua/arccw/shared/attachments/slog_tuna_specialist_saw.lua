@@ -19,5 +19,7 @@ att.Mult_SightTime = 0.75
 att.Mult_SightedSpeedMult = 0.85
 att.Mult_SpeedMult = 0.75
 att.Mult_ShootSpeedMult = 0.85
+att.Mult_AccuracyMOA = 3
+att.Mult_SightsDispersion = 1.5
 
 att.Override_HoldtypeActive = "shotgun"
