@@ -47,8 +47,8 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep.Owner:FireBullets({
         Src = wep.Owner:EyePos(),
-        Num = 12,
-        Damage = 14,
+        Num = 13,
+        Damage = 16,
         Force = 1.25,
         Attacker = wep.Owner,
         Dir = wep.Owner:EyeAngles():Forward(),
@@ -56,10 +56,10 @@ att.UBGL_Fire = function(wep, ubgl)
         Callback = function(_, tr, dmg)
             local dist = (tr.HitPos - tr.StartPos):Length() * ArcCW.HUToM
 
-            local dmgmax = 14
+            local dmgmax = 16
             local dmgmin = 6
 
-            local delta = dist / 50
+            local delta = dist / 60
 
             delta = math.Clamp(delta, 0, 1)
 

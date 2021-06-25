@@ -5,11 +5,22 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "FX-92"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Bulky explosive specialist weapon for barrage and push, a two in one package."
-SWEP.Trivia_Manufacturer = "DS Arms"
-SWEP.Trivia_Calibre = "560x20mm"
-SWEP.Trivia_Country = "Unknown"
+SWEP.Trivia_Desc = "Bulky explosive specialist weapon for barrage and flank, a two in one package."
+SWEP.Trivia_Manufacturer = "XLR Munitions"
+SWEP.Trivia_Country = "Staglagh"
+SWEP.Trivia_Calibre = "4.8x35mm"
 SWEP.Trivia_Year = "2185"
+
+SWEP.TrueName = "Salmon"
+SWEP.True_Country = "Salt Lake City"
+SWEP.True_Manufacturer = "Medium Rare Arms"
+SWEP.True_Class = "Fish"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 2
 
@@ -41,7 +52,7 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 40 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 2.5
 
 SWEP.Recoil = 0.5
@@ -74,6 +85,8 @@ SWEP.Firemodes = {
     }
 }
 
+SWEP.PhysTracerProfile = 3
+
 SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 420 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
@@ -87,9 +100,9 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/2fire.mp3"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/2firesd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
-SWEP.ShellScale = 1.5
+SWEP.MuzzleEffect = "muzzleflash_5"
+SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_rifle.mdl"
+SWEP.ShellScale = 1.15
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -126,8 +139,8 @@ SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
 SWEP.SprintPos = Vector(0, 5, 0)
 SWEP.SprintAng = Angle(0, 0, 0)
-SWEP.CustomizePos = Vector(4, 2, -1)
-SWEP.CustomizeAng = Angle(10 , 21.236, 17)
+SWEP.CustomizePos = Vector(3, 0, 0.5)
+SWEP.CustomizeAng = Angle(15, 17, 12)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
@@ -261,7 +274,8 @@ SWEP.Animations = {
         LHIKIn = 0.35,
         LHIKOut = 0.8,
         LHIKEaseOut = 0.4,
-		MinProgress = 90/40
+		MinProgress = 90/40,
+		Mult = 0.9,
     },
     ["reload_empty"] = {
         Source = "dry",
@@ -270,7 +284,8 @@ SWEP.Animations = {
         LHIKIn = 0.35,
         LHIKOut = 0.6,
         LHIKEaseOut = 0.4,
-		MinProgress = 140/40			
+		MinProgress = 140/40,
+		Mult = 0.9,		
     },	
 
     ["oicw_dry"] = {

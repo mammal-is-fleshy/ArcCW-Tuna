@@ -223,6 +223,31 @@ sound.Add({
 	sound = {"weapons/arccw_slog/fortuna/rifle/3sgin.wav"}
 })
 
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif5.Bolt1",
+	channel = 		CHAN_ITEM7,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/5bolt1.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif5.Bolt2",
+	channel = 		CHAN_ITEM6,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/5bolt2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif5.In",
+	channel = 		CHAN_ITEM1,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/5in.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_Rif5.Out",
+	channel = 		CHAN_ITEM2,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/rifle/5out.wav"}
+})
+
 
 
 //LMG
@@ -397,4 +422,62 @@ sound.Add({
 	channel = 		CHAN_ITEM3,
 	volume = 		1.0,
 	sound = {"weapons/arccw_slog/fortuna/rev/close.wav"}
+})
+
+
+
+//SMG
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG.Foley",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/foley.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG.Foley1",
+	channel = 		CHAN_ITEM3,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/2foley.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG.Bolt1",
+	channel = 		CHAN_ITEM1,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/bolt1.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG.In",
+	channel = 		CHAN_ITEM4,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/in.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG.Out",
+	channel = 		CHAN_ITEM4,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/out.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG.Bolt2",
+	channel = 		CHAN_ITEM1,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/bolt2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG2.In1",
+	channel = 		CHAN_ITEM4,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/2in1.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG2.In2",
+	channel = 		CHAN_ITEM4,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/2in2.wav"}
+})
+sound.Add({
+	name = 			"ArcCW_Slog_FTuna_SMG2.Out",
+	channel = 		CHAN_ITEM4,
+	volume = 		1.0,
+	sound = {"weapons/arccw_slog/fortuna/smg/out.wav"}
 })

@@ -22,3 +22,6 @@ att.Mult_MoveDispersion = 0.75
 att.Mult_SightTime = 0.9
 
 att.Mult_MoveSpeed = 0.95
+
+att.ModelScale = Vector(0.8, 0.8, 0.8)
+att.ModelOffset = Vector(0.05, 0, -0.05)

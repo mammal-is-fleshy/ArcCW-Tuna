@@ -6,9 +6,20 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "Combat Axe"
 SWEP.Trivia_Class = "Melee"
 SWEP.Trivia_Desc = "\"Ancient\" melee weapon with a hollow core for alternative longer range lunge."
-SWEP.Trivia_Manufacturer = "XLR Arms"
-SWEP.Trivia_Country = "Unknown"
+SWEP.Trivia_Manufacturer = "XLR Munitions"
+SWEP.Trivia_Country = "New Ullia"
 SWEP.Trivia_Year = "2140"
+
+SWEP.TrueName = "Knife"
+SWEP.True_Country = "China"
+SWEP.True_Manufacturer = "Caveman Industry"
+SWEP.True_Class = "Gun"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 0
 
@@ -27,7 +38,7 @@ SWEP.PrimaryBash = true
 SWEP.CanBash = true
 SWEP.MeleeDamage = 80
 SWEP.MeleeRange = 25
-SWEP.MeleeDamageType = DMG_SLASH
+SWEP.MeleeDamageType = DMG_SLASH + DMG_AIRBOAT
 
 SWEP.MeleeSwingSound = nil
 SWEP.MeleeMissSound = nil
@@ -58,14 +69,14 @@ SWEP.Delay = 60 / 600
 
 SWEP.Melee2 = true
 SWEP.Melee2Damage = 50
-SWEP.Melee2DamageBackstab = 105
+SWEP.Melee2DamageBackstab = 180
 SWEP.Melee2Range = 75
 SWEP.Melee2Time = 0.55
 SWEP.Melee2Gesture = nil
 SWEP.Melee2AttackTime = 0.4*0.75
 
 SWEP.Backstab = true
-SWEP.BackstabMultiplier = 2
+SWEP.BackstabMultiplier = 1.5
 
 SWEP.HoldtypeHolstered = "normal"
 SWEP.HoldtypeActive = "melee"

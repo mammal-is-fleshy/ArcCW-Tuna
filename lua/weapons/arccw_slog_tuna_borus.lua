@@ -5,11 +5,22 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Borus-27"
 SWEP.Trivia_Class = "Sniper Rifle"
-SWEP.Trivia_Desc = "Single shot bolt action sniper rifle."
-SWEP.Trivia_Manufacturer = "DS Arms"
+SWEP.Trivia_Desc = "Single shot bolt action sniper rifle. Anti-Armour, Anti-Infantry."
 SWEP.Trivia_Calibre = "45x25mm"
-SWEP.Trivia_Country = "Unknown"
+SWEP.Trivia_Manufacturer = "Kreg Tech"
+SWEP.Trivia_Country = "Waffensfer"
 SWEP.Trivia_Year = "2174"
+
+SWEP.TrueName = "Cow"
+SWEP.True_Country = "Netherland"
+SWEP.True_Manufacturer = "Animal Farm by George Orwell"
+SWEP.True_Class = "Hunt Showdown 2"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 3
 
@@ -27,9 +38,9 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 80
-SWEP.DamageMin = 220 -- damage done at maximum range
-SWEP.Range = 80 -- in METRES
+SWEP.Damage = 75
+SWEP.DamageMin = 200 -- damage done at maximum range
+SWEP.Range = 120 -- in METRES
 SWEP.Penetration = 25
 SWEP.DamageType = DMG_BULLET + DMG_BLAST + DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any
@@ -74,9 +85,9 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/snip/fire.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/snip/sd.wav"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
-SWEP.ShellScale = 1.5
+SWEP.MuzzleEffect = "muzzleflash_5"
+SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_rifle.mdl"
+SWEP.ShellScale = 2
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -100,6 +111,8 @@ SWEP.IronSightStruct = {
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
 
+SWEP.PhysTracerProfile = 3
+
 SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "ar2"
 SWEP.HoldtypeSights = "rpg"
@@ -109,11 +122,11 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.ActivePos = Vector(0, 3, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
-SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
+SWEP.HolsterPos = Vector(0, 1, 0.239)
+SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
 
-SWEP.CustomizePos = Vector(4, -2, 1)
-SWEP.CustomizeAng = Angle(0 , 21.236, 17)
+SWEP.CustomizePos = Vector(4, 5, 0)
+SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
@@ -180,25 +193,12 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Ammo Type",
-        Slot = {"fortuna_ammo"}
+        Slot = {"fortuna_ammo", "fortuna_ammo_sg"}
     },
     {
         PrintName = "Perk",
         Slot = {"fortuna_perk"}
-    },		
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "Weapon_Bolt",
-        Offset = {
-            vpos = Vector(0.5, 0.2, 2),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(8, 1, -3),
-            wang = Angle(-9, 0, 180)
-        },
-		FreeSlot = true,
-    },	
+    },
 }
 
 SWEP.Animations = {
@@ -212,18 +212,13 @@ SWEP.Animations = {
     ["fire"] = {
         Source = "fire",
 		Time = 0.6,
-        ShellEjectAt = 0,
     },
     ["fire_iron"] = {
         Source = "idle",
-        ShellEjectAt = 0,
     },
     ["reload"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        ShellEjectAt = 40/40,		
     },
-    ["reload_empty"] = {
-        Source = "dry",
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-    },	
 }

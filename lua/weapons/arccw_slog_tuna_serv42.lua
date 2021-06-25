@@ -6,12 +6,23 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "SeRv-45"
 SWEP.Trivia_Class = "Pistol"
 SWEP.Trivia_Desc = "Ballistic pistol in a carbine frame that increases overall performance."
-SWEP.Trivia_Manufacturer = "DS Arms"
+SWEP.Trivia_Manufacturer = "DRS Arms"
+SWEP.Trivia_Country = "Vrenzie"
 SWEP.Trivia_Calibre = "9x19mm Para"
-SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2176"
 
-SWEP.Slot = 2
+SWEP.TrueName = "Chungus"
+SWEP.True_Country = "Mushroom Island from Sonic"
+SWEP.True_Manufacturer = "Big Big Fungus"
+SWEP.True_Class = "Rapid Willy"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
+
+SWEP.Slot = 1
 
 SWEP.CrouchPos = Vector(-1, 1, -1)
 SWEP.CrouchAng = Angle(0, 0, -15)
@@ -27,8 +38,8 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_serv45.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_serv45.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 29
-SWEP.DamageMin = 15 -- damage done at maximum range
+SWEP.Damage = 37
+SWEP.DamageMin = 20 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 6
 SWEP.DamageType = DMG_BULLET
@@ -71,6 +82,8 @@ SWEP.Firemodes = {
     }
 }
 
+SWEP.PhysTracerProfile = 3
+
 SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
@@ -84,7 +97,7 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/fire.wav"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/sd.wav"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
+SWEP.MuzzleEffect = "muzzleflash_smg"
 SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_pistol.mdl"
 SWEP.ShellScale = 1
 
@@ -122,8 +135,8 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 SWEP.HolsterPos = Vector(-2, 1, 1)
 SWEP.HolsterAng = Angle(-13.101, 12, -16.496)
 
-SWEP.CustomizePos = Vector(4, -2, 1)
-SWEP.CustomizeAng = Angle(0 , 21.236, 17)
+SWEP.CustomizePos = Vector(4, 0, 1)
+SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
@@ -189,8 +202,8 @@ SWEP.Attachments = {
         Slot = "fortuna_tac",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -1.25, 4.5), 
-            vang = Angle(90, 0, -90),
+            vpos = Vector(0.8, -1.95, 5.5), 
+            vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,
         CorrectivePos = Vector(0.75, 3, 0),					
@@ -202,20 +215,7 @@ SWEP.Attachments = {
     {
         PrintName = "Perk",
         Slot = {"fortuna_perk"}
-    },	
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "Weapon_Bolt",
-        Offset = {
-            vpos = Vector(0.5, 0.2, 2),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(8, 1, -3),
-            wang = Angle(-9, 0, 180)
-        },
-		FreeSlot = true,
-    },	
+    },
 }
 
 SWEP.Animations = {
@@ -241,7 +241,8 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.6,
-        LHIKEaseOut = 0.4
+        LHIKEaseOut = 0.4,
+		Mult = 0.95,
     },
     ["reload_empty"] = {
         Source = "dry",
@@ -249,6 +250,7 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 1.6,
-        LHIKEaseOut = 0.4
+        LHIKEaseOut = 0.4,
+		Mult = 0.95,	
     },	
 }

@@ -1,29 +1,34 @@
 Project ForTuna, a 98% self made mod
 
-[Created by slogkot and Itzal]
-[Ask me(slogkot) If you want to reuse some of *my* assets]
+"I have never seen such incompenent cunts who have so much influence like HOW"
+
+[Created by slogkot (formerly known as Fleshy Mammal)]
+[Ask me If you want to reuse some of *my* assets]
 
 
 Itzal:
--Concept Art (Bravo-9, Borus-27, EGL-4, IMR)
+-"Concept" Art (Bravo-9, Borus-27, EGL-4, IMR, APX-10, HL-877) [with actual permission too,         i think i asked him]
 
 Fesiug:
 -MW2 hand port/C_hands convert
+-Random code for ent, flip optic code, stuff i cant remember
 
 Infinity Ward:
 -Sounds (MW19, IW)
 -Base mesh for c_hands (MW2)
 
 google images:
--references, sorry i forgot to bookmark all the artist i stole the design from :\
+-references, sorry i forgot to bookmark all the artist i stole the design from :/
 
 
 slogkot:
--Concept (IMR [partially], SeRv-45, DB-14, FX-92, AWRX-6, SVR-442)
+-Concept [partially] (IMR, SeRv-45, APX-10)
+-Concept [factually] (DB-14, AWRX-6, SVA-442, VT0R-5)
 -Models
--Textures
+-"Textures" (Palettes are still texture i swear !111!1!)
 -Animations
--Custom C_hands
+-2 Custom C_hands
+-Everything else 
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
 
 fish 
@@ -31,7 +36,7 @@ fish
 --- Basicall Dev Log ---
 
 Sanity Check List:
-Belt Fed (Done)
+Belt Fed (Done, twice)
 AR_GL Hybrid (Done)
 AR_SG Hybrid (Done)
 Bolt Action (Done)
@@ -39,25 +44,35 @@ Lever Action (Done)
 Carbine Frame Pistol (Done) [its like a staple of my mods lmao]
 Dual mode Melee (Done)
 Revolver (Done)
+Antique (Done)
 
 Laser (in progress)
+Akimbo (in progress)
 
 Bio Weapon (sketching)
-Akimbo (first draft)
-Stationary MG (atomic level)
+Stationary MG (scrapped)
+SMG_DMR Hybrid (scrapped??)
 
 
 
-Extra/Non contribting (2)
-+bravo9
-+imr
+Extra/Non contribting (6)
++Bravo-9
++IMR
++APX-10
++VT0R-5
++HL-877
 
 
-Design Explain Thing:
-FX-92: F2000 + (XM8/G36)
-AWRX-6: (M590/MASS26) + (ARX/SCAR/ZH06)
-DB-14: Spas/Marlin
-SVR-442: Rsh12 + that one weird looking ass carbine revolver on google images
+Design, Role Explain Thing: (chrononical order)
+FX-92: f2000 + (xm8/g36), i want a bulky ar to fit "late game" tier but had to nerf it so it wouldnt just beat every other thing so the reload is even longer than a belt fed, might nerfed it too hard, idk
+AWRX-6: (m590/mass26) + (arx/scar/zh06), "mid game" tier weapon, underbarrel shotgun cuz im buck main deal with it		- dont this a m4 thing, i dont even have any m4 ref for this one, xcept the irons i guess
+DB-14: spas/marlin, i want a spas, i also want a m1887, you can see the rest of my thought process
+SVA-442: rsh12 + that one weird looking ass carbine revolver on google images, i want revolver for novelty but im also missing dmr role
+H4WK-18: just a g3 with like 2 parts of a cetme lc, for some reason i wanted to Do a g3, and i hate myself so enjoy the anim		- fr doe theres like 0 different between a cetme and a g3 lmao, they all look the same
+APX-10: apc9 + ump, original draft has xm8 parts but i had to scrap it, i want some hk vector, Close enough
+VT0R-5: sten mk5 but not, i want side fed mag, i want an actual lmg belt, i want another fast firing, i want MW19 FiNN, therefore- this
+
+
 
 the focus of FS2R was how much shit can i add to an existing gun before burnout
 the focus of Tuna is how much shit can i design/make before boredom 
@@ -79,8 +94,26 @@ why Do i have all these dev blog for big projects? self reflection
 to see how far i has changed in both my goal and my philosophy over the course of a project 
 
 and looking back, i see i was truly a retard
-but at least my scopes are feasible
+but at least my scopes are still some what feasible
+my only enemy is Time and boredom 
+and my own will i guess
+
+
+Current Philosophy
+
+The more unconventional looking the better
+The more conventional it is the weirder the reload gets
+Face-ish Pace reload, each with its own style so you never feel the same thing
+Realism = Fail
+EACH MUST BE UNIQUE, BE IT STATS OR VISUAL
 
 
 
 
+
+
+
+
+
+free text zone for
+reasons

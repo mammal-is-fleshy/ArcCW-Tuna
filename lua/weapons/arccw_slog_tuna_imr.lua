@@ -5,11 +5,22 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "IMR"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "Common bullpup rifle designed to be ergonomic. Packs quite a punch."
-SWEP.Trivia_Manufacturer = "XLR Arms"
+SWEP.Trivia_Desc = "Common ergonomic bullpup rifle. Packs quite a punch."
+SWEP.Trivia_Manufacturer = "SRL Corp"
+SWEP.Trivia_Country = "New Ullia"
 SWEP.Trivia_Calibre = "7.62x54mm"
-SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2170"
+
+SWEP.TrueName = "Claymore"
+SWEP.True_Country = "Finland"
+SWEP.True_Manufacturer = "Cmen n Porky"
+SWEP.True_Class = "Bull"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 2
 
@@ -53,7 +64,7 @@ SWEP.Delay = 60 / 570 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
-    local max = math.min(7, wep:GetCapacity())
+    local max = math.min(15, wep:GetCapacity())
 
     local delta = wep:GetBurstCount() / max
 
@@ -74,6 +85,8 @@ SWEP.Firemodes = {
     }
 }
 
+SWEP.PhysTracerProfile = 3
+
 SWEP.AccuracyMOA = 2 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 450 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 150
@@ -88,9 +101,9 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/heavy_fire2.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/heavy_firesd.wav"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
-SWEP.ShellScale = 1.5
+SWEP.MuzzleEffect = "muzzleflash_5"
+SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_rifle.mdl"
+SWEP.ShellScale = 1.15
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -126,8 +139,8 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
 
-SWEP.CustomizePos = Vector(4, -2, 1)
-SWEP.CustomizeAng = Angle(0 , 21.236, 17)
+SWEP.CustomizePos = Vector(4, 1, 1)
+SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
@@ -201,19 +214,6 @@ SWEP.Attachments = {
     {
         PrintName = "Perk",
         Slot = {"fortuna_perk"}
-    },		
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "Weapon_Bolt",
-        Offset = {
-            vpos = Vector(0.5, 0.2, 2),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(8, 1, -3),
-            wang = Angle(-9, 0, 180)
-        },
-		FreeSlot = true,
     },	
 }
 
@@ -237,6 +237,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+		Mult = 0.9,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.8,
@@ -245,6 +246,7 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+		Mult = 0.9,		
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.8,

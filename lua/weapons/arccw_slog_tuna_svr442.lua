@@ -3,13 +3,24 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "SVR-442"
+SWEP.PrintName = "SVA-442"
 SWEP.Trivia_Class = "Designated Marksman Rifle"
 SWEP.Trivia_Desc = "Carbine revolver with extra long cartridge."
-SWEP.Trivia_Manufacturer = "XLR Arms"
+SWEP.Trivia_Manufacturer = "SRL Corp"
+SWEP.Trivia_Country = "Rifted Shore"
 SWEP.Trivia_Calibre = ".44-42 EX"
-SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2162"
+
+SWEP.TrueName = "Axololt"
+SWEP.True_Country = "Ocean"
+SWEP.True_Manufacturer = "Mental Rear  H A R D"
+SWEP.True_Class = "Long Gun"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 3
 
@@ -61,9 +72,11 @@ SWEP.Firemodes = {
     }
 }
 
+SWEP.PhysTracerProfile = 3
+
 SWEP.AccuracyMOA = 1 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 420 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 300
+SWEP.MoveDispersion = 500
 
 SWEP.Primary.Ammo = "357" 
 
@@ -74,7 +87,7 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rev/fire.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rev/fire_sd.ogg"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
+SWEP.MuzzleEffect = "muzzleflash_3"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellScale = 1.5
 
@@ -139,9 +152,7 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},	
-		ExtraSightDist = -2,		
-        CorrectivePos = Vector(-8.425, 5, 6.15),	--- why the fuck does this break like HOW	
-        CorrectiveAng = Angle(90, -10, 85),		
+		ExtraSightDist = 4,			
     },
     {
         PrintName = "Muzzle",
@@ -177,10 +188,6 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = {"fortuna_ammo"}
     },
-    {
-        PrintName = "Perk",
-        Slot = {"fortuna_perk"}
-    },		
 }
 
 SWEP.Animations = {

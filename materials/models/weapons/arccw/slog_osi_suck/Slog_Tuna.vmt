@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"
-	"$nocull" "1"		
-
+	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"	
+	
+	$color2 "[0.8 0.8 0.8]"
 
 //Phong shading	
 "$phong" 				"1"

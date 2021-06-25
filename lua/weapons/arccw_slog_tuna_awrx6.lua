@@ -6,10 +6,21 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "AWRX-6"
 SWEP.Trivia_Class = "Assault Rifle"
 SWEP.Trivia_Desc = "Breaching specialist weapon for frontier assault, a two in one package."
-SWEP.Trivia_Manufacturer = "XLR Arms"
-SWEP.Trivia_Calibre = "560x20mm"
-SWEP.Trivia_Country = "Unknown"
+SWEP.Trivia_Manufacturer = "XLR Munitions"
+SWEP.Trivia_Country = "Vrenzie"
+SWEP.Trivia_Calibre = "4.8x35mm"
 SWEP.Trivia_Year = "2179"
+
+SWEP.TrueName = "AK47"
+SWEP.True_Country = "\'Nam"
+SWEP.True_Manufacturer = "Cunt"
+SWEP.True_Class = "Melee"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 2
 
@@ -88,9 +99,9 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/32fire.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/2firesd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
-SWEP.ShellScale = 1.5
+SWEP.MuzzleEffect = "muzzleflash_5"
+SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_rifle.mdl"
+SWEP.ShellScale = 1.15
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -113,6 +124,8 @@ SWEP.IronSightStruct = {
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
+
+SWEP.PhysTracerProfile = 3
 
 SWEP.HoldtypeHolstered = "passive"
 SWEP.HoldtypeActive = "ar2"
@@ -177,7 +190,7 @@ SWEP.Attachments = {
         Slot = "fortuna_tac",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0.75, -2.75, 12), 
+            vpos = Vector(0.8, -2.8, 10), 
             vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,

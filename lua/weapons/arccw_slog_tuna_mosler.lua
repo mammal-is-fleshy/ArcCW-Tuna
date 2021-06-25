@@ -6,11 +6,21 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "Dawn Breaker-14D"
 SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "Lever action shotgun. An odd choice for a calibre this size. Made for close range hunting."
-SWEP.Trivia_Manufacturer = "DS Arms"
+SWEP.Trivia_Manufacturer = "DRS Arms"
+SWEP.Trivia_Country = "Vrenzie"
 SWEP.Trivia_Calibre = "10 Gauge"
-SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2165"
 
+SWEP.TrueName = "Terminator 2 on DVD"
+SWEP.True_Country = "Cheeseburger Land"
+SWEP.True_Manufacturer = "Factual Corp"
+SWEP.True_Class = "1984"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 SWEP.Slot = 3
 
 SWEP.CrouchPos = Vector(-1, 2, -1)
@@ -33,7 +43,7 @@ SWEP.Damage = 15
 SWEP.DamageMin = 5 -- damage done at maximum range
 SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 5
-SWEP.DamageType = DMG_BUCKSHOT
+SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 -- IN M/S
@@ -63,6 +73,8 @@ SWEP.Firemodes = {
     }
 }
 
+SWEP.PhysTracerProfile = 3
+
 SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 320 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 300
@@ -76,7 +88,7 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/shotgun/fire.mp3"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/shotgun/sd.mp3"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_pistol"
+SWEP.MuzzleEffect = "muzzleflash_shotgun"
 SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_shotgun.mdl"
 SWEP.ShellScale = 1
 
@@ -114,8 +126,8 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
 
-SWEP.CustomizePos = Vector(4, -2, 1)
-SWEP.CustomizeAng = Angle(0 , 21.236, 17)
+SWEP.CustomizePos = Vector(5, 3, 0.5)
+SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
@@ -187,25 +199,12 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Ammo Type",
-        Slot = {"fortuna_ammo"}
+        Slot = {"fortuna_ammo_sg"}
     },
     {
         PrintName = "Perk",
         Slot = {"fortuna_perk"}
     },
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "Weapon_Bolt",
-        Offset = {
-            vpos = Vector(0.5, 0.2, 2),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(8, 1, -3),
-            wang = Angle(-9, 0, 180)
-        },
-		FreeSlot = true,
-    },	
 }
 SWEP.ShotgunReload = true
 

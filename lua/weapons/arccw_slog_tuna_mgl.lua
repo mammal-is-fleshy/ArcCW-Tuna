@@ -6,15 +6,23 @@ SWEP.AdminOnly = false
 SWEP.PrintName = "EGL-4"
 SWEP.Trivia_Class = "Grenade Launcher"
 SWEP.Trivia_Desc = "Magnetic grenade launcher fed from a heavy box. A perfect tool for crowd control."
-SWEP.Trivia_Manufacturer = "AZ Arms"
+SWEP.Trivia_Manufacturer = "Kreg Tech"
+SWEP.Trivia_Country = "Waffensfer"
 SWEP.Trivia_Calibre = "44V/mm"
-SWEP.Trivia_Country = "Unknown"
 SWEP.Trivia_Year = "2180"
 
-SWEP.Slot = 3
+SWEP.TrueName = "Double Barrel Shotgun"
+SWEP.True_Country = "Swiss Cheese"
+SWEP.True_Manufacturer = "Milkthor"
+SWEP.True_Class = "Willis"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
-SWEP.CrouchPos = Vector(-1, 1.5, -1)
-SWEP.CrouchAng = Angle(0, 0, -10)
+SWEP.Slot = 4
 
 SWEP.CamAttachment = 3
 
@@ -39,7 +47,7 @@ SWEP.Recoil = 1.7
 SWEP.RecoilSide = 0.8
 SWEP.MaxRecoilBlowback = 2
 
-SWEP.Delay = 60 / 400 -- 60 / RPM.
+SWEP.Delay = 60 / 300 -- 60 / RPM.
 SWEP.Firemodes = {
     {
         Mode = 1,
@@ -101,11 +109,14 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_RPG
 
-SWEP.ActivePos = Vector(0, 3, 0)
+SWEP.ActivePos = Vector(0, 1, 0)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(6, 3, 0)
-SWEP.HolsterAng = Angle(-7.036, 30.016, 0)
+SWEP.HolsterPos = Vector(2, -2, -0.5)
+SWEP.HolsterAng = Angle(-7.036, 30.016, -20)
+
+SWEP.CustomizePos = Vector(4, 5, 0)
+SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.BarrelLength = 32
 
@@ -113,6 +124,16 @@ SWEP.AttachmentElements = {
     ["nors"] = {
         VMBodygroups = {{ind = 1, bg = 1}},
     },
+    ["saw_yes"] = {
+		VMBodygroups = {{ind = 2, bg = 1},},
+        VMBodygroups = {{ind = 1, bg = 1}},		
+        Override_ActivePos = Vector(-2, 0, -2),
+        Override_ActiveAng = Angle(0, 0, -10),			
+        Override_HolsterPos = Vector(2, 2, -1),
+        Override_HolsterAng = Angle(-5, 30, -20),
+        Override_IronSightStruct = {Pos = Vector(-1, 5, -3),Ang = Angle(0, 0, -15),Magnification = 1.1,},	
+		CrosshairInSights = true
+    },		
 }
 
 SWEP.WorldModelOffset = {
@@ -122,7 +143,7 @@ SWEP.WorldModelOffset = {
 
 SWEP.MirrorVMWM = true
 
-SWEP.ExtraSightDist = 5
+SWEP.ExtraSightDist = 2
 
 SWEP.Attachments = {
     {
@@ -135,8 +156,7 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },
         InstalledEles = {"nors"},
-        CorrectivePos = Vector(0, 0, 0),
-        CorrectiveAng = Angle(0, 0, 0)
+        MergeSlots = {5},
     },
     {
         PrintName = "Underbarrel",
@@ -164,7 +184,24 @@ SWEP.Attachments = {
         PrintName = "Perk",
         Slot = "perk"
     },
+    {
+        PrintName = "You aren't supposed to see this",
+        Slot = {"fortuna_optic_saw"},
+		Hidden = true,
+        Bone = "W_Main",
+        Offset = {
+            vpos = Vector(0.5, -2, 12),
+            vang = Angle(90, 0, -90),
+        },		
+        InstalledEles = {"saw_yes"},				
+    },		
 }
+
+SWEP.Hook_SelectReloadAnimation = function(wep, anim) --- hierarchy ---
+    if wep.Attachments[5].Installed == "slog_tuna_specialist_saw" then
+        return anim .. "_saw"
+    end
+end
 
 SWEP.Animations = {
     ["idle"] = { Source = "idle", },
@@ -180,15 +217,6 @@ SWEP.Animations = {
     ["fire_iron"] = {
         Source = "iron",
     },	
-    ["reload_empty"] = {
-        Source = "dry",
-        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        LastClip1OutTime = 47/40,		
-        LHIK = true,
-        LHIKIn = 0.25,
-        LHIKOut = 0.5,
-        LHIKEaseOut = 0.4
-    },
     ["reload"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
@@ -197,5 +225,15 @@ SWEP.Animations = {
         LHIKIn = 0.25,
         LHIKOut = 0.5,
         LHIKEaseOut = 0.4
+    },
+    ["reload_saw"] = {
+        Source = "dry",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+        LastClip1OutTime = 47/40,			
+        LHIK = true,
+        LHIKIn = 0.8,
+        LHIKEaseIn = 0.5,	
+        LHIKOut = 0.7,
+        LHIKEaseOut = 0.35,
     },	
 }

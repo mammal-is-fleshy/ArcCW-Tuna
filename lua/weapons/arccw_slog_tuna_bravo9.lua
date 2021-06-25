@@ -5,16 +5,27 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Bravo-9"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Futuristic ballistic pistol. Standard sidearm across the rim."
-SWEP.Trivia_Manufacturer = "DS Arms"
-SWEP.Trivia_Calibre = "9x19mm Para"
-SWEP.Trivia_Country = "Unknown"
+SWEP.Trivia_Desc = "Ballistic pistol. Standard sidearm across the frontier."
+SWEP.Trivia_Manufacturer = "DRS Arms"
+SWEP.Trivia_Country = "Vrenzie"
+SWEP.Trivia_Calibre = "9x19mm"
 SWEP.Trivia_Year = "2174"
+
+SWEP.TrueName = "Piss-Off"
+SWEP.True_Country = "Germ"
+SWEP.True_Manufacturer = "Holger n Koochie"
+SWEP.True_Class = "Willy"
+if GetConVar("arccw_truenames"):GetBool() then
+    SWEP.PrintName = SWEP.TrueName
+    SWEP.Trivia_Country = SWEP.True_Country
+	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
+	SWEP.Trivia_Class = SWEP.True_Class	
+end
 
 SWEP.Slot = 1
 
-SWEP.CrouchPos = Vector(0, 3, -0.5)
-SWEP.CrouchAng = Angle(0, 0, 10)
+SWEP.CrouchPos = Vector(0, 1, -0.25)
+SWEP.CrouchAng = Angle(0, 0, -5)
 
 SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 250
@@ -63,9 +74,11 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 6 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.PhysTracerProfile = 3
+
+SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 350 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 250
+SWEP.MoveDispersion = 150
 
 SWEP.Primary.Ammo = "pistol" 
 
@@ -96,8 +109,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(0.984, 5, 2.585),
-    Ang = Angle(0, 0, 45),
+    Pos = Vector(-0.89, 3, 1.46),
+    Ang = Angle(0, 0, 10),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -108,11 +121,11 @@ SWEP.HoldtypeSights = "revolver"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
-SWEP.ActivePos = Vector(0, 4, 1)
+SWEP.ActivePos = Vector(0, 2, 1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(0.8, 5.836, 1.36)
-SWEP.HolsterAng = Angle(-9.551, 4.675, 5.392)
+SWEP.HolsterPos = Vector(1, 3, 1.36)
+SWEP.HolsterAng = Angle(-9.551, 20, -15)
 
 SWEP.CustomizePos = Vector(8, 2, 3)
 SWEP.CustomizeAng = Angle(0, 23.763, 29.01)
@@ -178,25 +191,11 @@ SWEP.Attachments = {
     {
         PrintName = "Perk",
         Slot = {"fortuna_perk"}
-    },	
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"charm"},
-        Bone = "Weapon_Bolt",
-        Offset = {
-            vpos = Vector(0.5, 0.2, 2),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(8, 1, -3),
-            wang = Angle(-9, 0, 180)
-        },
-		FreeSlot = true,
-    },	
+    },
 }
 
 SWEP.Animations = {
-    ["idle"] = {Source = "idle",},
-    ["idle_empty"] = {Source = "idle_last",	},
+    ["idle"] = false,
     ["ready"] = {
         Source = "draw",
     },
@@ -227,6 +226,9 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
+		Mult = 0.95,		
+        LHIKEaseOut = 0.4,
+		MinProgress = 55/40		
     },
     ["reload_empty"] = {
         Source = "dry",
@@ -236,5 +238,8 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
+		Mult = 0.95,
+        LHIKEaseOut = 0.4,
+		MinProgress = 90/40		
     },	
 }

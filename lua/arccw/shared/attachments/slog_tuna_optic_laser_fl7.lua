@@ -25,7 +25,7 @@ att.Mult_MoveSpeed = 0.975
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 7, -2.15),
+        Pos = Vector(0, 10, -2.15),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ScrollFunc = ArcCW.SCROLL_NONE
