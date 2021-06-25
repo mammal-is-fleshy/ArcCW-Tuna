@@ -22,4 +22,4 @@ att.Mult_ShootSpeedMult = 0.85
 att.Mult_AccuracyMOA = 3
 att.Mult_SightsDispersion = 1.5
 
-att.Override_HoldtypeActive = "shotgun"
+att.Override_HoldtypeActive = "crossbow"
