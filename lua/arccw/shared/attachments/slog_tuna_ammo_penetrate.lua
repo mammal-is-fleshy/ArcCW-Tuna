@@ -1,6 +1,6 @@
 att.PrintName = "Armour Piercing"
 att.Icon = Material("entities/slog_tuna_ammo_pene.png", "mips smooth")
-att.Description = "Piercing bullets traversing at much greater distance."
+att.Description = "Piercing bullets traverse at much greater distance."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {

@@ -1,6 +1,6 @@
 att.PrintName = "Hunter's Kit"
 att.Icon = Material("entities/slog_tuna_ammo_hunt.png", "mips smooth")
-att.Description = "Hollow flesh piercing tip that do significantly damage towards extremities. Damage is reduce for body and head."
+att.Description = "Hollow flesh piercing tip that do significant damage towards extremities. Damage is reduce for body and head."
 att.Desc_Pros = {
 }
 att.Desc_Cons = {
