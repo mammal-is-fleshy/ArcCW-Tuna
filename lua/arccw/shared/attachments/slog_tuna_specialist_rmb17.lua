@@ -49,7 +49,7 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep:FireRocket("arccw_slog_tuna_rpg_exp", 3000 * ArcCW.HUToM)
 
-    wep:EmitSound("weapons/arccw_slog/fortuna/lmg/gl_fire.wav", 100)
+    wep:EmitSound("weapons/arccw_slog/fortuna/ak/fire_rpg.ogg", 100)
 
     wep:SetClip2(wep:Clip2() - 1)
     wep:SetClip1(wep:Clip1() - 1)	
