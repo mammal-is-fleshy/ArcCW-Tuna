@@ -59,12 +59,12 @@ end
 
 att.Hook_OnSelectUBGL = function(wep)
     wep:PlayAnimation("enter_nade", 1, true, nil, nil, nil, true)
-	wep:SetNextSecondaryFire(CurTime() + 103/40)
+	wep:SetReloading(CurTime() + 103/40)
 end
 
 att.Hook_OnDeselectUBGL = function(wep)
     wep:PlayAnimation("exit_nade", 1, true, nil, nil, nil, true)
-	wep:SetNextPrimaryFire(CurTime() + 99/40)	
+	wep:SetReloading(CurTime() + 99/40)	
 end
 
 
@@ -76,7 +76,7 @@ att.UBGL_Reload = function(wep, ubgl)
     if Ammo(wep) <= 0 then return end
 
     wep:PlayAnimation(wep:Clip2() == 0 and "oicw_dry", 1, true, nil, nil, nil, true)
-	wep:SetNextSecondaryFire(CurTime() + 112/40)	
+	wep:SetNextSecondaryFire(CurTime() + 103/40)	
 
     local reserve = Ammo(wep)
 

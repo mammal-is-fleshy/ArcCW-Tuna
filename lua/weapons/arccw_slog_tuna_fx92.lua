@@ -78,7 +78,8 @@ SWEP.Firemodes = {
         Mode = 2,
     },
 	    {
-        Mode = 1,
+        Mode = -3,
+		Mult_RPM = 2,
     },	
     {
         Mode = 0

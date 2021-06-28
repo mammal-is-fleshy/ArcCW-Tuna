@@ -17,6 +17,9 @@ Infinity Ward:
 -Sounds (MW19, IW)
 -Base mesh for c_hands (MW2)
 
+Valve:
+-Organic sound (Half Life Alyx)
+
 google images:
 -references, sorry i forgot to bookmark all the artist i stole     :/
 
@@ -30,6 +33,7 @@ slogkot:
 -2 Custom C_hands
 -Everything else 
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
+-Leviathan sounds (with actual proper sound mixing bullshit)
 
 fish 
 
@@ -66,8 +70,10 @@ Extra/Non contribting (6)
 
 
 Design, Role Explain Thing: (chrononical order)
-FX-92: f2000 + (xm8/g36), i want a bulky ar to fit "late game" tier but had to nerf it so it wouldnt just beat every other thing so the reload is even longer than a belt fed, might nerfed it too hard, idk
-AWRX-6: (m590/mass26) + (arx/scar/zh06), "mid game" tier weapon, underbarrel shotgun cuz im buck main deal with it		- dont call this a m4 thing, i dont even have any m4 ref for this one, xcept the irons i guess
+FX-92: f2000 + (xm8/g36), i want a bulky ar to fit "late game" tier slow firing kinda battle rifle bullshit, 40 round cuz fuck you
+		but had to nerf it so it wouldnt just beat every other thing so the reload is even longer than a belt fed, might nerfed it too hard, idk
+AWRX-6: (m590/mass26) + (arx/scar/zh06), "mid game" tier weapon, basically your bitch boy generic assault rifle #20451112155
+		underbarrel shotgun cuz im buck main deal with it		- dont call this a m4 thing, i dont even have any m4 ref for this one, xcept the irons i guess
 DB-14: (spas/marlin), i want a spas, i also want a m1887, you can see the rest of my thought process
 Adler-442: rsh12 + that one weird looking ass carbine revolver on google images, i want revolver for novelty but im also missing dmr role
 H4WK-18: just a g3 with like 2 parts of a cetme lc, for some reason i wanted to Do a g3, and i hate myself so enjoy the anim		- fr doe theres like 0 different between a cetme and a g3 lmao, they all look the same
@@ -75,7 +81,7 @@ APX-10: apc9 + ump, original draft has xm8 parts but i had to scrap it, i want s
 VT0R-5: sten mk5 but not, i want side fed mag, i want an actual lmg belt, i want another fast firing, i want MW19 FiNN, therefore- this
 RMB-17: (an94/amb16) "late game-ish" tier suppressed weapon, i dont want to Do some bitch boy mp5sd and i swore to not include an ak, and im missing actual explosive-y anti tank weapon
 	   so i look at a bunch of ak derivatives and a famas, the rpg concept is from the obviously well known concept, rest is a mash of amb16, an94, that one finnish and hugarian ak, with "cool parts" from an ak12 and cz805,
-Leviathan: fish but one of them cage spine thinggie like dolphin and not vertical? spine thinggie like trout
+Leviathan: fish but one of them cage spine thinggie like dolphin and not vertical? flat spine thinggie like trout
 Text
 
 

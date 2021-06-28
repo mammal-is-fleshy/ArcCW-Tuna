@@ -38,8 +38,8 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_notasval.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_fx92.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 52
-SWEP.DamageMin = 23 -- damage done at maximum range
+SWEP.Damage = 48
+SWEP.DamageMin = 21 -- damage done at maximum range
 SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 12
 SWEP.DamageType = DMG_BULLET
@@ -60,7 +60,7 @@ SWEP.RecoilSide = 0.325
 SWEP.RecoilRise = 0.75
 SWEP.VisualRecoilMult = 0.65
 
-SWEP.Delay = 60 / 600 -- 60 / RPM.
+SWEP.Delay = 60 / 670 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
