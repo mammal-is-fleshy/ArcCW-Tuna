@@ -57,10 +57,10 @@ SWEP.MaxRecoilBlowback = 3
 
 SWEP.Recoil = 1.25
 SWEP.RecoilSide = 0.75
-SWEP.RecoilRise = 0.8
+SWEP.RecoilRise = 0.5
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 500 -- 60 / RPM.
+SWEP.Delay = 60 / 560 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
@@ -187,7 +187,7 @@ SWEP.Attachments = {
         Slot = {"fortuna_fg"},
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, 1.4, 9),
+            vpos = Vector(0, 0.4, 9),
             vang = Angle(90, 0, -90),
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)

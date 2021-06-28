@@ -18,3 +18,5 @@ att.Mult_SightTime = 1.1
 att.Mult_SightedSpeedMult = 0.85
 
 att.Override_HoldtypeActive = "smg"
+
+att.ModelOffset = Vector(0, 0, -1)

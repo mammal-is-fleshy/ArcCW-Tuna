@@ -17,3 +17,5 @@ att.Mult_SightedSpeedMult = 0.85
 att.Mult_HipDispersion = 1.1
 
 att.Override_HoldtypeActive = "ar2"
+
+att.ModelOffset = Vector(0, 0, -1)

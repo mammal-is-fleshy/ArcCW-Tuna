@@ -169,7 +169,7 @@ SWEP.Attachments = {
         Slot = {"fortuna_fg"},
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, 0, 12),
+            vpos = Vector(0, -1, 12),
             vang = Angle(90, 0, -90),
         },
     },		
