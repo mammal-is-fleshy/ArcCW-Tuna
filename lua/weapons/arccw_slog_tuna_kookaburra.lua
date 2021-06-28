@@ -39,7 +39,7 @@ SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_fx92.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 52
-SWEP.DamageMin = 31 -- damage done at maximum range
+SWEP.DamageMin = 23 -- damage done at maximum range
 SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 12
 SWEP.DamageType = DMG_BULLET
@@ -107,8 +107,8 @@ SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
 SWEP.SightTime = 0.325
 
-SWEP.SpeedMult = 0.85
-SWEP.SightedSpeedMult = 0.65
+SWEP.SpeedMult = 0.875
+SWEP.SightedSpeedMult = 0.75
 
 SWEP.BarrelLength = 22
 

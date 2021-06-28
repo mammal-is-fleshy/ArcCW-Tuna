@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "SVA-442"
+SWEP.PrintName = "Adler-442"
 SWEP.Trivia_Class = "Designated Marksman Rifle"
 SWEP.Trivia_Desc = "Carbine revolver with extra long cartridge."
 SWEP.Trivia_Manufacturer = "SRL Corp"

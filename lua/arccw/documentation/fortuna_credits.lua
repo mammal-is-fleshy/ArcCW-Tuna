@@ -3,7 +3,7 @@ Project ForTuna, a 98% self made mod
 "I have never seen such incompenent cunts who have so much influence like HOW"
 
 [Created by slogkot (formerly known as Fleshy Mammal)]
-[Ask me If you want to reuse some of *my* assets]
+[If you want to use these anim, NO, these are tailor made specifically for this mod and this aesthetic]
 
 
 Itzal:
@@ -18,12 +18,12 @@ Infinity Ward:
 -Base mesh for c_hands (MW2)
 
 google images:
--references, sorry i forgot to bookmark all the artist i stole the design from :/
+-references, sorry i forgot to bookmark all the artist i stole     :/
 
 
 slogkot:
--Concept [partially] (IMR, SeRv-45, APX-10)
--Concept [factually] (DB-14, AWRX-6, SVA-442, VT0R-5, RMB-17) -- im getting good at this
+-Concept [partially] (IMR, SeRv-45, APX-10, Leviathan)
+-Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17) -- im getting good at this
 -Models
 -"Textures" (Palettes are still texture i swear !111!1!)
 -Animations
@@ -47,12 +47,13 @@ Revolver (Done)
 Antique (Done)
 Anti Tank Rifle (Done)
 
-Laser (in progress)
-Akimbo (in progress)
+Akimbo (pretty much done)
+Bio Weapon (pretty much done)
 
-Bio Weapon (sketching)
-Stationary MG (scrapped)
-SMG_DMR Hybrid (scrapped??)
+Laser (low priority)
+
+Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
+SMG_DMR Hybrid (scrapped??) -- i just realise how useless that is
 
 
 
@@ -67,13 +68,14 @@ Extra/Non contribting (6)
 Design, Role Explain Thing: (chrononical order)
 FX-92: f2000 + (xm8/g36), i want a bulky ar to fit "late game" tier but had to nerf it so it wouldnt just beat every other thing so the reload is even longer than a belt fed, might nerfed it too hard, idk
 AWRX-6: (m590/mass26) + (arx/scar/zh06), "mid game" tier weapon, underbarrel shotgun cuz im buck main deal with it		- dont call this a m4 thing, i dont even have any m4 ref for this one, xcept the irons i guess
-DB-14: spas/marlin, i want a spas, i also want a m1887, you can see the rest of my thought process
-SVA-442: rsh12 + that one weird looking ass carbine revolver on google images, i want revolver for novelty but im also missing dmr role
+DB-14: (spas/marlin), i want a spas, i also want a m1887, you can see the rest of my thought process
+Adler-442: rsh12 + that one weird looking ass carbine revolver on google images, i want revolver for novelty but im also missing dmr role
 H4WK-18: just a g3 with like 2 parts of a cetme lc, for some reason i wanted to Do a g3, and i hate myself so enjoy the anim		- fr doe theres like 0 different between a cetme and a g3 lmao, they all look the same
 APX-10: apc9 + ump, original draft has xm8 parts but i had to scrap it, i want some hk vector, Close enough
 VT0R-5: sten mk5 but not, i want side fed mag, i want an actual lmg belt, i want another fast firing, i want MW19 FiNN, therefore- this
 RMB-17: (an94/amb16) "late game-ish" tier suppressed weapon, i dont want to Do some bitch boy mp5sd and i swore to not include an ak, and im missing actual explosive-y anti tank weapon
 	   so i look at a bunch of ak derivatives and a famas, the rpg concept is from the obviously well known concept, rest is a mash of amb16, an94, that one finnish and hugarian ak, with "cool parts" from an ak12 and cz805,
+Leviathan: fish but one of them cage spine thinggie like dolphin and not vertical? spine thinggie like trout
 Text
 
 
@@ -111,6 +113,11 @@ Face-ish Pace reload, each with its own style so you never feel the same thing
 Realism = Fail
 EACH MUST BE UNIQUE, BE IT STATS OR VISUAL
 
+List of failure:
+APX-10
+SeRv-45
+HL-877
+Adler-442
 
 
 

@@ -1,0 +1,5 @@
+the models have flipped normals, inconsitence scale cuz i use different modelling technique and scalling size for them
+please dont use the models
+
+actually just dont touch any of this, 
+this is mainly for me to organise shit
