@@ -1,5 +1,5 @@
 att.PrintName = "C75 (4x/1x)"
-att.Icon = Material("entities/slog_tuna_optic_hz6.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_optic_c75.png", "mips smooth")
 att.Description = "Mid range hybrid scope with backup reflex."
 
 att.SortOrder = 4
@@ -42,9 +42,9 @@ att.AdditionalSights = {
 }
 
 att.Holosight = true
-att.HolosightReticle = Material("slog_tuna_reticle/long.png", "mips smooth")
+att.HolosightReticle = Material("slog_tuna_reticle/3x.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 9
+att.HolosightSize = 8
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/slog_osi_suck/att/c75_hsp.mdl"
 att.Colorable = true

@@ -1,5 +1,5 @@
 att.PrintName = "B42 (3x)"
-att.Icon = Material("entities/slog_tuna_optic_hz6.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_optic_b42.png", "mips smooth")
 att.Description = "CQC combat scope with backup irons."
 
 att.SortOrder = 3
@@ -41,9 +41,9 @@ att.AdditionalSights = {
 }
 
 att.Holosight = true
-att.HolosightReticle = Material("slog_tuna_reticle/parenth_scope.png", "mips smooth")
+att.HolosightReticle = Material("slog_tuna_reticle/4x.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 10.5
+att.HolosightSize = 8.5
 att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/slog_osi_suck/att/b42_hsp.mdl"
 att.Colorable = true

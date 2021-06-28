@@ -81,7 +81,6 @@ SWEP.MoveDispersion = 120
 SWEP.Primary.Ammo = "357" 
 
 SWEP.ShootVol = 110 -- volume of shoot sound
-SWEP.ShootPitch = 100 -- pitch of shoot sound
 
 SWEP.ShootSound = "weapons/arccw_slog/fortuna/leviathan/fire.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rev/fire_sd.ogg"
