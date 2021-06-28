@@ -31,3 +31,5 @@ att.HolosightBone = "holosight"
 att.Colorable = true
 
 att.Mult_SightTime = 1.0125
+
+att.ModelOffset = Vector(0, 0, 0.1)

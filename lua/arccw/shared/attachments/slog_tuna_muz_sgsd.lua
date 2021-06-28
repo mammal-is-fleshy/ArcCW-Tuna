@@ -19,7 +19,7 @@ att.Silencer = true
 att.Override_MuzzleEffect = "muzzleflash_suppressed"
 att.IsMuzzleDevice = true
 
-att.Mult_ShootPitch = 0.85
+att.Mult_ShootPitch = 0.885
 att.Mult_ShootVol = 0.65
 att.Mult_AccuracyMOA = 0.75
 att.Mult_Range = 1.25
