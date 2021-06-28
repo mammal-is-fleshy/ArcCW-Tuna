@@ -55,8 +55,8 @@ att.HolosightMagnification = 2.5
 att.HolosightMagnificationMin = 2.5
 att.HolosightMagnificationMax = 5
 
-att.Mult_SightTime = 1.075
-att.Mult_SightedSpeedMult = 0.95
+att.Mult_SightTime = 1.055
+att.Mult_SightedSpeedMult = 0.975
 
 att.ModelOffset = Vector(0, 0, -0.1)
 
