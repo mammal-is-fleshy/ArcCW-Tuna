@@ -27,7 +27,7 @@ att.AdditionalSights = {
     {
         Pos = Vector(0, 10, -2.15),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.25,
+        Magnification = 1.15,
         ScrollFunc = ArcCW.SCROLL_NONE
     }
 }

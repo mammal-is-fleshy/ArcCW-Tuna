@@ -1,5 +1,5 @@
 att.PrintName = "Dragon's Breath"
-att.Icon = Material("entities/slog_tuna_ammo_frac.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_ammo_flame.png", "mips smooth")
 att.Description = "Flaming shell that burns everything in its path."
 att.Desc_Pros = {
 }

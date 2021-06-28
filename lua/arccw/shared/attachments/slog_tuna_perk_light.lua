@@ -1,5 +1,5 @@
 att.PrintName = "Hollow Core"
-att.Icon = Material("entities/slog_tuna_perk_fast.png", "mips smooth")
+att.Icon = Material("entities/slog_tuna_perk_hollow.png", "mips smooth")
 att.Description = "Removes any part unnecessary and replace the shell with a lighter material. Speed for controllability"
 att.Desc_Pros = {
 }
