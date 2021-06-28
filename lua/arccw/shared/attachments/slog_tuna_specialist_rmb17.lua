@@ -58,13 +58,19 @@ att.UBGL_Fire = function(wep, ubgl)
 end
 
 att.Hook_OnSelectUBGL = function(wep)
-    wep:PlayAnimation("enter_nade", 1, true, nil, nil, nil, true)
-	wep:SetReloading(CurTime() + 103/40)
+    if wep:Clip2() == 0 then
+        wep:ReloadUBGL()
+    else
+        wep:PlayAnimation("enter_nade", 1, true, nil, nil, nil, true)
+        wep:SetReloading(CurTime() + 103/40)
+    end
 end
 
 att.Hook_OnDeselectUBGL = function(wep)
-    wep:PlayAnimation("exit_nade", 1, true, nil, nil, nil, true)
-	wep:SetReloading(CurTime() + 99/40)	
+    if wep:Clip2() != 0 then
+        wep:PlayAnimation("exit_nade", 1, true, nil, nil, nil, true)
+        wep:SetReloading(CurTime() + 99/40)
+    end
 end
 
 
