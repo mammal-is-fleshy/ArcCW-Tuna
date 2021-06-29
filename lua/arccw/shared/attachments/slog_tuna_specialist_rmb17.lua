@@ -60,6 +60,7 @@ att.Hook_OnDeselectUBGL = function(wep)
     if wep:Clip2() != 0 then
         wep:PlayAnimation("exit_nade", 1, true, nil, nil, nil, true)
         wep:SetReloading(CurTime() + 99/40)
+		wep:SetNextPrimaryFire(CurTime() + 99/40)	--- fes cunt u lie to me
     end
 end
 
