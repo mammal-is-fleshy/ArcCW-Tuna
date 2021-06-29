@@ -5,7 +5,7 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
 }
-att.SortOrder = 10000
+att.SortOrder = 1000000
 att.AutoStats = true
 att.Slot = {"fortuna_optic_saw"}
 

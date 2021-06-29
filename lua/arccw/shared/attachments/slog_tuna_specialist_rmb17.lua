@@ -13,16 +13,6 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.Slot = "slog_tuna_specialist_rmb17"
 
-att.Mult_MoveSpeed = 0.85
-
-att.Mult_SightTime = 1.5
-att.Mult_Recoil = 0.8
-att.Mult_RPM = 0.9
-
-att.Mult_ShootPitch = 0.8
-
-att.Add_BarrelLength = 15
-
 att.UBGL = true
 att.ExcludeFlags = {"ubgl"}
 
