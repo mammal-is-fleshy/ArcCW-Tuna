@@ -88,7 +88,7 @@ att.UBGL_Fire = function(wep, ubgl)
 	})													
     wep:SetClip2(wep:Clip2() - 1)
     
-    if wep:Clip2() > 0 then
+    if wep:Clip2() >= 0 then
         wep:PlayAnimation("fire_2", 1, true, nil, nil, nil, true)
     end
 

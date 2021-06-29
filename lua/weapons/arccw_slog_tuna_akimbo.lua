@@ -30,7 +30,7 @@ SWEP.CrouchAng = Angle(0, 0, -5)
 SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 250
 
-SWEP.CamAttachment = 3
+---SWEP.CamAttachment = 3
 
 SWEP.UseHands = true
 
@@ -122,8 +122,8 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.ActivePos = Vector(0, 2, 1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(1, 3, 1.36)
-SWEP.HolsterAng = Angle(-9.551, 20, -15)
+SWEP.HolsterPos = Vector(0, -5, -5)
+SWEP.HolsterAng = Angle(30, 0, 0)
 
 SWEP.CustomizePos = Vector(8, 2, 3)
 SWEP.CustomizeAng = Angle(0, 23.763, 29.01)
@@ -242,7 +242,7 @@ SWEP.Animations = {
     ["dry_lug_rev"] = {
         Source = "dry_lug_rev",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
-		MinProgress = 90/40,
+		MinProgress = 168/40,
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/pistol/foley1.wav", 		t = 0/60},
 						{s = "weapons/arccw_slog/fortuna/rev/open.wav", 		t = 8/40},
@@ -261,7 +261,7 @@ SWEP.Animations = {
     ["wet_lug_rev"] = {
         Source = "wet_lug_rev",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,
-		MinProgress = 90/40,
+		MinProgress = 142/40,
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/pistol/foley1.wav", 		t = 0/60},
 						{s = "weapons/arccw_slog/fortuna/rev/open.wav", 		t = 8/40},
