@@ -8,7 +8,7 @@ att.Slot = "slog_tuna_specialist_akimbo"
 att.UBGL = true
 att.ExcludeFlags = {"ubgl"}
 
-att.UBGL_Icon = Material("entities/slog_tuna_specialist_awrx6.png", "mips smooth")
+att.UBGL_Icon = Material("entities/slog_tuna_specialist_akimbo.png", "mips smooth")
 att.UBGL_BaseAnims = true
 
 att.UBGL_PrintName = "Revolver"
@@ -104,17 +104,18 @@ att.UBGL_Reload = function(wep, ubgl)
 
     if Ammo(wep) <= 0 then return end
 	
-    if wep:Clip2() >= 0 and wep:Clip1() == 0 then --- dont laugh at this
-        wep:PlayAnimation("dry_lug_rev", 1, true, nil, nil, nil, true) --- y dis no work :((((((
-        wep:SetReloading(CurTime() + 190/40)
-        wep:SetNextSecondaryFire(CurTime() + 190/40)
-		wep:SetNextPrimaryFire(CurTime() + 190/40)		
-	end
     if wep:Clip2() >= 0 and wep:Clip1() <= 8 then
         wep:PlayAnimation("wet_lug_rev", 1, true, nil, nil, nil, true)
         wep:SetReloading(CurTime() + 161/40)
         wep:SetNextSecondaryFire(CurTime() + 161/40)
 		wep:SetNextPrimaryFire(CurTime() + 161/40)			
+	end
+	
+    if wep:Clip2() >= 0 and wep:Clip1() == 0 then --- dont laugh at this
+        wep:PlayAnimation("dry_lug_rev", 1, true, nil, nil, nil, true) --- y dis no work :((((((
+        wep:SetReloading(CurTime() + 190/40)
+        wep:SetNextSecondaryFire(CurTime() + 190/40)
+		wep:SetNextPrimaryFire(CurTime() + 190/40)		
 	end
     if wep:Clip2() >= 0 and wep:Clip1() == 9 then
         wep:PlayAnimation("dry_rev", 1, true, nil, nil, nil, true)
