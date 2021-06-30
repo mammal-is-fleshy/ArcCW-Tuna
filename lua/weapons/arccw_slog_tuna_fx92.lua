@@ -80,6 +80,7 @@ SWEP.Firemodes = {
 	    {
         Mode = -3,
 		Mult_RPM = 2,
+		AutoBurst = true,		
     },	
     {
         Mode = 0

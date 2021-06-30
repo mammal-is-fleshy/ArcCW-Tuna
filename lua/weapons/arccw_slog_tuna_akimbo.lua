@@ -24,9 +24,6 @@ end
 
 SWEP.Slot = 1
 
-SWEP.CrouchPos = Vector(0, 1, -0.25)
-SWEP.CrouchAng = Angle(0, 0, -5)
-
 SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 250
 
@@ -55,9 +52,9 @@ SWEP.ChamberSize = 1
 SWEP.Primary.ClipSize = 8 
 SWEP.MaxRecoilBlowback = 3
 
-SWEP.Recoil = 0.75
-SWEP.RecoilSide = 0.35
-SWEP.RecoilRise = 1.25
+SWEP.Recoil = 1
+SWEP.RecoilSide = 0.4
+SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
 SWEP.Delay = 60 / 700 -- 60 / RPM.
@@ -65,6 +62,7 @@ SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
     {
+		PrintName = "Pistol",
         Mode = 1,
     },
     {
@@ -74,7 +72,7 @@ SWEP.Firemodes = {
 
 SWEP.PhysTracerProfile = 3
 
-SWEP.AccuracyMOA = 3 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 5 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 300
 
@@ -96,7 +94,7 @@ SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
 SWEP.SightTime = 0.2
 
-SWEP.SpeedMult = 1
+SWEP.SpeedMult = 0.95
 SWEP.SightedSpeedMult = 0.75
 
 SWEP.BarrelLength = 14
@@ -119,7 +117,7 @@ SWEP.HoldtypeSights = "revolver"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
-SWEP.ActivePos = Vector(0, 2, 1)
+SWEP.ActivePos = Vector(0, 4, 1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterPos = Vector(0, -5, -5)

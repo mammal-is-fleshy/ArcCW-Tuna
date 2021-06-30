@@ -4,8 +4,8 @@ SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
 SWEP.PrintName = "HL-887"
-SWEP.Trivia_Class = "Submachine Gun"
-SWEP.Trivia_Desc = "Compact machine pistol, the latest addition to the frontier."
+SWEP.Trivia_Class = "Machine Pistol"
+SWEP.Trivia_Desc = "Compact 3 round burst machine pistol, the latest addition to the frontier."
 SWEP.Trivia_Manufacturer = "SRL Corp"
 SWEP.Trivia_Country = "Vrenzie"
 SWEP.Trivia_Calibre = "9x19mm"
@@ -60,7 +60,7 @@ SWEP.RecoilSide = 0.75
 SWEP.RecoilRise = 0.8
 SWEP.VisualRecoilMult = 0.65
 
-SWEP.Delay = 60 / 900 -- 60 / RPM.
+SWEP.Delay = 60 / 1050 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
@@ -75,12 +75,9 @@ end
 
 SWEP.Firemodes = {
     {
-        Mode = 2,
-    },
-    {
         Mode = -3,
-		Mult_RPM = 1.25,
-    },	
+		AutoBurst = true,		
+    },
     {
         Mode = 0
     }
