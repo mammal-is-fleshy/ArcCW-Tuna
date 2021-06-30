@@ -135,7 +135,7 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
-SWEP.SprintPos = Vector(-1, 5, 3)
+SWEP.SprintPos = Vector(0, 5, 1)
 SWEP.SprintAng = Angle(0, 0, 0)
 SWEP.CustomizePos = Vector(5, 5, -0.5)
 SWEP.CustomizeAng = Angle(15, 17, 12)
@@ -252,14 +252,30 @@ end
 
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
-	["idle_sprint"] = {Source = "sprint", Mult = 1.25},
-	["enter_sprint"] = {Source = "sprint_in", Mult = 1.5},	
-	["exit_sprint"] = {Source = "sprint_out", Mult = 1.75},		
+	["idle_sprint"] = {Source = "sprint", Mult = 1.25, LHIK = true, LHIKIn = 0, LHIKOut = 0,},
+	["enter_sprint"] = {Source = "sprint_in", Mult = 1.75,        
+		LHIK = true,
+        LHIKEaseIn = 0.2,		
+        LHIKIn = 0.35,
+        LHIKOut = 0,},	
+	["exit_sprint"] = {Source = "sprint_out", Mult = 1.85,
+	    LHIK = true,	
+        LHIKIn = 0,
+        LHIKOut = 1,
+		LHIKEaseOut = 0.2,},		
 
 	["idle_ubgl"] = {Source = "nade_idle",},	
-	["idle_sprint_gl"] = {Source = "sprint_gl", Mult = 1.25},
-	["enter_sprint_gl"] = {Source = "sprint_in_gl", Mult = 1.5},	
-	["exit_sprint_gl"] = {Source = "sprint_out_gl", Mult = 1.75},		
+	["idle_sprint_gl"] = {Source = "sprint_gl", Mult = 1.25, LHIK = true, LHIKIn = 0, LHIKOut = 0,},
+	["enter_sprint_gl"] = {Source = "sprint_in_gl", Mult = 1.75,        
+		LHIK = true,
+        LHIKEaseIn = 0.2,		
+        LHIKIn = 0.35,
+        LHIKOut = 0,},	
+	["exit_sprint_gl"] = {Source = "sprint_out_gl", Mult = 1.85,
+	    LHIK = true,	
+        LHIKIn = 0,
+        LHIKOut = 1,
+		LHIKEaseOut = 0.2,},	
 	
     ["enter_nade"] = {Source = "idle",},		
     ["exit_nade"] = {

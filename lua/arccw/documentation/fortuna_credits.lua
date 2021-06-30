@@ -58,6 +58,7 @@ Bio Weapon (pretty much done)
 VTOR RESOUNDS (Lazy)
 Laser (low priority)
 HL-877, Cmd97 SOUNDS (low priority)
+Leviathan idle, remaining sound (low priority)
 
 Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
 SMG_DMR Hybrid (scrapped??) -- i just realise how useless it is
