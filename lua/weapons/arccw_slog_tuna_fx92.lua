@@ -151,10 +151,6 @@ SWEP.ShellRotateAngle = Angle(5, 0, 40)
 SWEP.ExtraSightDist = 5
 
 SWEP.AttachmentElements = {		
-    ["slog_tuna_specialist_fx92"] = {
-	---Override_SprintPos = Vector(-0.5, 3.247, 0.239),
-	---Override_SprintAng = Angle(-13.101, 15, -16.496),
-    },	
     ["iron_no"] = {
         VMBodygroups = {
             {ind = 1, bg = 1},

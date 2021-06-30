@@ -118,8 +118,8 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.ActivePos = Vector(0, 3, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.HolsterPos = Vector(-2.8, 3.247, 0.239)
-SWEP.HolsterAng = Angle(-13.101, 7.586, -16.496)
+SWEP.HolsterPos = Vector(-0.5, 5, -1)
+SWEP.HolsterAng = Angle(-5, 15, -16.496)
 
 SWEP.CustomizePos = Vector(5, 5, 0)
 SWEP.CustomizeAng = Angle(10 , 21.236, 17)

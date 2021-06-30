@@ -32,8 +32,8 @@ att.AdditionalSights = {
         HolosightBone = "holosight",
         HolosightData = {
             Holosight = true,
-            HolosightReticle =  Material("slog_tuna_reticle/combat.png", "mips smooth"),
-            HolosightSize = 3,
+            HolosightReticle =  Material("slog_tuna_reticle/top.png", "mips smooth"),
+            HolosightSize = 5,
             Colorable = true,
             HolosightNoHSP = true
         },

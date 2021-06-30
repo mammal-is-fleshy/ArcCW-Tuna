@@ -1,8 +1,8 @@
-att.PrintName = "HZ6 (2.5-5x)"
+att.PrintName = "HZ6 (2.5-6x)"
 att.Icon = Material("entities/slog_tuna_optic_hz6.png", "mips smooth")
 att.Description = "Mid range tactical combat scope."
 
-att.SortOrder = 5
+att.SortOrder = 6
 
 att.Desc_Pros = {
     "autostat.holosight",
@@ -28,7 +28,7 @@ att.AdditionalSights = {
 }
 
 att.Holosight = true
-att.HolosightReticle = Material("slog_tuna_reticle/parenth_scope.png", "mips smooth")
+att.HolosightReticle = Material("slog_tuna_reticle/6x.png", "mips smooth")
 att.HolosightNoFlare = true
 att.HolosightSize = 14
 att.HolosightBone = "holosight"
@@ -38,9 +38,9 @@ att.Colorable = true
 att.HolosightMagnification = 2
 att.HolosightBlackbox = true
 
-att.HolosightMagnification = 2.5
+att.HolosightMagnification = 1.5
 att.HolosightMagnificationMin = 2.5
-att.HolosightMagnificationMax = 5
+att.HolosightMagnificationMax = 6
 
 att.Mult_SightTime = 1.125
 att.Mult_SightedSpeedMult = 0.92

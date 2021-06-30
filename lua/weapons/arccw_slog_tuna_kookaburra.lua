@@ -135,6 +135,8 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.HolsterPos = Vector(-0.5, 3.247, 0.239)
 SWEP.HolsterAng = Angle(-13.101, 15, -16.496)
+SWEP.SprintPos = Vector(-1, 5, 3)
+SWEP.SprintAng = Angle(0, 0, 0)
 SWEP.CustomizePos = Vector(5, 5, -0.5)
 SWEP.CustomizeAng = Angle(15, 17, 12)
 
@@ -176,7 +178,7 @@ SWEP.Attachments = {
         Slot = {"fortuna_fg"},
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -1.25, 10),
+            vpos = Vector(0, -1, 8.5),
             vang = Angle(90, 0, -90),
             wpos = Vector(14.329, 0.602, -4.453),
             wang = Angle(-10.216, 0, 180)
@@ -210,13 +212,29 @@ SWEP.Attachments = {
     },		
 }
 
-SWEP.Hook_TranslateAnimation = function(wep, anim)		
-    if wep.Attachments[6].Installed == "slog_tuna_specialist_rmb17" and wep:GetInUBGL() then
-        return anim .. "_gl"
-    end
-end
-
 SWEP.Hook_TranslateAnimation = function(wep, anim)
+    if wep:Clip2() == 1 and wep:GetInUBGL() and wep:GetState() == ArcCW.STATE_SPRINT then --- i am so sorry for this
+		if anim == "idle_ubgl" then --- dont judge me, this shit aint working
+            return "idle_sprint_gl"			
+		end	
+	end	
+	
+    if wep:Clip2() == 0 and wep:GetInUBGL() and wep:GetState() == ArcCW.STATE_SPRINT then --- your fault for looking
+		if anim == "idle_ubgl" then --- dont judge me, this shit aint working
+            return "idle_sprint"			
+		end	
+	end		
+
+    if wep:Clip2() == 1 and wep:GetInUBGL() then
+		if anim == "enter_sprint" then
+            return "enter_sprint_gl"
+		elseif anim == "exit_sprint" then
+            return "exit_sprint_gl"
+		elseif anim == "idle_sprint" then
+            return "idle_sprint_gl"				
+		end	
+	end		
+	
     if wep:Clip2() == 0 then
         if anim == "exit_nade" then
             return "exit_nade2"
@@ -232,10 +250,17 @@ SWEP.Hook_TranslateAnimation = function(wep, anim)
 	end			
 end
 
-
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
-	["idle_ubgl"] = {Source = "nade_idle",},		
+	["idle_sprint"] = {Source = "sprint", Mult = 1.25},
+	["enter_sprint"] = {Source = "sprint_in", Mult = 1.5},	
+	["exit_sprint"] = {Source = "sprint_out", Mult = 1.75},		
+
+	["idle_ubgl"] = {Source = "nade_idle",},	
+	["idle_sprint_gl"] = {Source = "sprint_gl", Mult = 1.25},
+	["enter_sprint_gl"] = {Source = "sprint_in_gl", Mult = 1.5},	
+	["exit_sprint_gl"] = {Source = "sprint_out_gl", Mult = 1.75},		
+	
     ["enter_nade"] = {Source = "idle",},		
     ["exit_nade"] = {
 		Source = "nade_deload",
@@ -336,5 +361,5 @@ SWEP.Animations = {
 						{s = "weapons/arccw_slog/fortuna/ak/rpg_in.wav", 		t = 58/40},					
 						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 80/40},						
 					},			
-    },			
+    },		
 }

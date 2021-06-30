@@ -149,46 +149,6 @@ SWEP.MirrorVMWM = true
 SWEP.GuaranteeLaser = true
 SWEP.Attachments = {
     {
-        PrintName = "Optic",
-        DefaultAttName = "Iron Sights",
-        Slot = "fortuna_optic_s",
-        Bone = "W_Bolt", 
-        Offset = {
-            vpos = Vector(0, -0.75, -0.5), 
-            vang = Angle(90, 0, -90),
-        },			
-        InstalledEles = {"iron_no"},		
-    },
-    {
-        PrintName = "Muzzle",
-        DefaultAttName = "Standard Muzzle",
-        Slot = "fortuna_muzzle_pist",
-        Bone = "W_Main",
-        Offset = {
-            vpos = Vector(0, -2.15, 6.75),
-            vang = Angle(90, 0, -90),
-        },
-    },
-    {
-        PrintName = "Tactical",
-        Slot = "fortuna_tac",
-        Bone = "W_Main",
-        Offset = {
-            vpos = Vector(0, -1.25, 4.5), 
-            vang = Angle(90, 0, -90),
-        },
-        ExtraSightDist = 10,
-        CorrectivePos = Vector(0.75, 3, 0),					
-    },
-    {
-        PrintName = "Ammo Type",
-        Slot = {"fortuna_ammo"}
-    },
-    {
-        PrintName = "Perk",
-        Slot = {"fortuna_perk"}
-    },
-    {
         PrintName = "You aren't supposed to see this",
         Slot = {"slog_tuna_specialist_akimbo"},
 		Integral = true,

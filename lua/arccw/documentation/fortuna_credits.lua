@@ -11,14 +11,14 @@ Itzal:
 
 Fesiug:
 -MW2 hand port/C_hands convert
--Random code for ent, flip optic code, stuff i cant remember
+-Random code for ent, flip optic code, rmb ubgl, akimbo base, stuff i cant remember
 
 Infinity Ward:
 -Sounds (MW19, IW)
 -Base mesh for c_hands (MW2)
 
 Valve:
--Organic sound (Half Life Alyx)
+-Sounds (Half Life Alyx)
 
 google images:
 -references, sorry i forgot to bookmark all the artist i stole     :/
@@ -27,6 +27,7 @@ google images:
 slogkot:
 -Concept [partially] (IMR, SeRv-45, APX-10, Leviathan)
 -Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17) -- im getting good at this
+-Reticle Design
 -Models
 -"Textures" (Palettes are still texture i swear !111!1!)
 -Animations
@@ -54,10 +55,12 @@ Anti Tank Rifle (Done)
 Akimbo (pretty much done)
 Bio Weapon (pretty much done)
 
+VTOR RESOUNDS (Lazy)
 Laser (low priority)
+HL-877, Cmd97 SOUNDS (low priority)
 
 Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
-SMG_DMR Hybrid (scrapped??) -- i just realise how useless that is
+SMG_DMR Hybrid (scrapped??) -- i just realise how useless it is
 
 
 
@@ -115,7 +118,7 @@ Current Philosophy
 
 The more unconventional looking the better
 The more conventional it is the weirder the reload gets
-Face-ish Pace reload, each with its own style so you never feel the same thing
+Fast-ish Pace reload, each with its own style so you never feel the same thing (kinda failed)
 Realism = Fail
 EACH MUST BE UNIQUE, BE IT STATS OR VISUAL
 
