@@ -18,7 +18,7 @@ list.Set( "NPC", "npc_tuna_hostile", NPC )
 local tuna_npc = { "models/npc/slog_osi_suck/generic_bad_guy.mdl" } ---specify a local WITH THE MODELS WE HAVE
 
 hook.Add( "PlayerSpawnedNPC", "RandomBodygroupcitizen2", function(ply,npc) 
-		if table.HasValue( tuna_npc, npc:GetModel() ) then npc:SetBodygroup( 1, math.random(0,2) ); 
+		if table.HasValue( tuna_npc, npc:GetModel() ) then npc:SetBodygroup( 1, math.random(0,1) ); 
 		end
 end)
 

@@ -32,6 +32,12 @@ local function Ammo(wep)
     return wep.Owner:GetAmmoCount("buckshot")
 end
 
+att.Hook_ShouldNotSight = function(wep)
+    if wep:GetInUBGL() then
+	return true
+	end
+end
+
 att.UBGL_Fire = function(wep, ubgl)
     if wep:Clip2() <= 0 then return end
 

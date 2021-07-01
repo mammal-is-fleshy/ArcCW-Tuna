@@ -15,7 +15,8 @@ Fesiug:
 
 Infinity Ward:
 -Sounds (MW19, IW)
--Base mesh for c_hands (MW2)
+-Base mesh for c_hands (MW2, udt hands)
+-Base mesh for NPC, PM (MW2, shadow company)
 
 Valve:
 -Sounds (Half Life Alyx)
@@ -32,6 +33,7 @@ slogkot:
 -"Textures" (Palettes are still texture i swear !111!1!)
 -Animations
 -2 Custom C_hands
+-Npc, the head at least
 -Everything else 
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
 -Leviathan sounds (with actual proper sound mixing bullshit)

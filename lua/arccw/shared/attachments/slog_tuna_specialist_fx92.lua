@@ -28,6 +28,12 @@ att.UBGL_RPM = 120
 att.UBGL_Recoil = 1
 att.UBGL_Capacity = 4
 
+att.Hook_ShouldNotSight = function(wep)
+    if wep:GetInUBGL() then
+	return true
+	end
+end
+
 local function Ammo(wep)
     return wep.Owner:GetAmmoCount("smg1_grenade")
 end
