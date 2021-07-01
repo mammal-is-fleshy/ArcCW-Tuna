@@ -85,6 +85,7 @@ APX-10: apc9 + ump, original draft has xm8 parts but i had to scrap it, i want s
 VT0R-5: sten mk5 but not, i want side fed mag, i want an actual lmg belt, i want another fast firing, i want MW19 FiNN, therefore- this
 RMB-17: (an94/amb16) "late game-ish" tier suppressed weapon, i dont want to Do some bitch boy mp5sd and i swore to not include an ak, and im missing actual explosive-y anti tank weapon
 	   so i look at a bunch of ak derivatives and a famas, the rpg concept is from the obviously well known concept, rest is a mash of amb16, an94, that one finnish and hugarian ak, with "cool parts" from an ak12 and cz805,
+	   heres a funi origin concept story, this was orginally an anti tank weapon, bascially a hyper bust m82, the original has more aps parts with its thicc ass mag and a m82 muzzle brake, then i realised how useless it is
 Leviathan: fish but one of them cage spine thinggie like dolphin and not vertical? flat spine thinggie like trout
 Text
 

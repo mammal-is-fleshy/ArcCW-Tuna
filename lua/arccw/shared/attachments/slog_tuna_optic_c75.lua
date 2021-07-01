@@ -10,6 +10,9 @@ att.Desc_Pros = {
 }
 att.Desc_Cons = {
 }
+att.Desc_Neutrals = {
+    "Double press +USE to toggle sights"
+}
 att.AutoStats = true
 att.Slot = {"fortuna_optic"}
 
@@ -19,11 +22,19 @@ att.AdditionalSights = {
     {
         Pos = Vector(0, 11.5, -2.2),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.2,
-        ScrollFunc = ArcCW.SCROLL_ZOOM,
-        ZoomLevels = 4,
-        ZoomSound = "weapons/arccw/fiveseven/fiveseven_slideback.wav",		
-        IgnoreExtra = true,
+        Magnification = 1.25,
+        ScopeMagnification = 4,
+        HolosightBone = "scope",
+        HolosightData = {
+            Holosight = true,
+            HolosightMagnification = 4,
+            HolosightReticle = Material("slog_tuna_reticle/3x.png", "mips smooth"),
+            HolosightNoFlare = true,
+            HolosightSize = 10,
+            HolosightBlackbox = true,
+            Colorable = true,
+            HolosightPiece = "models/weapons/arccw/slog_osi_suck/att/c75_hsp.mdl"
+        },
     },
     {
         Pos = Vector(0, 13, -4.2),
@@ -36,22 +47,14 @@ att.AdditionalSights = {
             HolosightSize = 5,
             Colorable = true,
             HolosightNoHSP = true
-        },
-        IgnoreExtra = true,		
+        },	
     },	
 }
 
 att.Holosight = true
-att.HolosightReticle = Material("slog_tuna_reticle/3x.png", "mips smooth")
-att.HolosightNoFlare = true
-att.HolosightSize = 10
-att.HolosightBone = "holosight"
 att.HolosightPiece = "models/weapons/arccw/slog_osi_suck/att/c75_hsp.mdl"
-att.Colorable = true
 
-att.HolosightBlackbox = true
-
-att.HolosightMagnification = 4
+att.ScopeGlint = true
 
 att.Mult_SightTime = 1.075
 att.Mult_SightedSpeedMult = 0.95
@@ -59,3 +62,8 @@ att.Mult_SightedSpeedMult = 0.95
 att.ModelOffset = Vector(0, 0, -0.08)
 
 att.ModelScale = Vector(1.25, 1.25, 1.25)
+
+att.ColorOptionsTable = {
+    Color(255, 50, 50),
+    Color(50, 255, 50)
+}

@@ -1,10 +1,26 @@
-player_manager.AddValidModel( "TUNA_ARMS", 		"models/player/group03/male_07.mdl" );
-list.Set( "PlayerOptionsModel", "TUNA_ARMS", 	"models/player/group03/male_07.mdl" );
+player_manager.AddValidModel( "TUNA_ARMS", 		"models/npc/slog_osi_suck/generic_pm1.mdl" );
+list.Set( "PlayerOptionsModel", "TUNA_ARMS", 	"models/npc/slog_osi_suck/generic_pm1.mdl" );
 player_manager.AddValidHands( "TUNA_ARMS", "models/weapons/arccw/slog_osi_suck/c_arms.mdl", 0, "00000000" )
 
-player_manager.AddValidModel( "TUNA_ARMS_2", 		"models/player/group03/male_07.mdl" );
-list.Set( "PlayerOptionsModel", "TUNA_ARMS_2", 	"models/player/group03/male_07.mdl" );
+player_manager.AddValidModel( "TUNA_ARMS_2", 		"models/npc/slog_osi_suck/generic_pm2.mdl" );
+list.Set( "PlayerOptionsModel", "TUNA_ARMS_2", 	"models/npc/slog_osi_suck/generic_pm2.mdl" );
 player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck/c_arms2.mdl", 0, "00000000" )
+
+local NPC = {	Name = "Generic Bad Guy",
+	Class = "npc_combine_s",
+	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
+	KeyValues = { citizentype = CT_UNIQUE },
+	Weapons = { "weapon_ar2", "weapon_shotgun", "weapon_smg1" },			
+	Category = "Project ForTuna",
+}
+list.Set( "NPC", "npc_tuna_hostile", NPC )
+
+local tuna_npc = { "models/npc/slog_osi_suck/generic_bad_guy.mdl" } ---specify a local WITH THE MODELS WE HAVE
+
+hook.Add( "PlayerSpawnedNPC", "RandomBodygroupcitizen2", function(ply,npc) 
+		if table.HasValue( tuna_npc, npc:GetModel() ) then npc:SetBodygroup( 1, math.random(0,2) ); 
+		end
+end)
 
 
 //Handling
