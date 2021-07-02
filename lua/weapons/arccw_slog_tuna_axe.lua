@@ -82,22 +82,6 @@ SWEP.HoldtypeHolstered = "normal"
 SWEP.HoldtypeActive = "melee"
 SWEP.DrawCrosshair = false
 
-SWEP.Attachments = {
-    {
-        PrintName = "Charm",
-        DefaultAttName = "None",
-        Slot = {"fml_charm", "charm"},
-        Bone = "Weapon_Main",
-        Offset = {
-            vpos = Vector(0.2, -4, 0),
-            vang = Angle(90, 0, -90),
-            wpos = Vector(5, 1, -3),
-            wang = Angle(-9, 0, 180)
-        },
-		FreeSlot = true,
-    },		
-}
-
 SWEP.Primary.ClipSize = -1
 
 SWEP.Animations = {

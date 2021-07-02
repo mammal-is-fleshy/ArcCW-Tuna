@@ -39,8 +39,8 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_dawnbreaker.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_dawnbreaker.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 15
-SWEP.DamageMin = 5 -- damage done at maximum range
+SWEP.Damage = 16
+SWEP.DamageMin = 7 -- damage done at maximum range
 SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 5
 SWEP.DamageType = DMG_BULLET
@@ -75,9 +75,9 @@ SWEP.Firemodes = {
 
 SWEP.PhysTracerProfile = 3
 
-SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 40 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 320 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 300
+SWEP.MoveDispersion = 170
 
 SWEP.Primary.Ammo = "buckshot" 
 
@@ -261,4 +261,13 @@ SWEP.Animations = {
     ["sgreload_finish"] = {
         Source = "end",
     },
+    ["bash"] = {
+        Source = {"melee"},
+    },	
 }
+
+SWEP.MeleeDamage = 80
+SWEP.MeleeRange = 25
+
+SWEP.MeleeTime = 0.5
+SWEP.MeleeAttackTime = 0.25
