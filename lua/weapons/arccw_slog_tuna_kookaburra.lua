@@ -278,7 +278,7 @@ SWEP.Animations = {
 	    LHIK = true,	
         LHIKIn = 0,
         LHIKOut = 1,
-		LHIKEaseOut = 0.2,},	
+		LHIKEaseOut = 0.2,		MinProgress = 10/40,},	
 	
     ["enter_nade"] = {Source = "idle",},		
     ["exit_nade"] = {
@@ -289,6 +289,7 @@ SWEP.Animations = {
         LHIKIn = 0.8,
         LHIKOut = 0.5,
         LHIKEaseOut = 0.2,
+		MinProgress = 20/40,			
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/ak/rpg_out.wav", 		t = 17/40},	
