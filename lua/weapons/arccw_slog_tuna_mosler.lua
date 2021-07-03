@@ -231,14 +231,17 @@ SWEP.Animations = {
     ["cycle"] = {
         Source = {"pump1","pump3","pump2"},
         ShellEjectAt = 0.3,
+		MinProgress = 0.875,		
     },
     ["cycle_att"] = {
         Source = {"pump1","pump3"},
         ShellEjectAt = 0.3,
+		MinProgress = 0.875,			
     },	
     ["cycle_iron"] = {
         Source = {"pump3"},
         ShellEjectAt = 0.3,
+		MinProgress = 0.95,			
     },	
     ["fire_iron"] = {
         Source = "fire",
