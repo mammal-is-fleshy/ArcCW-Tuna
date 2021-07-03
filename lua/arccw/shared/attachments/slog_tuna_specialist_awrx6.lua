@@ -69,7 +69,7 @@ att.UBGL_Fire = function(wep, ubgl)
 
 	wep:EmitSound("weapons/arccw_slog/fortuna/lmg/gl_fire.wav", 100)	
     if wep:Clip2() > 0 then			    	
-		wep:SetNextPrimaryFire(CurTime() + 30/40)	
+		wep:SetNextPrimaryFire(CurTime() + 28/40)	
         wep:PlayAnimation("shot_fire", 1, true, nil, nil, nil, true)
     else
         wep:PlayAnimation("shot_last", 1, true, nil, nil, nil, true)
@@ -78,6 +78,21 @@ att.UBGL_Fire = function(wep, ubgl)
     wep:DoEffects()
 
 end
+
+att.Hook_OnSelectUBGL = function(wep)
+    wep:SetReloading(CurTime() + 15/40)
+	wep:SetNextPrimaryFire(CurTime() + 15/40)	
+	wep:SetNextSecondaryFire(CurTime() + 15/40)		
+    wep:PlayAnimation("enter_ubgl", 1, true, nil, nil, nil, true)	
+end
+
+att.Hook_OnDeselectUBGL = function(wep)
+    wep:SetReloading(CurTime() + 15/40)
+	wep:SetNextPrimaryFire(CurTime() + 15/40)
+    wep:PlayAnimation("exit_ubgl", 1, true, nil, nil, nil, true)		
+end
+
+
 
 att.UBGL_Reload = function(wep, ubgl)
 	local clip = 4 + 1

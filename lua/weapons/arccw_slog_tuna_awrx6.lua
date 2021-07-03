@@ -244,8 +244,7 @@ SWEP.Animations = {
     },
     ["shot_fire"] = {
         Source = "shot_fire",
-        ShellEjectAt = 0,
-		Mult = 34/47 --- cope		
+        ShellEjectAt = 0,	
     },	
     ["shot_last"] = {
         Source = "shot_last",
