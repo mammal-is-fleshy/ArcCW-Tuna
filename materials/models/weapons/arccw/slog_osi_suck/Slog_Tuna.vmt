@@ -10,4 +10,7 @@
 "$phongalbedotint"			 "1"
 "$phongexponent" 			"20"
 "$phongfresnelranges" 			"[2 3 12]"
+
+	$rimlight						"1"
+	$rimlightboost					"0.00005"	
 }
