@@ -266,6 +266,10 @@ SWEP.Animations = {
     },
     ["bash"] = {
         Source = {"melee"},
+        LHIK = true,		
+        LHIKIn = 0.35,
+        LHIKOut = 0.6,
+        LHIKEaseOut = 0.4,		
     },	
 }
 

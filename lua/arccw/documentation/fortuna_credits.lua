@@ -94,6 +94,14 @@ Leviathan: fish but one of them cage spine thinggie like dolphin and not vertica
 Text
 
 
+Shit in need of redesign
+APX-10
+IMR
+SeRv-45 ????
+
+
+
+
 
 the focus of FS2R was how much shit can i add to an existing gun before burnout
 the focus of Tuna is how much shit can i design/make before boredom 
