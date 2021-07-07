@@ -135,13 +135,15 @@ The more conventional it is the weirder the reload gets
 Fast-ish Pace reload, each with its own style so you never feel the same thing (kinda failed)
 Realism = Fail
 EACH MUST BE UNIQUE, BE IT STATS OR VISUAL
+Visual comes first doe
 
 List of failure:
-APX-10
-SeRv-45
-HL-877
-Adler-442
-
+IMR -- generic, indistinguishable
+APX-10 -- generic, indistinguishable
+SeRv-45 -- generic, indistinguishable
+HL-877 -- burst is never good, reused anim
+Adler-442 -- damage is ass but it has to be ass, cant find a work around without making it one shot kill
+Akimbo --- its one of those thing that is good on monday and shit on the rest
 
 
 
