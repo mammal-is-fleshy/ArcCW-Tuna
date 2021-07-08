@@ -67,7 +67,18 @@ NPC exclusive weapon (very very very low priority)
 Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
 SMG_DMR Hybrid (scrapped??) -- i just realise how useless it is
 
+Lineage: (design and gameplay wise)
+Pistol 			-> Burst Pistol  		-> SMG 							-> Miniature LMG
+				-> Hard hitting Pistol 	-> More than one shot gun
+										-> Hard hitting SMG
+										
+Generic rifle	-> Hard hitting Rifle 	-> Anti Tank Hard hitting Rifle -> Belt Fed Grenade Launcher
+				-> Anti door Rifle 		-> Explosive shooting Rifle 
+										-> Belt Fed
+										
+Pump Shotgun 	-> One shot Shotgun 	-> Auto Shotgun
 
+One shot gun 	-> More than one shot gun
 
 Extra/Non contribting (6)
 +Bravo-9
@@ -138,12 +149,12 @@ EACH MUST BE UNIQUE, BE IT STATS OR VISUAL
 Visual comes first doe
 
 List of failure:
-IMR -- generic, indistinguishable
-APX-10 -- generic, indistinguishable
-SeRv-45 -- generic, indistinguishable
-HL-877 -- burst is never good, reused anim
-Adler-442 -- damage is ass but it has to be ass, cant find a work around without making it one shot kill
-Akimbo --- its one of those thing that is good on monday and shit on the rest
+IMR [visual]-- generic, indistinguishable
+APX-10 [visual, stats] -- generic, indistinguishable
+SeRv-45 [visual, stats] -- generic, indistinguishable
+HL-877 [stats]-- burst is never good, also reused anim
+Adler-442 [stats]-- damage is ass but it has to be ass, cant find a work around without making it one shot kill
+Akimbo [???]--- its one of those thing that is good on monday and shit on the rest
 
 
 
