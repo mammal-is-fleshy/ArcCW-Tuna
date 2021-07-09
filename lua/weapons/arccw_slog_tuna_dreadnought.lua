@@ -38,13 +38,15 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_fish.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_fish.mdl"
 SWEP.ViewModelFOV = 70
 
+
 SWEP.Damage = 30
 SWEP.DamageMin = 4 -- damage done at maximum range
 SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 17
 SWEP.DamageType = DMG_BULLET + DMG_AIRBOAT
-SWEP.ShootEntity = nil -- entity to fire, if any
-SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
+
+SWEP.ShootEntity = "arccw_slog_tuna_dn_proj"
+SWEP.MuzzleVelocity = 20000
 -- IN M/S
 
 SWEP.TracerNum = 1 -- tracer every X
@@ -61,7 +63,7 @@ SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
 SWEP.Delay = 60 / 150 -- 60 / RPM.
-SWEP.Num = 12 -- number of shots per trigger pull.
+SWEP.Num = 8
 
 SWEP.Firemodes = {
 	{
@@ -74,7 +76,7 @@ SWEP.Firemodes = {
 
 SWEP.PhysTracerProfile = 6
 
-SWEP.AccuracyMOA = 60 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 80 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 120
 
@@ -105,7 +107,7 @@ SWEP.IronSightStruct = {
     Pos = Vector(-3.401, 5, 0.56),
     Ang = Angle(0, 0, 10),
     Magnification = 1.1,
-    SwitchToSound = "", -- sound that plays when switching to this sight
+    CrosshairInSights = true,
 }
 
 SWEP.HoldtypeHolstered = "passive"
