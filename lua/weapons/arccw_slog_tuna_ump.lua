@@ -173,7 +173,7 @@ SWEP.Attachments = {
         Slot = "fortuna_optic",
         Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -4.5, 0), 
+            vpos = Vector(0, -4.4, 0), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -184,7 +184,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.125, 12.5),
+            vpos = Vector(0, -2.125, 12.75),
             vang = Angle(90, 0, -90),
         },
     },
@@ -243,8 +243,8 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.2,
-        LHIKOut = 0.6,
-        LHIKEaseOut = 0.4,
+        LHIKOut = 0.4,
+        LHIKEaseOut = 0.2,
 		MinProgress = 60/40			
     },
     ["reload_empty"] = {
@@ -253,7 +253,7 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.5,
-        LHIKEaseOut = 0.3,
+        LHIKEaseOut = 0.2,
 		MinProgress = 97/40			
     },	
 }
