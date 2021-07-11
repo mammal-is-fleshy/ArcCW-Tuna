@@ -62,7 +62,7 @@ SWEP.RecoilSide = 1.25
 SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 150 -- 60 / RPM.
+SWEP.Delay = 60 / 220 -- 60 / RPM.
 SWEP.Num = 12
 
 SWEP.Firemodes = {

@@ -27,7 +27,7 @@ SWEP.Slot = 1
 SWEP.CrouchPos = Vector(-1, -1.5, -1)
 SWEP.CrouchAng = Angle(0, 0, -10)
 
-SWEP.NPCWeaponType = "weapon_smg1"
+SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 250
 
 SWEP.CamAttachment = 3
@@ -121,8 +121,8 @@ SWEP.IronSightStruct = {
 SWEP.PhysTracerProfile = 3
 
 SWEP.HoldtypeHolstered = "passive"
-SWEP.HoldtypeActive = "ar2"
-SWEP.HoldtypeSights = "rpg"
+SWEP.HoldtypeActive = "pistol"
+SWEP.HoldtypeSights = "revolver"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
@@ -153,7 +153,7 @@ SWEP.AttachmentElements = {
 }
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-8, 5.5, -4),
+    pos = Vector(-8.5, 5, -3),
     ang = Angle(-10, 0, 180-5)
 }
 
