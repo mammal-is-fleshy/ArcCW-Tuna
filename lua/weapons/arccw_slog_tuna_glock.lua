@@ -75,7 +75,7 @@ end
 
 SWEP.Firemodes = {
     {
-        Mode = -3,
+        Mode = -5,
 		AutoBurst = true,		
     },
     {
@@ -185,7 +185,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.125, 12.5),
+            vpos = Vector(0, -3.3, 8.5),
             vang = Angle(90, 0, -90),
         },
     },	

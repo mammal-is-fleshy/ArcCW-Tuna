@@ -28,3 +28,4 @@ att.Mult_RecoilSide = 1.25
 att.Mult_VisualRecoilMult = 0.85
 
 att.Mult_RPM = 1.125
+att.ModelOffset = Vector(0, 0, 0.1)

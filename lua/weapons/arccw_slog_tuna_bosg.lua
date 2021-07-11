@@ -55,8 +55,8 @@ SWEP.ChamberSize = 0 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 2 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 3
 
-SWEP.Recoil = 1.5
-SWEP.RecoilSide = 1.25
+SWEP.Recoil = 2
+SWEP.RecoilSide = 4
 SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
