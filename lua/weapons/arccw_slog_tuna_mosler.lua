@@ -50,7 +50,7 @@ SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 
 SWEP.TracerNum = 1 -- tracer every X
 SWEP.TracerCol = Color(255, 25, 25)
-SWEP.TracerWidth = 3
+SWEP.TracerWidth = 5
 
 SWEP.ChamberSize = 0 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
