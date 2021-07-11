@@ -186,10 +186,11 @@ SWEP.Attachments = {
         Slot = "fortuna_tac",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0.95, -2.15, 8), 
-            vang = Angle(90, 0, 0),
+            vpos = Vector(0, -2.4, 7), 
+            vang = Angle(90, 0, -90),
         },
         ExtraSightDist = 10,
+        InstalledEles = {"rail_yes"},		
         CorrectivePos = Vector(0.75, 3, 0),					
     },
     {
