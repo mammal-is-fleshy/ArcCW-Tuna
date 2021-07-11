@@ -52,7 +52,7 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 33 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 34 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 1.5
 
 SWEP.Recoil = 0.55
@@ -67,7 +67,7 @@ SWEP.Firemodes = {
     {
         Mode = -3,
         RunawayBurst = true,
-        PostBurstDelay = 0.275,		
+        PostBurstDelay = 0.225,		
 		AutoBurst = true,		
     },
     {

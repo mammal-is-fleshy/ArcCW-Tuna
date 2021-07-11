@@ -192,7 +192,7 @@ SWEP.Attachments = {
         Slot = "fortuna_tac",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(1.2, -1.1, 8), 
+            vpos = Vector(1, -1.05, 8), 
             vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,
@@ -237,9 +237,9 @@ SWEP.Animations = {
 		MinProgress = 72/40,
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/rifle/foley.wav", 		t = 0/40},					
-						{s = "weapons/arccw_slog/fortuna/rifle/4out.wav", 			t = 41/40},
+						{s = "weapons/arccw_slog/fortuna/rifle/4out.wav", 			t = 35/40},
 						{s = "weapons/arccw_slog/fortuna/rifle/foley2.wav", 		t = 16/40},						
-						{s = "weapons/arccw_slog/fortuna/rifle/in.wav", 			t = 65/40},						
+						{s = "weapons/arccw_slog/fortuna/rifle/in.wav", 			t = 60/40},						
 						{s = "weapons/arccw_slog/fortuna/rifle/foley3.wav", 		t = 82/40},						
 					},				
     },

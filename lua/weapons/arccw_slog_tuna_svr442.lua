@@ -188,6 +188,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = {"fortuna_ammo"}
     },
+    {
+        PrintName = "Perk",
+        Slot = {"fortuna_perk"}
+    },		
 }
 
 SWEP.Animations = {

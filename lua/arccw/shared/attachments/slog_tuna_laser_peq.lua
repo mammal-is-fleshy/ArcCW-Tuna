@@ -12,7 +12,7 @@ att.Slot = {"fortuna_tac"}
 att.Model = "models/weapons/arccw/slog_osi_suck/att/laser_peq.mdl"
 
 att.Laser = true
-att.LaserStrength = 0.25
+att.LaserStrength = 0.8
 att.LaserBone = "laser"
 
 att.ColorOptionsTable = {Color(255, 0, 0)}
@@ -23,5 +23,5 @@ att.Mult_SightTime = 0.9
 
 att.Mult_MoveSpeed = 0.95
 
-att.ModelScale = Vector(0.8, 0.8, 0.8)
-att.ModelOffset = Vector(0.05, 0, -0.05)
+att.ModelScale = Vector(1.2, 1.2, 1.2)
+att.ModelOffset = Vector(0, 0, 0)

@@ -93,7 +93,7 @@ SWEP.ShellScale = 1.5
 
 SWEP.MuzzleEffectAttachment = 1
 
-SWEP.SightTime = 0.225
+SWEP.SightTime = 0.2
 
 SWEP.SpeedMult = 0.875
 SWEP.SightedSpeedMult = 0.75
@@ -187,6 +187,10 @@ SWEP.Attachments = {
         PrintName = "Ammo Type",
         Slot = {"fortuna_ammo_sg"}
     },
+    {
+        PrintName = "Perk",
+        Slot = {"fortuna_perk"}
+    },		
 }
 
 SWEP.Animations = {
