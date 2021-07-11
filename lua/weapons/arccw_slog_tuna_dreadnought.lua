@@ -63,7 +63,7 @@ SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 
 SWEP.Delay = 60 / 150 -- 60 / RPM.
-SWEP.Num = 8
+SWEP.Num = 12
 
 SWEP.Firemodes = {
 	{
@@ -76,7 +76,7 @@ SWEP.Firemodes = {
 
 SWEP.PhysTracerProfile = 6
 
-SWEP.AccuracyMOA = 80 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 120 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 200 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 120
 

@@ -196,6 +196,9 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
+        LHIK = true,	
+        LHIKOut = 0.4,
+        LHIKEaseOut = 0.1,		
     },
     ["fire"] = {
         Source = "fire",
