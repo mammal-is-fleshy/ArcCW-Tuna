@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = {"fortuna_ammo", "fortuna_ammo_sg"}
+att.Slot = {"fortuna_ammo", "fortuna_ammo_sg", "fortuna_ammo_rf"}
 
 att.Hook_BulletHit = function(wep, data)
     if CLIENT then return end

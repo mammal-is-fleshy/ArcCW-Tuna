@@ -9,7 +9,7 @@ att.AutoStats = true
 att.Slot = {"fortuna_ammo_sg"}
 
 att.Mult_RPM = 0.375
-att.Mult_AccuracyMOA = 0.5
+att.Mult_AccuracyMOA = 0.25
 att.Mult_Damage = 1.15
 att.Mult_DamageMin = 0.75
 att.Mult_Range = 0.25

@@ -27,7 +27,7 @@ google images:
 
 slogkot:
 -Concept [partially] (IMR, SeRv-45, APX-10, Leviathan)
--Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17) -- im getting good at this
+-Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60) -- im getting good at this
 -Reticle Design
 -Models
 -"Textures" (Palettes are still texture i swear !111!1!)
@@ -80,13 +80,14 @@ Pump Shotgun 	-> One shot Shotgun 	-> Auto Shotgun
 
 One shot gun 	-> More than one shot gun
 
-Extra/Non contribting (6)
+Extra/Non contribting (8)
 +Bravo-9
 +IMR
 +APX-10
 +VT0R-5
 +HL-877
-
++Raptor-67
++FR-60
 
 Design, Role Explain Thing: (chrononical order)
 FX-92: f2000 + (xm8/g36), i want a bulky ar to fit "late game" tier slow firing kinda battle rifle bullshit, 40 round cuz fuck you
@@ -102,6 +103,9 @@ RMB-17: (an94/amb16) "late game-ish" tier suppressed weapon, i dont want to Do s
 	   so i look at a bunch of ak derivatives and a famas, the rpg concept is from the obviously well known concept, rest is a mash of amb16, an94, that one finnish and hugarian ak, with "cool parts" from an ak12 and cz805,
 	   heres a funi origin concept story, this was orginally an anti tank weapon, bascially a hyper bust m82, the original has more aps parts with its thicc ass mag and a m82 muzzle brake, then i realised how useless it is
 Leviathan: fish but one of them cage spine thinggie like dolphin and not vertical? flat spine thinggie like trout
+Raptor-67: i hate shotgun, so not even break action
+FR-60: burst sucks but famas good
+
 Text
 
 

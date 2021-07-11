@@ -55,27 +55,19 @@ SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 33 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 1.5
 
-SWEP.Recoil = 0.85
-SWEP.RecoilSide = 0.75
-SWEP.RecoilRise = 0.8
+SWEP.Recoil = 0.55
+SWEP.RecoilSide = 0.25
+SWEP.RecoilRise = 0.25
 SWEP.VisualRecoilMult = 0.65
 
-SWEP.Delay = 60 / 1050 -- 60 / RPM.
+SWEP.Delay = 60 / 800 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
-
-SWEP.Hook_ModifyRPM = function(wep, delay)
-    local max = math.min(14, wep:GetCapacity())
-
-    local delta = wep:GetBurstCount() / max
-
-    local mult = Lerp(delta, 1, 1.5)
-
-    return delay / mult
-end
 
 SWEP.Firemodes = {
     {
-        Mode = -5,
+        Mode = -3,
+        RunawayBurst = true,
+        PostBurstDelay = 0.275,		
 		AutoBurst = true,		
     },
     {
@@ -83,8 +75,8 @@ SWEP.Firemodes = {
     }
 }
 
-SWEP.AccuracyMOA = 8 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 300 -- inaccuracy added by hip firing.
+SWEP.AccuracyMOA = 8 
+SWEP.HipDispersion = 300
 SWEP.MoveDispersion = 100
 
 SWEP.Primary.Ammo = "pistol" 

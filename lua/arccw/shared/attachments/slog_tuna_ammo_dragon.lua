@@ -6,7 +6,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Slot = {"fortuna_ammo_sg"}
+att.Slot = {"fortuna_ammo_sg", "fortuna_ammo_rf"}
 
 att.Mult_RPM = 0.85
 att.Mult_Recoil = 1.15
