@@ -15,7 +15,7 @@ if SERVER then
 
     function ENT:Initialize()
         local balls = ents.Create("point_combine_ball_launcher")
-        local pos = self:GetPos() + self:GetForward() * 64
+        local pos = self:GetPos() + self:GetForward() * 32
         local s = IsValid(self.Inflictor) and (self.Inflictor:GetBuff("MuzzleVelocity")) or 15000
         balls:SetPos(pos)
         balls:Spawn()

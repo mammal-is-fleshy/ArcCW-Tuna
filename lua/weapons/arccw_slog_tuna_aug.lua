@@ -94,9 +94,8 @@ SWEP.Primary.Ammo = "smg1"
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
-SWEP.FirstShootSound = "weapons/arccw_slog/fortuna/rifle/3fire.ogg"
-SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/32fire.ogg"
-SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/2firesd.mp3"
+SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/6fire.ogg"
+SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/6firesd.ogg"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_5"
@@ -170,7 +169,7 @@ SWEP.Attachments = {
         Slot = "fortuna_optic",
         Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -4.5, 3.5), 
+            vpos = Vector(0, -5.5, 3.5), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -181,7 +180,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.95, 21),
+            vpos = Vector(0, -2.6, 14),
             vang = Angle(90, 0, -90),
         },
     },
@@ -190,7 +189,7 @@ SWEP.Attachments = {
         Slot = "fortuna_tac",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0.8, -2.8, 10), 
+            vpos = Vector(0.95, -4, 7), 
             vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,

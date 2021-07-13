@@ -23,13 +23,13 @@ att.UBGL_PrintName = "Dark Matter"
 att.UBGL_Automatic = false
 att.UBGL_MuzzleEffect = "muzzleflash_m79"
 att.UBGL_ClipSize = 1
-att.UBGL_Ammo = "ar2altfire"
+att.UBGL_Ammo = "AR2AltFire"
 att.UBGL_RPM = 120
-att.UBGL_Recoil = 1
+att.UBGL_Recoil = 0.5
 att.UBGL_Capacity = 1
 
 local function Ammo(wep)
-    return wep.Owner:GetAmmoCount("ar2altfire")
+    return wep.Owner:GetAmmoCount("AR2AltFire")
 end
 
 att.Hook_ShouldNotSight = function(wep)
@@ -45,7 +45,7 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep:SetClip2(wep:Clip2() - 1)
 
-	wep:EmitSound("weapons/arccw_slog/fortuna/lmg/gl_fire.wav", 100)			    		
+	wep:EmitSound("weapons/arccw_slog/fortuna/rifle/6nade.ogg", 100)			    		
     wep:PlayAnimation("fire_ubgl", 1, true, nil, nil, nil, true)
 
     wep:DoEffects()
@@ -84,7 +84,7 @@ att.UBGL_Reload = function(wep, ubgl)
 
     local load = math.Clamp(5, 0, reserve)
 
-    wep.Owner:SetAmmo(reserve - load, "ar2altfire")
+    wep.Owner:SetAmmo(reserve - load, "AR2AltFire")
 
     wep:SetClip2(load)
 end

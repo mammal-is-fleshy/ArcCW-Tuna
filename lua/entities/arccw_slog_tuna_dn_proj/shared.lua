@@ -7,7 +7,7 @@ ENT.Spawnable = false
 ENT.AdminSpawnable = false
 ENT.ArcCW_Killable = true
 
-ENT.Model = "models/weapons/arccw/slog_osi_suck/shell_bones.mdl"
+----ENT.Model = "models/weapons/arccw/slog_osi_suck/shell_bones.mdl"
 
 AddCSLuaFile()
 
@@ -16,8 +16,6 @@ if SERVER then
     function ENT:Initialize()
 		local Forward = self:EyeAngles():Forward()
         local Flet = ents.Create("hunter_flechette")
-        local pos = self:GetPos() + self:GetForward() * 32
-        local s = IsValid(self.Inflictor) and (self.Inflictor:GetBuff("MuzzleVelocity")) or 1000
         Flet:SetPos( self.Owner:GetShootPos() + Forward * 32 )
         Flet:Spawn()
 		Flet:SetVelocity( Forward * 2000 )
