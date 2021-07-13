@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "AICW-57"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "New line of infantry rifle. comes with an mounted antimatter launcher."
+SWEP.Trivia_Desc = "New line of infantry rifle. Comes with an mounted antimatter launcher. Don't shoot it at your feet."
 SWEP.Trivia_Manufacturer = "XLR Munitions"
 SWEP.Trivia_Country = "Vrenzie"
 SWEP.Trivia_Calibre = "5.7x35mm"
@@ -167,9 +167,9 @@ SWEP.Attachments = {
         PrintName = "Optic",
         DefaultAttName = "Iron Sights",
         Slot = "fortuna_optic",
-        Bone = "W_Main", 
+        Bone = "W_Barrel", 
         Offset = {
-            vpos = Vector(0, -5.5, 3.5), 
+            vpos = Vector(-0.522438, -3, 3.9), -- very specific number
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -184,6 +184,18 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },
     },
+    {
+        PrintName = "Underbarrel",
+        Slot = {"fortuna_fg"},
+        Bone = "W_Main",
+        Offset = {
+            vpos = Vector(0, -1.5, 9),
+            vang = Angle(90, 0, -90),
+            wpos = Vector(14.329, 0.602, -4.453),
+            wang = Angle(-10.216, 0, 180)
+        },
+        InstalledEles = {"rail1"},		
+    },		
     {
         PrintName = "Tactical",
         Slot = "fortuna_tac",
@@ -257,7 +269,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
-        LHIKOut = 0.8,
+        LHIKOut = 0.5,
         LHIKEaseOut = 0.4,
 		MinProgress = 77/40,
         SoundTable = {
@@ -274,7 +286,7 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
-        LHIKOut = 0.6,
+        LHIKOut = 0.5,
         LHIKEaseOut = 0.4,
 		MinProgress = 105/40,	
         SoundTable = {
@@ -293,7 +305,8 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.35,
-        LHIKOut = 0.5, 
+        LHIKOut = 0.5,
+        LHIKEaseOut = 0.4,
         SoundTable = {
 						{s = "weapons/arccw_slog/fortuna/rifle/foley.wav", 			t = 0/40},
 						{s = "weapons/arccw_slog/fortuna/rev/open.wav", 			t = 8/40},	
