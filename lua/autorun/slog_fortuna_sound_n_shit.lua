@@ -6,14 +6,27 @@ player_manager.AddValidModel( "TUNA_ARMS_2", 		"models/npc/slog_osi_suck/generic
 list.Set( "PlayerOptionsModel", "TUNA_ARMS_2", 	"models/npc/slog_osi_suck/generic_pm2.mdl" );
 player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck/c_arms2.mdl", 0, "00000000" )
 
+------------------------
+
 local NPC = {	Name = "Generic Bad Guy",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
-	KeyValues = { citizentype = CT_UNIQUE },
-	Weapons = { "weapon_ar2", "weapon_shotgun", "weapon_smg1" },			
+	Weapons = { "weapon_ar2", "weapon_shotgun", "weapon_smg1" },		
+	SpawnFlags = 8192,
 	Category = "Project ForTuna",
 }
 list.Set( "NPC", "npc_tuna_hostile", NPC )
+
+local NPC = {	Name = "Generic Mine",
+	Class = "combine_mine",
+	Model = "models/npc/slog_osi_suck/mine_npc.mdl",
+	KeyValues = { Modification = 1, StartDisarmed = 0, ExplosionDamage = 200	},	
+	Category = "Project ForTuna",
+}
+list.Set( "NPC", "npc_tuna_mine", NPC )
+
+
+------------------------
 
 local tuna_npc = { "models/npc/slog_osi_suck/generic_bad_guy.mdl" } ---specify a local WITH THE MODELS WE HAVE
 
