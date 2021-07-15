@@ -27,7 +27,7 @@ google images:
 
 slogkot:
 -Concept [partially] (IMR, SeRv-45, APX-10, Leviathan)
--Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60) -- im getting good at this
+-Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60, AICW) -- im getting good at this
 -Reticle Design
 -Models
 -"Textures" (Palettes are still texture i swear !111!1!)
@@ -53,14 +53,14 @@ Dual mode Melee (Done)
 Revolver (Done)
 Antique (Done)
 Anti Tank Rifle (Done)
+Bio Weapon (Done)
 
 Akimbo (pretty much done)
-Bio Weapon (pretty much done)
 
-VTOR RESOUNDS (Lazy)
 Laser (low priority)
 HL-877, Cmd97 SOUNDS (low priority)
 Leviathan idle, remaining sound (low priority)
+Worldmodel [rmb17, cmd97] (very very very low priority)
 
 NPC exclusive weapon (very very very low priority)
 
@@ -80,7 +80,7 @@ Pump Shotgun 	-> One shot Shotgun 	-> Auto Shotgun
 
 One shot gun 	-> More than one shot gun
 
-Extra/Non contribting (8)
+Extra/Non contribting (9)
 +Bravo-9
 +IMR
 +APX-10
@@ -88,6 +88,7 @@ Extra/Non contribting (8)
 +HL-877
 +Raptor-67
 +FR-60
++AICW
 
 Design, Role Explain Thing: (chrononical order)
 FX-92: f2000 + (xm8/g36), i want a bulky ar to fit "late game" tier slow firing kinda battle rifle bullshit, 40 round cuz fuck you
@@ -105,14 +106,16 @@ RMB-17: (an94/amb16) "late game-ish" tier suppressed weapon, i dont want to Do s
 Leviathan: fish but one of them cage spine thinggie like dolphin and not vertical? flat spine thinggie like trout
 Raptor-67: i hate shotgun, so not even break action
 FR-60: burst sucks but famas good
-
+AICW: 	its a real thing apparently, well not the half open grenade tube bullshit
+		idk If its just me but i couldnt Find a single refernce for how this thing work, just a vague silhouette so i have no idea how the "advance" icw works since it has one mag and 2 barrels
+		"A" stands for advance, not kiwi, i think,   so just oicw but aussie trademark free
 Text
 
 
 Shit in need of redesign
-APX-10
 IMR
 SeRv-45 ????
+R60 (scope)
 
 
 

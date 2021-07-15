@@ -11,7 +11,7 @@ player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck
 local NPC = {	Name = "Generic Bad Guy",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
-	Weapons = { "weapon_ar2", "weapon_shotgun", "weapon_smg1" },		
+	Weapons = { "arccw_slog_tuna_awrx6" },		
 	SpawnFlags = 8192,
 	Category = "Project ForTuna",
 }
@@ -28,7 +28,7 @@ list.Set( "NPC", "npc_tuna_mine", NPC )
 
 ------------------------
 
-local tuna_npc = { "models/npc/slog_osi_suck/generic_bad_guy.mdl" } ---specify a local WITH THE MODELS WE HAVE
+local tuna_npc = { "models/npc/slog_osi_suck/generic_bad_guy.mdl" } ---extra steps
 
 hook.Add( "PlayerSpawnedNPC", "RandomBodygroupcitizen2", function(ply,npc) 
 		if table.HasValue( tuna_npc, npc:GetModel() ) then npc:SetBodygroup( 1, math.random(0,1) ); 
