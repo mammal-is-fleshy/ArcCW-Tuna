@@ -10,8 +10,8 @@ Itzal:
 -"Concept" Art (Bravo-9, Borus-27, EGL-4, IMR, APX-10, HL-877) [with actual permission too,         i think i asked him]
 
 Fesiug:
--MW2 hand port/C_hands convert
--Random code for ent, flip optic code, rmb ubgl, akimbo base, stuff i cant remember
+-MW2 hand port/C_hands convert for the base c_hands mesh
+-Random code for ent, flip optic code, rmb ubgl, akimbo base, being an annoying cunt, stuff i cant remember
 
 Infinity Ward:
 -Sounds (MW19, IW)
@@ -32,11 +32,17 @@ slogkot:
 -Models
 -"Textures" (Palettes are still texture i swear !111!1!)
 -Animations
--2 Custom C_hands
+-C_hands
 -Npc, the head at least
--Everything else 
+-Literally everything
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
 -Leviathan sounds (with actual proper sound mixing bullshit)
+
+-------------
+all the foley, aside from the Leviathan is from mw19
+the Leviathan sound is mixed from hla
+the firing sounds are mised from mw19, iw, and sometimes hla
+-------------
 
 fish 
 
@@ -44,7 +50,7 @@ fish
 
 Sanity Check List:
 Belt Fed (Done, twice)
-AR_GL Hybrid (Done)
+AR_GL Hybrid (Done, 3 times)
 AR_SG Hybrid (Done)
 Bolt Action (Done)
 Lever Action (Done)
@@ -54,6 +60,7 @@ Revolver (Done)
 Antique (Done)
 Anti Tank Rifle (Done)
 Bio Weapon (Done)
+Really retarded reload (>3 times)
 
 Akimbo (pretty much done)
 
