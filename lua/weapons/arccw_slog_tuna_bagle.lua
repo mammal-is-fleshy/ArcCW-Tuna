@@ -5,16 +5,16 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Omega-75D"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Ballistic pistol. Standard sidearm across the frontier."
-SWEP.Trivia_Manufacturer = "DRS Arms"
+SWEP.Trivia_Desc = "Integrally suppressed sidearm. Highest punch in the pistol group."
+SWEP.Trivia_Manufacturer = "SRL Corp"
 SWEP.Trivia_Country = "Vrenzie"
-SWEP.Trivia_Calibre = ".75MBG "
-SWEP.Trivia_Year = "2174"
+SWEP.Trivia_Calibre = ".75MBG"
+SWEP.Trivia_Year = "2171"
 
-SWEP.TrueName = "Piss-Off"
-SWEP.True_Country = "Germ"
-SWEP.True_Manufacturer = "Holger n Koochie"
-SWEP.True_Class = "Willy"
+SWEP.TrueName = "A Brand New Colonizer"
+SWEP.True_Country = "northbotten"
+SWEP.True_Manufacturer = "cheese n balls"
+SWEP.True_Class = "Owl is better than eagle"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
     SWEP.Trivia_Country = SWEP.True_Country
