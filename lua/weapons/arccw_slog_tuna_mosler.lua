@@ -278,3 +278,4 @@ SWEP.MeleeRange = 25
 
 SWEP.MeleeTime = 0.5
 SWEP.MeleeAttackTime = 0.25
+SWEP.MeleeSwingSound = "weapons/foley/melee.wav"
