@@ -52,7 +52,7 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 3
 
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 34 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 35 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 1.5
 
 SWEP.Recoil = 0.55
@@ -67,7 +67,7 @@ SWEP.Firemodes = {
     {
         Mode = -3,
         RunawayBurst = true,
-        PostBurstDelay = 0.225,		
+        PostBurstDelay = 0.2125,		
 		AutoBurst = true,		
     },
     {
@@ -183,10 +183,10 @@ SWEP.Attachments = {
     },	
     {
         PrintName = "Tactical",
-        Slot = "fortuna_tac",
+        Slot = "fortuna_tac_pistol",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.4, 7), 
+            vpos = Vector(0, -2.2, 7.5), 
             vang = Angle(90, 0, -90),
         },
         ExtraSightDist = 10,
