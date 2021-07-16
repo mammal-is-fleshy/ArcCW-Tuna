@@ -61,7 +61,7 @@ SWEP.RecoilSide = 1.5
 SWEP.RecoilRise = 1.25
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 450 -- 60 / RPM.
+SWEP.Delay = 60 / 370 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
@@ -127,7 +127,7 @@ SWEP.ActiveAng = Angle(0, 0, 0)
 SWEP.HolsterPos = Vector(-2, 2, -1)
 SWEP.HolsterAng = Angle(-15, 10, -20)
 
-SWEP.CustomizePos = Vector(8, -2, -5)
+SWEP.CustomizePos = Vector(4, -2, -5)
 SWEP.CustomizeAng = Angle(20, 10, 10)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
