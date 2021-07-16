@@ -116,7 +116,7 @@ Shit in need of redesign
 IMR
 SeRv-45 ????
 R60 (scope)
-
+AICW Irons
 
 
 
@@ -161,7 +161,7 @@ APX-10 [visual, stats] -- generic, indistinguishable
 SeRv-45 [visual, stats] -- generic, indistinguishable
 HL-877 [stats]-- burst is never good, also reused anim
 Adler-442 [stats]-- damage is ass but it has to be ass, cant find a work around without making it one shot kill
-Akimbo [???]--- its one of those thing that is good on monday and shit on the rest
+Akimbo [???]--- its one of those thing that feels good on monday and shit on the rest
 
 
 
