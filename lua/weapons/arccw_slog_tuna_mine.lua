@@ -1,5 +1,5 @@
 SWEP.Base = "arccw_base"
-SWEP.Spawnable = false -- this obviously has to be set to true
+SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
@@ -25,11 +25,14 @@ SWEP.Firemodes = {
 	{
         Mode = 1,
     },	
-    {
-        Mode = 0
-    }
 }
 
+SWEP.ChamberSize = 0 
+SWEP.Primary.ClipSize = 0
+
+SWEP.Delay = 60 / 600
+SWEP.TriggerDelay = true
+SWEP.CamAttachment = 1
 SWEP.Recoil = 0
 SWEP.RecoilSide = 0
 SWEP.RecoilRise = 0
@@ -39,6 +42,8 @@ SWEP.RecoilPunch = 0
 SWEP.RecoilPunchBackMax = 0
 SWEP.RecoilVMShake = 0
 
+SWEP.AutoReload = true
+SWEP.Disposable = true
 SWEP.Slot = 4
 
 SWEP.NotForNPCs = true
@@ -56,20 +61,31 @@ SWEP.WorldModelOffset = {
 
 SWEP.Primary.ClipSize = 1
 
-SWEP.MuzzleVelocity = 5
-SWEP.ShootEntity = "fortuna_ent_hax"
+SWEP.MuzzleVelocity = 20
+SWEP.ShootEntity = "arccw_slog_tuna_mine_exp"
 
 SWEP.Primary.Ammo = "slam"
 
+SWEP.Hook_TranslateAnimation = function(wep, anim)
+    if wep:Clip1() == 0 then
+        if anim == "trigger" then
+            return "draws"	
+		end	
+	end			
+end
+
 SWEP.Animations = {
 	["idle"] = false,
+	["reload"] = {Source = "draw",},
     ["draw"] = {
         Source = "draw",
     },
-    ["pre_throw"] = {
+    ["trigger"] = {
         Source = "prep",
+		MinProgress = 40/40
     },
-    ["throw"] = {
+    ["trigger_empty"] = false,
+    ["fire"] = {
         Source = "drop",
         TPAnim = ACT_HL2MP_GESTURE_RANGE_ATTACK_GRENADE,
     }
