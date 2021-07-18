@@ -53,7 +53,7 @@ SWEP.TracerCol = Color(255, 25, 25)
 SWEP.TracerWidth = 8
 
 SWEP.ChamberSize = 0 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 10
+SWEP.Primary.ClipSize = 11
 SWEP.MaxRecoilBlowback = 5
 
 SWEP.Recoil = 2.2
