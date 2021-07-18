@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Omega-75D"
 SWEP.Trivia_Class = "Pistol"
-SWEP.Trivia_Desc = "Integrally suppressed sidearm. Highest punch in the pistol group."
+SWEP.Trivia_Desc = "Integrally suppressed sidearm. Highest punch in the pistol group. Comes with a knife for CQC."
 SWEP.Trivia_Manufacturer = "SRL Corp"
 SWEP.Trivia_Country = "Vrenzie"
 SWEP.Trivia_Calibre = ".75MBG"

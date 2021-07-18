@@ -11,16 +11,16 @@ player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck
 local NPC = {	Name = "Generic Bad Guy",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
-	Weapons = { "arccw_slog_tuna_awrx6" },		
-	SpawnFlags = 8192,
+	Weapons = { "arccw_slog_tuna_awrx6_npc" },		
+	SpawnFlags = 8192,  --- no weapon drop
 	Category = "Project ForTuna",
 }
 list.Set( "NPC", "npc_tuna_hostile", NPC )
 
-local NPC = {	Name = "Generic Mine",
+local NPC = {	Name = "Generic Mine", -- ofc its gonna be an ent later, for testing purpose
 	Class = "combine_mine",
 	Model = "models/npc/slog_osi_suck/mine_npc.mdl",
-	KeyValues = { Modification = 1, StartDisarmed = 0, ExplosionDamage = 200	},	
+	KeyValues = { Modification = 1, StartDisarmed = 0, ExplosionDamage = 200 },	 -- i dont think damage work
 	Category = "Project ForTuna",
 }
 list.Set( "NPC", "npc_tuna_mine", NPC )

@@ -27,7 +27,7 @@ google images:
 
 slogkot:
 -Concept [partially] (IMR, SeRv-45, APX-10, Leviathan)
--Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60, AICW) -- im getting good at this
+-Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60, AICW, Omega-75D) -- im getting good at this
 -Reticle Design
 -Models
 -"Textures" (Palettes are still texture i swear !111!1!)
@@ -116,6 +116,7 @@ FR-60: burst sucks but famas good
 AICW: 	its a real thing apparently, well not the half open grenade tube bullshit
 		idk If its just me but i couldnt Find a single refernce for how this thing work, just a vague silhouette so i have no idea how the "advance" icw works since it has one mag and 2 barrels
 		"A" stands for advance, not kiwi, i think,   so just oicw but aussie trademark free
+Omega-75D: i really want a stealth-ish Type of gun with a knife, and i hate pistol so the loudest, most inaccurate gun integrally suppressed and super accurate
 Text
 
 
