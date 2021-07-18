@@ -61,7 +61,7 @@ SWEP.RecoilSide = 1.5
 SWEP.RecoilRise = 1.2
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 600 -- 60 / RPM.
+SWEP.Delay = 60 / 400 -- 60 / RPM.
 SWEP.Num = 10 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
@@ -155,7 +155,7 @@ SWEP.Attachments = {
         Slot = "fortuna_optic",
         Bone = "W_Main", 
         Offset = {
-            vpos = Vector(0, -2.9, 3.5), 
+            vpos = Vector(0, -2.45, -1.5), 
             vang = Angle(90, 0, -90),
         },			
         InstalledEles = {"iron_no"},		
@@ -166,7 +166,7 @@ SWEP.Attachments = {
         Slot = "fortuna_muzzle",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -1.65, 17),
+            vpos = Vector(0, -1.65, 19),
             vang = Angle(90, 0, -90),
         },
     },
@@ -225,39 +225,68 @@ SWEP.Animations = {
     },
     ["sgreload_start"] = {
         Source = "start",
+        LHIK = true,
+        LHIKEaseIn = 0.3,		
+        LHIKIn = 0.5,
+        LHIKOut = 0,
+        LHIKEaseOut = 0,		
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
     },
     ["sgreload_start_empty"] = {
         Source = "dry",
+        LHIK = true,
+        LHIKEaseIn = 0.2,		
+        LHIKIn = 1.8,
+        LHIKOut = 0,
+        LHIKEaseOut = 0,			
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         ShellEjectAt = 21/40,		
     },
     ["sgreload_insert"] = {
+        LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0,
         Source = "load1",   
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         TPAnimStartTime = 0.3,
     },
     ["sgreload_insert1"] = {
+        LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0,	
         Source = "load1",     
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         TPAnimStartTime = 0.3,
     },
     ["sgreload_insert2"] = {
+        LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0,
         Source = "load2",     
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         TPAnimStartTime = 0.3,
     },
     ["sgreload_insert3"] = {
+        LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0,
         Source = "load3",    
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         TPAnimStartTime = 0.3,
     },
     ["sgreload_insert4"] = {
+        LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0,
         Source = "load4",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         TPAnimStartTime = 0.3,
     },
     ["sgreload_finish"] = {
         Source = "end",
+		LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0.8,
+        LHIKEaseOut = 0.5,
     },
 }
