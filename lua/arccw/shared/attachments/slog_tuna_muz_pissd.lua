@@ -34,3 +34,7 @@ att.Override_MuzzleEffectAttachment = 1
 att.Hook_Compatible = function(wep)
     if wep:GetIsShotgun() then return false end
 end
+
+
+att.GivesFlags = {"muz_long"}
+att.ExcludeFlags = {"tac_short"}

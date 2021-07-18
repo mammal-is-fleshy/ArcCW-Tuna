@@ -182,7 +182,7 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
-        Slot = "fortuna_muzzle",
+        Slot = {"fortuna_muzzle"},
         Bone = "W_Main",
         Offset = {
             vpos = Vector(0, -1.4, 13.5),
@@ -191,10 +191,10 @@ SWEP.Attachments = {
     },	
     {
         PrintName = "Tactical",
-        Slot = "fortuna_tac",
+        Slot = {"fortuna_tac", "fortuna_knife_muz"},
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0.075, -1.25, 11), 
+            vpos = Vector(0.5, -1.25, 11), 
             vang = Angle(90, 0, 0),
         },
         ExtraSightDist = 10,

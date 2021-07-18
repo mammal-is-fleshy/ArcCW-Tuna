@@ -36,3 +36,7 @@ att.ModelOffset = Vector(0, 0, 0.15)
 att.Hook_Compatible = function(wep)
     if wep:GetIsShotgun() then return false end
 end
+
+
+att.GivesFlags = {"muz_long"}
+att.ExcludeFlags = {"tac_short"}

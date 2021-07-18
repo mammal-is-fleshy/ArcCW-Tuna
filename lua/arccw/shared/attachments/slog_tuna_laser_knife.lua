@@ -8,7 +8,7 @@ att.Desc_Cons = {
     "con.beam"
 }
 att.AutoStats = true
-att.Slot = {"fortuna_tac_pistol"}
+att.Slot = {"fortuna_tac_pistol", "fortuna_knife_muz"}
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/laser_knife.mdl"
 
@@ -28,3 +28,7 @@ att.Override_BashPreparePos = Vector(2, -2, -2.6)
 att.Override_BashPrepareAng = Angle(8, 4, 5)
 att.Override_BashPos = Vector(1.2, 12, -1.8)
 att.Override_BashAng = Angle(4, 6, 0)
+
+
+att.ExcludeFlags = {"muz_long"}
+att.GivesFlags = {"tac_short"}

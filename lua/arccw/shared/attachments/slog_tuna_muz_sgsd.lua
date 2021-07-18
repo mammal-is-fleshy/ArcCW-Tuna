@@ -32,3 +32,7 @@ att.Add_BarrelLength = 10
 att.Override_MuzzleEffectAttachment = 1
 
 att.ModelOffset = Vector(0, 0, 0.15)
+
+
+att.GivesFlags = {"muz_long"}
+att.ExcludeFlags = {"tac_short"}
