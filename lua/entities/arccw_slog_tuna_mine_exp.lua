@@ -11,9 +11,6 @@ ENT.Spawnable 			= false
 ENT.ArcCW_Killable = false
 ENT.CollisionGroup = COLLISION_GROUP_DEBRIS
 
-
-----prolly change this to a generic mine :\
-
 if SERVER then
 
     function ENT:Initialize()
@@ -23,7 +20,7 @@ if SERVER then
         mine:Spawn()
         mine:Activate()
         mine:SetOwner(self:GetOwner())
-        mine:SetKeyValue("StartDisarmed", 0)			
+        mine:SetKeyValue("StartDisarmed", 0)		
 		mine:SetKeyValue("Modification", 1) 		---- wiki said its the ep2 variant but it only explode faster rather than friendly to player???	npc works fine doe dafuq???	
 		mine:SetModel("models/npc/slog_osi_suck/mine_npc.mdl")
 		----mine:AddRelationship( "player D_LI 99" ) --- its not an npc therefore i cant cheat with relationship
@@ -34,4 +31,6 @@ if SERVER then
 
 
 end
+
+
 
