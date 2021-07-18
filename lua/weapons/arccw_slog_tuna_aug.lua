@@ -5,16 +5,16 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "AICW-57"
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = "New line of infantry rifle. Comes with an mounted antimatter launcher. Don't shoot it at your feet."
+SWEP.Trivia_Desc = "Next line of infantry rifle. Comes with an antimatter option. Don't shoot it at your feet."
 SWEP.Trivia_Manufacturer = "XLR Munitions"
 SWEP.Trivia_Country = "Vrenzie"
 SWEP.Trivia_Calibre = "5.7x35mm"
-SWEP.Trivia_Year = "2179"
+SWEP.Trivia_Year = "2190"
 
 SWEP.TrueName = "that one horrible film about a dog on a train"
 SWEP.True_Country = "TWAT"
 SWEP.True_Manufacturer = "its pronouced thwaite"
-SWEP.True_Class = "Melee"
+SWEP.True_Class = "Kiwi Rifle"
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
     SWEP.Trivia_Country = SWEP.True_Country

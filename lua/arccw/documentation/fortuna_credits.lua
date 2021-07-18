@@ -5,13 +5,18 @@ Project ForTuna, a 98% self made mod
 [Created by slogkot (formerly known as Fleshy Mammal)]
 [If you want to use these anim, NO, these are tailor made specifically for this mod and this aesthetic]
 
+--- Credits -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Itzal:
--"Concept" Art (Bravo-9, Borus-27, EGL-4, IMR, APX-10, HL-877) [with actual permission too,         i think i asked him]
+-"Concept" Art (Bravo-9, Borus-27, EGL-4, IMR, APX-10, HL-877, RDV-10G) [with actual permission too,         i think i asked him]
 
 Fesiug:
 -MW2 hand port/C_hands convert for the base c_hands mesh
 -Random code for ent, flip optic code, rmb ubgl, akimbo base, being an annoying cunt, stuff i cant remember
+
+TheOnly8Z:
+-Some ent code --i stole this :))
 
 Infinity Ward:
 -Sounds (MW19, IW)
@@ -26,27 +31,30 @@ google images:
 
 
 slogkot:
--Concept [partially] (IMR, SeRv-45, APX-10, Leviathan)
+-Concept [partially] (IMR, SeRv-45, APX-10, Leviathan, RDV-10G)
 -Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60, AICW, Omega-75D) -- im getting good at this
--Reticle Design
+-Reticle Design --- made with blender trolololololo !!11!!11!            even tho i have 2d design programme 
 -Models
--"Textures" (Palettes are still texture i swear !111!1!)
+-"Textures" ---- palettes are still texture i swear !111!1!
 -Animations
 -C_hands
--Npc, the head at least
+-Npc ---- the heads at least
 -Literally everything
 -Firing sounds "mixing" (i swear combining two sound with no blending is the professional way)
 -Leviathan sounds (with actual proper sound mixing bullshit)
 
 -------------
 all the foley, aside from the Leviathan is from mw19
-the Leviathan sound is mixed from hla
-the firing sounds are mised from mw19, iw, and sometimes hla
+the Leviathan sound is mixed from hla, (strider, gunship and manhack)
+the firing sounds are mixed from mw19, iw, and sometimes hla (the small electric charge is from iw or hla, trail and boom boom is usually from mw)
 -------------
 
-fish 
 
---- Basicall Dev Log ---
+im so sorry for the coding logic stuff like the akimbo and the rmb17 ubgl 
+
+
+
+--- Basicall Dev Log -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Sanity Check List:
 Belt Fed (Done, twice)
@@ -63,13 +71,14 @@ Bio Weapon (Done)
 Really retarded reload (>3 times)
 
 Akimbo (pretty much done)
+Laser (pretty much done)
 
-Laser (low priority)
-HL-877, Cmd97 SOUNDS (low priority)
-Leviathan idle, remaining sound (low priority)
+NPC exclusive weapon (low priority)
+HL-877, Cmd97 SOUNDS (low priority) -- and my headphone died soooooooooooooo
+Leviathan idle, remaining sound (low priority) -- and my headphone died soooooooooooooo
+
 Worldmodel [rmb17, cmd97] (very very very low priority)
 
-NPC exclusive weapon (very very very low priority)
 
 Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
 SMG_DMR Hybrid (scrapped??) -- i just realise how useless it is
@@ -117,6 +126,7 @@ AICW: 	its a real thing apparently, well not the half open grenade tube bullshit
 		idk If its just me but i couldnt Find a single refernce for how this thing work, just a vague silhouette so i have no idea how the "advance" icw works since it has one mag and 2 barrels
 		"A" stands for advance, not kiwi, i think,   so just oicw but aussie trademark free
 Omega-75D: i really want a stealth-ish Type of gun with a knife, and i hate pistol so the loudest, most inaccurate gun integrally suppressed and super accurate
+RDV-10G: back when i first start modelling, one of the main immediate reason i started was to Do a shotgun speed loader cuz aside from bo4, ive NEVER seen one for some reason
 Text
 
 
@@ -163,13 +173,14 @@ Realism = Fail
 EACH MUST BE UNIQUE, BE IT STATS OR VISUAL
 Visual comes first doe
 
-List of failure:
+List of failures:
 IMR [visual]-- generic, indistinguishable
 APX-10 [visual, stats] -- generic, indistinguishable
 SeRv-45 [visual, stats] -- generic, indistinguishable
 HL-877 [stats]-- burst is never good, also reused anim
 Adler-442 [stats]-- damage is ass but it has to be ass, cant find a work around without making it one shot kill
 Akimbo [???]--- its one of those thing that feels good on monday and shit on the rest
+Raptor-67 [???]--- its another shotgun therefore instantly bad
 
 
 
