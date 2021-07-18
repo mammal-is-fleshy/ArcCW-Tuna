@@ -43,7 +43,7 @@ SWEP.Damage = 8
 SWEP.DamageMin = 3 -- damage done at maximum range
 SWEP.Range = 30 -- in METRES
 SWEP.Penetration = 1
-SWEP.DamageType = DMG_BULLET
+SWEP.DamageType = DMG_BULLET + DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 400 -- projectile or phys bullet muzzle velocity
 -- IN M/S
@@ -75,7 +75,7 @@ SWEP.Firemodes = {
 
 SWEP.PhysTracerProfile = 3
 
-SWEP.AccuracyMOA = 50 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
+SWEP.AccuracyMOA = 70 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
 SWEP.HipDispersion = 280 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 320
 
@@ -221,7 +221,7 @@ SWEP.Animations = {
     },
     ["fire"] = {
         Source = "fire",
-		MinProgress = 0.05,
+        ShellEjectAt = 0,		
     },
     ["sgreload_start"] = {
         Source = "start",

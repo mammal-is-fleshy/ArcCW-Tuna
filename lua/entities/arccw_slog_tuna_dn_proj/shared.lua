@@ -21,13 +21,9 @@ if SERVER then
 		Flet:SetVelocity( Forward * 2000 )
         Flet:Activate()
         Flet:SetOwner(self:GetOwner())
-        Flet:SetKeyValue("maxspeed", tostring(s))
-        Flet:SetKeyValue("minspeed", tostring(s))
         Flet:SetKeyValue("angles", tostring(self:GetAngles()))
-        Flet:SetKeyValue("launchconenoise", "0")
-        Flet:SetKeyValue("spawnflags", "2")
         Flet:SetSaveValue("m_flRadius", mini and "2" or "12")
-        Flet:Fire( "launchBall", "", 0 )
+		Flet:SetModel("models/weapons/arccw/slog_osi_suck/shell_bones.mdl")
         SafeRemoveEntity(self)
     end
 end
