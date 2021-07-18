@@ -11,6 +11,9 @@ ENT.Spawnable 			= false
 ENT.ArcCW_Killable = false
 ENT.CollisionGroup = COLLISION_GROUP_DEBRIS
 
+
+----prolly change this to a generic mine :\
+
 if SERVER then
 
     function ENT:Initialize()

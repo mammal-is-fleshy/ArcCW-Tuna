@@ -3,7 +3,7 @@ SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 
-SWEP.PrintName = "Field Mine"
+SWEP.PrintName = "Proxy Mine"
 SWEP.Trivia_Class = "Throwable"
 SWEP.Trivia_Desc = "Proxy mine that leaps towards hostile."
 SWEP.Trivia_Manufacturer = "NFA Equipments"
