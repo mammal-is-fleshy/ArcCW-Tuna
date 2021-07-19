@@ -21,7 +21,7 @@ if GetConVar("arccw_truenames"):GetBool() then
 	SWEP.Trivia_Manufacturer = SWEP.True_Manufacturer
 	SWEP.Trivia_Class = SWEP.True_Class	
 end
-
+SWEP.NoHideLeftHandInCustomization = true ---- WHY IS IT SO LONG, WHO WROTE THIS
 SWEP.Slot = 1
 
 SWEP.NPCWeaponType = "weapon_pistol"

@@ -8,7 +8,7 @@ SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "Semi-Auto shotgun. Made for close range security. Speedloader speeds up the rechambering process by a margin."
 SWEP.Trivia_Manufacturer = "FFR Armory"
 SWEP.Trivia_Country = "Geneva Federation"
-SWEP.Trivia_Calibre = "12 Gauge"
+SWEP.Trivia_Calibre = "10 EXG"
 SWEP.Trivia_Year = "2180"
 
 SWEP.TrueName = "GioJo Reference"

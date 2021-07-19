@@ -8,7 +8,7 @@ SWEP.Trivia_Class = "Shotgun"
 SWEP.Trivia_Desc = "Lever action shotgun. An odd choice for a calibre this size. Made for close range hunting."
 SWEP.Trivia_Manufacturer = "DRS Arms"
 SWEP.Trivia_Country = "Vrenzie"
-SWEP.Trivia_Calibre = "10 Gauge"
+SWEP.Trivia_Calibre = "12 EXG"
 SWEP.Trivia_Year = "2165"
 
 SWEP.TrueName = "Terminator 2 on DVD"

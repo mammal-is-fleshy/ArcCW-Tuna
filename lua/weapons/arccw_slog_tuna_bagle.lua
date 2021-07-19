@@ -76,8 +76,8 @@ SWEP.Firemodes = {
 SWEP.PhysTracerProfile = 3
 
 SWEP.AccuracyMOA = 0.8 -- accuracy in Minutes of Angle. There are 60 MOA in a degree.
-SWEP.HipDispersion = 220 -- inaccuracy added by hip firing.
-SWEP.MoveDispersion = 400
+SWEP.HipDispersion = 270 -- inaccuracy added by hip firing.
+SWEP.MoveDispersion = 370
 
 SWEP.Primary.Ammo = "pistol" 
 

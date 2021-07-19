@@ -23,6 +23,7 @@ if GetConVar("arccw_truenames"):GetBool() then
 end
 
 SWEP.Slot = 3
+SWEP.NotForNPCS = true
 
 SWEP.CrouchPos = Vector(-1, 0, -1)
 SWEP.CrouchAng = Angle(0, 0, -15)
