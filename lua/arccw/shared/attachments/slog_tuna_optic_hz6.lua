@@ -27,6 +27,7 @@ att.AdditionalSights = {
     }
 }
 
+att.ScopeGlint = true
 att.Holosight = true
 att.HolosightReticle = Material("slog_tuna_reticle/6x.png", "mips smooth")
 att.HolosightNoFlare = true
