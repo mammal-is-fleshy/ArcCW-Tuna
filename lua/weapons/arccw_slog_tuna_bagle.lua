@@ -36,7 +36,7 @@ SWEP.CamAttachment = 3
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_bagle.mdl"
-SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_bagle.mdl"
+SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/w_bagle.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 85
@@ -144,12 +144,6 @@ SWEP.AttachmentElements = {
     },	
 }
 
-SWEP.WorldModelOffset = {
-    pos = Vector(-5, 2, -4),
-    ang = Angle(-10, 0, 180+10)
-}
-
-SWEP.MirrorVMWM = true
 SWEP.GuaranteeLaser = true
 SWEP.Attachments = {
     {
@@ -160,6 +154,8 @@ SWEP.Attachments = {
         Offset = {
             vpos = Vector(0, -3.75, 3.2), 
             vang = Angle(90, 0, -90),
+            wpos = Vector(7, 1, -5),
+            wang = Angle(-10.216, 0, 180)			
         },			
         InstalledEles = {"iron_no"},		
     },
@@ -170,6 +166,8 @@ SWEP.Attachments = {
         Offset = {
             vpos = Vector(0, -1.9, 3.25), 
             vang = Angle(90, 0, -90),
+            wpos = Vector(7.8, 1, -3.2),
+            wang = Angle(-10.216, 0, 180)				
         },
         CorrectivePos = Vector(1, 0, 0.2),					
     },

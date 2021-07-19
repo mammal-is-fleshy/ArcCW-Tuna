@@ -32,7 +32,7 @@ SWEP.CamAttachment = 3
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_akimbo.mdl"
-SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_akimbo.mdl"
+SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/w_akimbo.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 62
@@ -112,8 +112,8 @@ SWEP.IronSightStruct = {
 }
 
 SWEP.HoldtypeHolstered = "normal"
-SWEP.HoldtypeActive = "pistol"
-SWEP.HoldtypeSights = "revolver"
+SWEP.HoldtypeActive = "duel"
+SWEP.HoldtypeSights = "duel"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 
@@ -140,12 +140,6 @@ SWEP.AttachmentElements = {
     },	
 }
 
-SWEP.WorldModelOffset = {
-    pos = Vector(-5, 2, -4),
-    ang = Angle(-10, 0, 180+10)
-}
-
-SWEP.MirrorVMWM = true
 SWEP.GuaranteeLaser = true
 SWEP.Attachments = {
     {

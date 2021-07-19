@@ -35,7 +35,7 @@ SWEP.CamAttachment = 3
 SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_notasval.mdl"
-SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_fx92.mdl"
+SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/w_ak.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 48
@@ -157,12 +157,6 @@ SWEP.AttachmentElements = {
     },	
 }
 
-SWEP.WorldModelOffset = {
-    pos = Vector(-8, 5, -6),
-    ang = Angle(-10, 0, 180-2.5)
-}
-
-SWEP.MirrorVMWM = true
 SWEP.GuaranteeLaser = true
 SWEP.Attachments = {
     {
@@ -173,6 +167,8 @@ SWEP.Attachments = {
         Offset = {
             vpos = Vector(0, -4.4, 1), 
             vang = Angle(90, 0, -90),
+            wpos = Vector(6, 1, -6.5),
+            wang = Angle(-10.216, 0, 180)			
         },			
         InstalledEles = {"iron_no"},		
     },
@@ -183,8 +179,8 @@ SWEP.Attachments = {
         Offset = {
             vpos = Vector(0, -1, 8.5),
             vang = Angle(90, 0, -90),
-            wpos = Vector(14.329, 0.602, -4.453),
-            wang = Angle(-10.216, 0, 180)
+            wpos = Vector(14.329, 1, -4.453),
+            wang = Angle(-10.216, 0, 180)			
         },
     },	
     {
@@ -194,6 +190,8 @@ SWEP.Attachments = {
         Offset = {
             vpos = Vector(-0.75, -2.25, 10), 
             vang = Angle(90, 0, 180),
+            wpos = Vector(14.329, 0.602, -6),
+            wang = Angle(-10.216, 0, 90)			
         },
         ExtraSightDist = 10,
         CorrectivePos = Vector(0.75, 3, 0),					
