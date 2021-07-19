@@ -8,23 +8,34 @@ player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck
 
 ------------------------
 
-local NPC = {	Name = "Generic Bad Guy",
+local NPC = {	Name = "Riflemen",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
-	Weapons = { "arccw_slog_tuna_awrx6_npc" },		
+	Weapons = { "arccw_slog_tuna_rifle_npc" },		
+	SpawnFlags = bit.bor(8192, 256),  --- no weapon drop and longer range
+	Category = "Project ForTuna",
+}
+list.Set( "NPC", "npc_tuna_hostile_rif", NPC )
+
+local NPC = {	Name = "Shotgunner",
+	Class = "npc_combine_s",
+	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
+	Weapons = { "arccw_slog_tuna_sg_npc" },		
+	SpawnFlags = bit.bor(8192, 16384),  --- no weapon drop, idk what dont give way to player means but sounds cool
+	KeyValues = { tacticalvariant = 2},  --- pressure mode, for shit accuracy 
+	Category = "Project ForTuna",
+}
+list.Set( "NPC", "npc_tuna_hostile_sg", NPC )
+
+local NPC = {	Name = "Officer",
+	Class = "npc_combine_s",
+	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
+	Weapons = { "arccw_slog_tuna_ps_npc" },		
 	SpawnFlags = 8192,  --- no weapon drop
+	KeyValues = { tacticalvariant = 2},  --- pressure mode, for shit accuracy 	
 	Category = "Project ForTuna",
 }
-list.Set( "NPC", "npc_tuna_hostile", NPC )
-
-local NPC = {	Name = "Generic Mine", -- ofc its gonna be an ent later, for testing purpose
-	Class = "combine_mine",
-	Model = "models/npc/slog_osi_suck/mine_npc.mdl",
-	KeyValues = { Modification = 1, StartDisarmed = 0, ExplosionDamage = 200 },	 -- i dont think damage work
-	Category = "Project ForTuna",
-}
-list.Set( "NPC", "npc_tuna_mine", NPC )
-
+list.Set( "NPC", "npc_tuna_hostile_pist", NPC )
 
 ------------------------
 

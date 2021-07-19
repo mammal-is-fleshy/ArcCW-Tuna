@@ -213,11 +213,12 @@ end
 
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
-    ["ready"] = {
-        Source = "draw",
-    },
     ["draw"] = {
         Source = "draw",
+		LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0.45,
+        LHIKEaseOut = 0.2,	
     },
     ["fire"] = {
         Source = "fire",

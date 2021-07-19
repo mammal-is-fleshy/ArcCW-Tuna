@@ -77,8 +77,6 @@ NPC exclusive weapon (low priority)
 HL-877, Cmd97 SOUNDS (low priority) -- and my headphone died soooooooooooooo
 Leviathan idle, remaining sound (low priority) -- and my headphone died soooooooooooooo
 
-Worldmodel [rmb17, cmd97] (very very very low priority)
-
 
 Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
 SMG_DMR Hybrid (scrapped??) -- i just realise how useless it is

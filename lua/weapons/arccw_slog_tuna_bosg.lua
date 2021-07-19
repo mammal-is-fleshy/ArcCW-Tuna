@@ -156,10 +156,10 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
-        ---Slot = "fortuna_muzzle",
+		Slot = "fortuna_muzzle_db",
         Bone = "W_Main",
         Offset = {
-            vpos = Vector(0, -2.1, 20),
+            vpos = Vector(0, -1.4, 16),
             vang = Angle(90, 0, -90),
         },
     },
@@ -195,14 +195,12 @@ SWEP.Attachments = {
 
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
-    ["ready"] = {
-        Source = "draw",
-    },
     ["draw"] = {
         Source = "draw",
         LHIK = true,	
-        LHIKOut = 0.4,
-        LHIKEaseOut = 0.1,		
+        LHIKIn = 0,
+        LHIKOut = 0.45,
+        LHIKEaseOut = 0.2,	
     },
     ["fire"] = {
         Source = "fire",
