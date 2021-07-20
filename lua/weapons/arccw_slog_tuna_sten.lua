@@ -157,6 +157,12 @@ SWEP.AttachmentElements = {
         Override_IronSightStruct = {Pos = Vector(-1, 5, -3),Ang = Angle(0, 0, -15),Magnification = 1.1,},	
 		CrosshairInSights = true
     },	
+    ["slog_tuna_laser_knife"] = {
+		Override_BashPreparePos = Vector(-1, -5, -5),
+		Override_BashPrepareAng = Angle(0, 0, -5),
+		Override_BashPos = Vector(-1, 12, -3),
+		Override_BashAng = Angle(4, 6, 0),
+    },		
 }
 
 SWEP.WorldModelOffset = {

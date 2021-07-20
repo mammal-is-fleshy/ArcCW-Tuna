@@ -98,7 +98,7 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/6fire.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/6firesd.ogg"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_5"
+SWEP.MuzzleEffect = "muzzleflash_mp5"
 SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_rifle.mdl"
 SWEP.ShellScale = 1.15
 

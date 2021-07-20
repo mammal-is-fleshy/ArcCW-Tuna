@@ -156,7 +156,7 @@ SWEP.Attachments = {
             vang = Angle(90, 0, -90),
         },
         InstalledEles = {"nors"},
-        MergeSlots = {5},
+        ----MergeSlots = {5},
     },
     {
         PrintName = "Underbarrel",
@@ -178,7 +178,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = "perk"
+        Slot = "fortuna_perk"
     },
     {
         PrintName = "You aren't supposed to see this",

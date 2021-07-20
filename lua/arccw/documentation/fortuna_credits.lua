@@ -21,6 +21,9 @@ TheOnly8Z:
 Matsilagi:
 -Spitting thing ent --- very cool !!
 
+Dransvitry:
+-Light Wrap
+
 Infinity Ward:
 -Sounds (MW19, IW)
 -Base mesh for c_hands (MW2, udt hands)
