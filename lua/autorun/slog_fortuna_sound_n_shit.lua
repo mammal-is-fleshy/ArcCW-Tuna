@@ -6,17 +6,24 @@ player_manager.AddValidModel( "TUNA_ARMS_2", 		"models/npc/slog_osi_suck/generic
 list.Set( "PlayerOptionsModel", "TUNA_ARMS_2", 	"models/npc/slog_osi_suck/generic_pm2.mdl" );
 player_manager.AddValidHands( "TUNA_ARMS_2", "models/weapons/arccw/slog_osi_suck/c_arms2.mdl", 0, "00000000" )
 
-------------------------
+------------------------ NPC -----------------------------
 
-local NPC = {	Name = "Riflemen",
+local NPC = {	Name = "Rifleman",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
-	Weapons = { "arccw_slog_tuna_rifle_npc" },		
+	Weapons = { "arccw_slog_tuna_rifle_npc", "arccw_slog_tuna_rifle_npc2" },		
+	SpawnFlags = bit.bor(8192, 256),  --- no weapon drop and longer range
+	Category = "Project ForTuna",
+}
+list.Set( "NPC", "npc_tuna_hostile_snip", NPC )
+local NPC = {	Name = "Marksman",
+	Class = "npc_combine_s",
+	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
+	Weapons = { "arccw_slog_tuna_snip_npc2" },		
 	SpawnFlags = bit.bor(8192, 256),  --- no weapon drop and longer range
 	Category = "Project ForTuna",
 }
 list.Set( "NPC", "npc_tuna_hostile_rif", NPC )
-
 local NPC = {	Name = "Shotgunner",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
@@ -30,7 +37,7 @@ list.Set( "NPC", "npc_tuna_hostile_sg", NPC )
 local NPC = {	Name = "Officer",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
-	Weapons = { "arccw_slog_tuna_ps_npc" },		
+	Weapons = { "arccw_slog_tuna_ps_npc", "arccw_slog_tuna_ps_npc2" },		
 	SpawnFlags = 8192,  --- no weapon drop
 	KeyValues = { tacticalvariant = 2},  --- pressure mode, but less pressured
 	Category = "Project ForTuna",

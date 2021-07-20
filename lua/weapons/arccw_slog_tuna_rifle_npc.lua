@@ -46,7 +46,7 @@ SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Firemodes = {
     {
-        Mode = -8,
+        Mode = -math.random(3, 10),
 		PostBurstDelay = 0.025		
     },
 	    {

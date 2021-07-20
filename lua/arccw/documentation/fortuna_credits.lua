@@ -35,7 +35,7 @@ google images:
 
 slogkot:
 -Concept [partially] (IMR, SeRv-45, APX-10, Leviathan, RDV-10G)
--Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60, AICW, Omega-75D) -- im getting good at this
+-Concept [factually] (DB-14, AWRX-6, Adler-442, VT0R-5, RMB-17, Raptor-67, FR-60, AICW, Omega-75D, every npc weapons) -- im getting good at this
 -Reticle Design --- made with blender trolololololo !!11!!11!            even tho i have 2d design programme 
 -Models
 -"Textures" ---- palettes are still texture i swear !111!1!
