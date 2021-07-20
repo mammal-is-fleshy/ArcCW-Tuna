@@ -22,7 +22,7 @@ local NPC = {	Name = "Shotgunner",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
 	Weapons = { "arccw_slog_tuna_sg_npc" },		
 	SpawnFlags = bit.bor(8192, 16384),  --- no weapon drop, idk what dont give way to player means but sounds cool
-	KeyValues = { tacticalvariant = 2},  --- pressure mode, for shit accuracy 
+	KeyValues = { tacticalvariant = 1},  --- pressure mode, for shit accuracy 
 	Category = "Project ForTuna",
 }
 list.Set( "NPC", "npc_tuna_hostile_sg", NPC )
@@ -32,7 +32,7 @@ local NPC = {	Name = "Officer",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
 	Weapons = { "arccw_slog_tuna_ps_npc" },		
 	SpawnFlags = 8192,  --- no weapon drop
-	KeyValues = { tacticalvariant = 2},  --- pressure mode, for shit accuracy 	
+	KeyValues = { tacticalvariant = 2},  --- pressure mode, but less pressured
 	Category = "Project ForTuna",
 }
 list.Set( "NPC", "npc_tuna_hostile_pist", NPC )

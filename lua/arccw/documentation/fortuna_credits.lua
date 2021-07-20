@@ -9,14 +9,14 @@ Project ForTuna, a 98% self made mod
 
 
 Itzal:
--"Concept" Art (Bravo-9, Borus-27, EGL-4, IMR, APX-10, HL-877, RDV-10G) [with actual permission too,         i think i asked him]
+-"Concept" Art (Bravo-9, Borus-27, EGL-4, IMR, APX-10, HL-877, RDV-10G, Bases for optics) [with actual permission too,         i think i asked him]
 
 Fesiug:
 -MW2 hand port/C_hands convert for the base c_hands mesh
 -Random code for ent, flip optic code, rmb ubgl, akimbo base, being an annoying cunt, stuff i cant remember
 
 TheOnly8Z:
--Some ent code --i stole this :))
+-Some ent code, Shotgun stack reload bullshit              --i stole this :))
 
 Infinity Ward:
 -Sounds (MW19, IW)
@@ -68,14 +68,15 @@ Revolver (Done)
 Antique (Done)
 Anti Tank Rifle (Done)
 Bio Weapon (Done)
-Really retarded reload (>3 times)
+Really retarded reload (Done, >3 times)
 
 Akimbo (pretty much done)
 Laser (pretty much done)
 
-NPC exclusive weapon (low priority)
+NPC exclusive weapon (in progress)
+
 HL-877, Cmd97 SOUNDS (low priority) -- and my headphone died soooooooooooooo
-Leviathan idle, remaining sound (low priority) -- and my headphone died soooooooooooooo
+Leviathan idle, remaining sound (low priority) -- above, plus not a sound guy
 
 
 Stationary MG (scrapped) -- couldnt do another belf fed,               -unless
