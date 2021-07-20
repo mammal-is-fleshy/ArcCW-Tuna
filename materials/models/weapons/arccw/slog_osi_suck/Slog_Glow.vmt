@@ -1,6 +1,8 @@
 "UnlitGeneric"
 {
 	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"
+	"$lightwarptexture" "models/riskofrain2/survivors/huntress/lightwarp"
+	$phongwarptexture "models/riskofrain2/survivors/huntress/lightwarp"
 	$selfillum 1
 	
 }	

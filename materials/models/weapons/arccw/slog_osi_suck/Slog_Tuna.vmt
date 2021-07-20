@@ -1,16 +1,15 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"	
+	"$lightwarptexture" "models\weapons\arccw\slog_osi_suck\lightwarp"
+	$phongwarptexture "models\weapons\arccw\slog_osi_suck\lightwarp"	
 	
 	$color2 "[0.8 0.8 0.8]"
 
 //Phong shading	
-"$phong" 				"1"
-"$phongboost" 				"50"
 "$phongalbedotint"			 "1"
-"$phongexponent" 			"20"
-"$phongfresnelranges" 			"[2 3 12]"
-
-	$rimlight						"1"
-	$rimlightboost					"0.00005"	
+	$phong "1"
+	$phongexponent			5 // either/or
+	$phongboost				0.05
+	$phongfresnelranges		"[0.75 0.5 1]"
 }
