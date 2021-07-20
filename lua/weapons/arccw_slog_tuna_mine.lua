@@ -1,4 +1,4 @@
-SWEP.Base = "arccw_base"
+SWEP.Base = "arccw_base"      ----- nade base doesnt work with this ent for some reason so bodging time it is
 SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
@@ -42,7 +42,7 @@ SWEP.RecoilPunch = 0
 SWEP.RecoilPunchBackMax = 0
 SWEP.RecoilVMShake = 0
 
-SWEP.AutoReload = true
+SWEP.AutoReload = true  --- i dont think this work
 SWEP.Disposable = true
 SWEP.Slot = 4
 

@@ -4,7 +4,7 @@
 	"$lightwarptexture" "models\weapons\arccw\slog_osi_suck\lightwarp"
 	$phongwarptexture "models\weapons\arccw\slog_osi_suck\lightwarp"	
 	
-	$color2 "[0.8 0.8 0.8]"
+	$color2 "[0.75 0.75 0.75]"
 
 //Phong shading	
 "$phongalbedotint"			 "1"

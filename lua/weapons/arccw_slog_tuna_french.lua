@@ -82,7 +82,7 @@ SWEP.AccuracyMOA = 0.75 -- accuracy in Minutes of Angle. There are 60 MOA in a d
 SWEP.HipDispersion = 275 -- inaccuracy added by hip firing.
 SWEP.MoveDispersion = 200
 
-SWEP.Primary.Ammo = "ar2" 
+SWEP.Primary.Ammo = "smg1" 
 
 SWEP.ShootVol = 110 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
@@ -91,7 +91,7 @@ SWEP.ShootSound = "weapons/arccw_slog/fortuna/rifle/fire4.ogg"
 SWEP.ShootSoundSilenced = "weapons/arccw_slog/fortuna/rifle/fire4sd.ogg"
 SWEP.DistantShootSound = "weapons/arccw_slog/fortuna/rifle/echo.wav"
 
-SWEP.MuzzleEffect = "muzzleflash_5"
+SWEP.MuzzleEffect = "muzzleflash_3"
 SWEP.ShellModel = "models/weapons/arccw/slog_osi_suck/shell_rifle.mdl"
 SWEP.ShellScale = 1.25
 
