@@ -26,6 +26,7 @@ SWEP.Slot = 1
 
 SWEP.NPCWeaponType = "weapon_pistol"
 SWEP.NPCWeight = 250
+SWEP.NotForNPCS = true
 
 SWEP.CamAttachment = 3
 

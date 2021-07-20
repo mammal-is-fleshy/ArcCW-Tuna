@@ -242,6 +242,12 @@ SWEP.Animations = {
         LHIKEaseOut = 0,			
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
         ShellEjectAt = 21/40,		
+        SoundTable = {
+						{s = "weapons/arccw_slog/fortuna/ak/foley1.wav", 		t = 0/40},
+						{s = "weapons/arccw_slog/fortuna/ak/bolt2.wav", 		t = 13/40},	
+						{s = "weapons/arccw_slog/fortuna/ak/bolt3.wav", 		t = 51/40},							
+						{s = "weapons/arccw_slog/fortuna/ak/foley3.wav", 		t = 65/40},						
+					},			
     },
     ["sgreload_insert"] = {
         LHIK = true,

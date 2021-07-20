@@ -18,6 +18,9 @@ Fesiug:
 TheOnly8Z:
 -Some ent code, Shotgun stack reload bullshit              --i stole this :))
 
+Matsilagi:
+-Spitting thing ent --- very cool !!
+
 Infinity Ward:
 -Sounds (MW19, IW)
 -Base mesh for c_hands (MW2, udt hands)

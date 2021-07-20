@@ -5,7 +5,7 @@ SWEP.AdminOnly = false
 
 SWEP.PrintName = "Leviathan"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "Alien technology from a different realm. Spits bones like a angry hippo."
+SWEP.Trivia_Desc = "Alien technology from a different realm. It either spits bones like a angry hippo or spits extremely acidic substance."
 SWEP.Trivia_Manufacturer = "SRL Corp"
 SWEP.Trivia_Country = "THE SEA"
 SWEP.Trivia_Calibre = "Bones"
@@ -69,7 +69,16 @@ SWEP.Num = 12
 SWEP.Firemodes = {
 	{
         Mode = 1,
+		PrintName = "Spitter"
     },	
+	{
+        Mode = 1,
+		PrintName = "Barder",
+		Override_AmmoPerShot = 2,
+		Override_ShootEntity = "ent_tuna_proj_fish_large",
+		Override_Num = 3
+		
+    },		
     {
         Mode = 0
     }
