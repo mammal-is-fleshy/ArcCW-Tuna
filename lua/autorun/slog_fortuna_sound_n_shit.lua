@@ -15,7 +15,15 @@ local NPC = {	Name = "Rifleman",
 	SpawnFlags = bit.bor(8192, 256),  --- no weapon drop and longer range
 	Category = "Project ForTuna",
 }
-list.Set( "NPC", "npc_tuna_hostile_snip", NPC )
+list.Set( "NPC", "npc_tuna_hostile_rif", NPC )
+local NPC = {	Name = "Rocketeer",
+	Class = "npc_combine_s",
+	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
+	Weapons = { "arccw_slog_tuna_rpg_npc" },		
+	SpawnFlags = bit.bor(8192, 256),  --- no weapon drop and longer range
+	Category = "Project ForTuna",
+}
+list.Set( "NPC", "npc_tuna_hostile_rpg", NPC )
 local NPC = {	Name = "Marksman",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
@@ -23,7 +31,7 @@ local NPC = {	Name = "Marksman",
 	SpawnFlags = bit.bor(8192, 256),  --- no weapon drop and longer range
 	Category = "Project ForTuna",
 }
-list.Set( "NPC", "npc_tuna_hostile_rif", NPC )
+list.Set( "NPC", "npc_tuna_hostile_snip", NPC )
 local NPC = {	Name = "Shotgunner",
 	Class = "npc_combine_s",
 	Model = "models/npc/slog_osi_suck/generic_bad_guy.mdl",
