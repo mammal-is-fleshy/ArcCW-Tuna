@@ -55,10 +55,10 @@ SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 26 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 1.25
 
-SWEP.Recoil = 0.675
+SWEP.Recoil = 0.6
 SWEP.RecoilSide = 0.025
-SWEP.RecoilRise = 0.8
-SWEP.VisualRecoilMult = 0.8
+SWEP.RecoilRise = 0.65
+SWEP.VisualRecoilMult = 0.2
 
 SWEP.Delay = 60 / 1020 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
@@ -67,7 +67,7 @@ SWEP.Firemodes = {
     {
         Mode = -3,
         RunawayBurst = true,
-        PostBurstDelay = 0.2,
+        PostBurstDelay = ((2^(-1/2))- (1/2)), --- your fault for looking
 		AutoBurst = true,		
     },
 	    {
