@@ -1,5 +1,5 @@
 SWEP.Base = "arccw_base"      ----- nade base doesnt work with this ent for some reason so bodging time it is
-SWEP.Spawnable = true -- this obviously has to be set to true
+SWEP.Spawnable = false -- this obviously has to be set to true
 SWEP.Category = "ArcCW - ForTuna" -- edit this if you like
 SWEP.AdminOnly = false
 

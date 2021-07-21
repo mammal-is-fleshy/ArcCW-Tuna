@@ -8,6 +8,7 @@ att.Desc_Cons = {
 }
 att.AutoStats = true
 att.Slot = {"fortuna_tac"}
+att.Hidden = true
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/laser_peq.mdl"
 

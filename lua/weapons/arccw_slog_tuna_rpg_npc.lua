@@ -24,7 +24,7 @@ SWEP.DamageMin = 8 -- damage done at maximum range
 SWEP.Range = 60 -- in METRES
 SWEP.Penetration = 7
 SWEP.DamageType = DMG_BULLET
-SWEP.ShootEntity = "arccw_slog_tuna_rpg_exp" -- entity to fire, if any
+SWEP.ShootEntity = "arccw_slog_tuna_rpg_exp_npc" -- entity to fire, if any
 SWEP.MuzzleVelocity = 950 -- projectile or phys bullet muzzle velocity
 -- IN M/S
 
@@ -123,7 +123,8 @@ SWEP.AttachmentElements = {
 
 SWEP.WorldModelOffset = {
     pos = Vector(2,1,-0.5),
-    ang = Angle(-10, 0, 180-2.5)
+    ang = Angle(-10, 0, 180-2.5),
+	scale = 1.5
 }
 
 SWEP.MirrorVMWM = true
@@ -141,12 +142,8 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "idle",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-        LHIK = true,
-        LHIKIn = 0.35,
-        LHIKOut = 0.8,
-        LHIKEaseOut = 0.4,
-		MinProgress = 65/40
-    },
+		Time = 5
+	},
     ["reload_empty"] = {
         Source = "idle",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,

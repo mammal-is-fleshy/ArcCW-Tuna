@@ -1,15 +1,15 @@
 "VertexLitGeneric"
 {
 	"$basetexture" "models\weapons\arccw\slog_osi_suck\Slog_Tuna"	
-	"$lightwarptexture" "models\weapons\arccw\slog_osi_suck\lightwarp"
-	$phongwarptexture "models\weapons\arccw\slog_osi_suck\lightwarp"	
+	//"$lightwarptexture" "models\weapons\arccw\slog_osi_suck\lightwarp" --- looks like shit with this type of geo
+	//$phongwarptexture "models\weapons\arccw\slog_osi_suck\lightwarp"	
 	
 	$color2 "[0.75 0.75 0.75]"
 
 //Phong shading	
 "$phongalbedotint"			 "1"
 	$phong "1"
-	$phongexponent			5 // either/or
+	$phongexponent			5 
 	$phongboost				0.05
 	$phongfresnelranges		"[0.75 0.5 1]"
 }
