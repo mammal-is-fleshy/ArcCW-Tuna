@@ -38,10 +38,10 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_notasval.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/w_ak.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 48
-SWEP.DamageMin = 21 -- damage done at maximum range
-SWEP.Range = 60 -- in METRES
-SWEP.Penetration = 12
+SWEP.Damage = 52
+SWEP.DamageMin = 18 -- damage done at maximum range
+SWEP.Range = 65 -- in METRES
+SWEP.Penetration = 15
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 650 -- projectile or phys bullet muzzle velocity
@@ -254,12 +254,12 @@ end
 SWEP.Animations = {
 	["idle"] = {Source = "idle",},
 	["idle_sprint"] = {Source = "sprint", Mult = 1.25, LHIK = true, LHIKIn = 0, LHIKOut = 0,},
-	["enter_sprint"] = {Source = "sprint_in", Mult = 2.5,        
+	["enter_sprint"] = {Source = "sprint_in", Mult = 1,        
 		LHIK = true,
         LHIKEaseIn = 0.2,		
         LHIKIn = 0.35,
         LHIKOut = 0,},	
-	["exit_sprint"] = {Source = "sprint_out", Mult = 2.65,
+	["exit_sprint"] = {Source = "sprint_out", Mult = 1,
 	    LHIK = true,	
         LHIKIn = 0,
         LHIKOut = 1,
@@ -267,12 +267,12 @@ SWEP.Animations = {
 
 	["idle_ubgl"] = {Source = "nade_idle",},	
 	["idle_sprint_gl"] = {Source = "sprint_gl", Mult = 1.25, LHIK = true, LHIKIn = 0, LHIKOut = 0,},
-	["enter_sprint_gl"] = {Source = "sprint_in_gl", Mult = 2.5,        
+	["enter_sprint_gl"] = {Source = "sprint_in_gl", Mult = 1,        
 		LHIK = true,
         LHIKEaseIn = 0.2,		
         LHIKIn = 0.35,
         LHIKOut = 0,},	
-	["exit_sprint_gl"] = {Source = "sprint_out_gl", Mult = 2.65,
+	["exit_sprint_gl"] = {Source = "sprint_out_gl", Mult = 1,
 	    LHIK = true,	
         LHIKIn = 0,
         LHIKOut = 1,

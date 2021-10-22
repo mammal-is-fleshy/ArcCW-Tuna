@@ -39,7 +39,7 @@ SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_imr.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 47
-SWEP.DamageMin = 32 -- damage done at maximum range
+SWEP.DamageMin = 35 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 6
 SWEP.DamageType = DMG_BULLET
@@ -60,7 +60,7 @@ SWEP.RecoilSide = 0.5
 SWEP.RecoilRise = 0.8
 SWEP.VisualRecoilMult = 0.8
 
-SWEP.Delay = 60 / 570 -- 60 / RPM.
+SWEP.Delay = 60 / 580 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
 
 SWEP.Hook_ModifyRPM = function(wep, delay)
@@ -234,7 +234,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "wet",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-		Mult = 0.95,
+		Mult = 0.9,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.8,
@@ -243,7 +243,7 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "dry",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
-		Mult = 0.95,		
+		Mult = 0.9,		
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.8,

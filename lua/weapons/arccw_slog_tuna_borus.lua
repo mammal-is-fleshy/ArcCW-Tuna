@@ -39,10 +39,10 @@ SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_borus.mdl"
 SWEP.ViewModelFOV = 70
 
 SWEP.Damage = 75
-SWEP.DamageMin = 200 -- damage done at maximum range
-SWEP.Range = 120 -- in METRES
+SWEP.DamageMin = 180 -- damage done at maximum range
+SWEP.Range = 100 -- in METRES
 SWEP.Penetration = 25
-SWEP.DamageType = DMG_BULLET + DMG_BLAST + DMG_AIRBOAT
+SWEP.DamageType = DMG_BULLET + DMG_AIRBOAT
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.MuzzleVelocity = 1500 -- projectile or phys bullet muzzle velocity
 -- IN M/S
@@ -56,7 +56,7 @@ SWEP.Primary.ClipSize = 1 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 5
 
 SWEP.Recoil = 2
-SWEP.RecoilSide = 2
+SWEP.RecoilSide = 4
 SWEP.RecoilRise = 1.5
 SWEP.VisualRecoilMult = 0.8
 

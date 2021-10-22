@@ -271,10 +271,10 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.4,
         LHIKEaseIn = 0.2,		
-        LHIKOut = 0.8,
+        LHIKOut = 0.6,
         LHIKEaseOut = 0.4,
 		MinProgress = 90/40,
-		Mult = 0.9,
+		Mult = 0.8,
     },
     ["reload_empty"] = {
         Source = "dry",
@@ -285,7 +285,7 @@ SWEP.Animations = {
         LHIKOut = 0.6,
         LHIKEaseOut = 0.4,
 		MinProgress = 140/40,
-		Mult = 0.9,		
+		Mult = 0.8,		
     },	
 
     ["oicw_dry"] = {
@@ -294,6 +294,7 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.35,
         LHIKOut = 0.5, 
+		Mult = 0.8
     },		
     ["oicw_wet"] = {
         Source = "nade_wet",	
@@ -301,5 +302,6 @@ SWEP.Animations = {
         LHIK = true,
         LHIKIn = 0.35,
         LHIKOut = 0.5,
+		Mult = 0.8
     },		
 }

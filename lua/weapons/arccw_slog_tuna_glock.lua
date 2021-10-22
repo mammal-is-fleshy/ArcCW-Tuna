@@ -38,7 +38,7 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_hl877.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_hl877.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 23
+SWEP.Damage = 25
 SWEP.DamageMin = 15 -- damage done at maximum range
 SWEP.Range = 30 -- in METRES
 SWEP.Penetration = 2
@@ -67,7 +67,7 @@ SWEP.Firemodes = {
     {
         Mode = -3,
         RunawayBurst = true,
-        PostBurstDelay = 0.2125,		
+        PostBurstDelay = 0.2,		
 		AutoBurst = true,		
     },
     {
