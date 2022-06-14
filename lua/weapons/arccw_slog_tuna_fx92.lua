@@ -148,8 +148,6 @@ SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 SWEP.ShellRotateAngle = Angle(5, 0, 40)
 
-SWEP.ExtraSightDist = 5
-
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
         VMBodygroups = {

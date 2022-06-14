@@ -151,8 +151,7 @@ SWEP.Attachments = {
             vpos = Vector(0, -0.2, 0), 
             vang = Angle(90, 0, -90),
         },			
-        InstalledEles = {"iron_no"},	
-		ExtraSightDist = 4,			
+        InstalledEles = {"iron_no"},		
     },
     {
         PrintName = "Muzzle",

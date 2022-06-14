@@ -20,7 +20,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/c75.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 11.5, -2.2),
+        Pos = Vector(0, 9.5, -2.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ScopeMagnification = 4,
@@ -30,14 +30,14 @@ att.AdditionalSights = {
             HolosightMagnification = 4,
             HolosightReticle = Material("slog_tuna_reticle/3x.png", "mips smooth"),
             HolosightNoFlare = true,
-            HolosightSize = 10,
+            HolosightSize = 13,
             HolosightBlackbox = true,
             Colorable = true,
             HolosightPiece = "models/weapons/arccw/slog_osi_suck/att/c75_hsp.mdl"
         },
     },
     {
-        Pos = Vector(0, 13, -4.2),
+        Pos = Vector(0, 10, -4.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,		
         HolosightBone = "holosight",

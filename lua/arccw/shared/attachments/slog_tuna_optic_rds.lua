@@ -16,7 +16,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/rds.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 10, -0.95),
+        Pos = Vector(0, 8, -0.95),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ScrollFunc = ArcCW.SCROLL_NONE

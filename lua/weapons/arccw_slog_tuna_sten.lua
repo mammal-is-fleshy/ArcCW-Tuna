@@ -140,8 +140,6 @@ SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.ShellRotateAngle = Angle(5, 0, 70)
 
-SWEP.ExtraSightDist = 2.5
-
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
         VMBodygroups = {

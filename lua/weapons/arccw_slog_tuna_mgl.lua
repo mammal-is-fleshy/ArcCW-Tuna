@@ -143,8 +143,6 @@ SWEP.WorldModelOffset = {
 
 SWEP.MirrorVMWM = true
 
-SWEP.ExtraSightDist = 2
-
 SWEP.Attachments = {
     {
         PrintName = "Optic",

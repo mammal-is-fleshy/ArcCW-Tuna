@@ -134,8 +134,6 @@ SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 SWEP.ShellRotateAngle = Angle(5, 0, 40)
 
-SWEP.ExtraSightDist = 7
-
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
         VMBodygroups = {
@@ -175,7 +173,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Tactical",
-        Slot = "fortuna_tac_pistol",
+        Slot = {"fortuna_tac_pistol", "fortuna_knife_muz"},
         Bone = "W_Main",
         Offset = {
             vpos = Vector(0, -1.25, 4.5), 

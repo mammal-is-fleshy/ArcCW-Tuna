@@ -39,8 +39,8 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_dawnshatter.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_dawnshatter.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 8
-SWEP.DamageMin = 3 -- damage done at maximum range
+SWEP.Damage = 12
+SWEP.DamageMin = 5 -- damage done at maximum range
 SWEP.Range = 30 -- in METRES
 SWEP.Penetration = 1
 SWEP.DamageType = DMG_BULLET + DMG_AIRBOAT
@@ -231,6 +231,7 @@ SWEP.Animations = {
         LHIKIn = 0.5,
         LHIKOut = 0,
         LHIKEaseOut = 0,		
+		Mult = 0.75,		
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN,
     },
     ["sgreload_start_empty"] = {
@@ -295,5 +296,6 @@ SWEP.Animations = {
         LHIKIn = 0,
         LHIKOut = 0.8,
         LHIKEaseOut = 0.5,
+		Mult = 0.75,
     },
 }

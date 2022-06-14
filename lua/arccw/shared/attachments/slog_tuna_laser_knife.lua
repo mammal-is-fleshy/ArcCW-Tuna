@@ -8,7 +8,7 @@ att.Desc_Cons = {
     "con.beam"
 }
 att.AutoStats = true
-att.Slot = {"fortuna_tac_pistol", "fortuna_knife_muz"}
+att.Slot = {"fortuna_knife_muz"}
 
 att.Model = "models/weapons/arccw/slog_osi_suck/att/laser_knife.mdl"
 

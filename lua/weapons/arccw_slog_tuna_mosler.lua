@@ -133,8 +133,6 @@ SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 SWEP.ShellRotateAngle = Angle(15, -50, 40)
 
-SWEP.ExtraSightDist = 2.5
-
 SWEP.ManualAction = true
 SWEP.NoLastCycle = true
 

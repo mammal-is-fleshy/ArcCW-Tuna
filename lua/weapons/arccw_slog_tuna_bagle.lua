@@ -134,7 +134,7 @@ SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 SWEP.ShellRotateAngle = Angle(-5, 0, 80)
 
-SWEP.ExtraSightDist = 7
+SWEP.ExtraSightDist = 2
 
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
@@ -169,7 +169,8 @@ SWEP.Attachments = {
             wpos = Vector(7.8, 1, -3.2),
             wang = Angle(-10.216, 0, 180)				
         },
-        CorrectivePos = Vector(1, 0, 0.2),					
+        CorrectivePos = Vector(1, 0, 0.2),		
+		ExcludeFlags = {"tac_short"}	
     },
     {
         PrintName = "Ammo Type",

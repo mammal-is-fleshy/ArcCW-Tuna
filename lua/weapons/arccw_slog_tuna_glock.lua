@@ -137,8 +137,6 @@ SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 
 SWEP.ShellRotateAngle = Angle(5, 0, 70)
 
-SWEP.ExtraSightDist = 2.5
-
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
         VMBodygroups = {
@@ -174,7 +172,7 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
-        Slot = "fortuna_muzzle",
+        Slot = {"fortuna_muzzle"},
         Bone = "W_Main",
         Offset = {
             vpos = Vector(0, -3.3, 8.5),
@@ -183,7 +181,7 @@ SWEP.Attachments = {
     },	
     {
         PrintName = "Tactical",
-        Slot = "fortuna_tac_pistol",
+        Slot = {"fortuna_tac_pistol", "fortuna_knife_muz"},
         Bone = "W_Main",
         Offset = {
             vpos = Vector(0, -2.2, 7.5), 

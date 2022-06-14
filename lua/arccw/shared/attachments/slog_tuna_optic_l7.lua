@@ -16,7 +16,7 @@ att.Model = "models/weapons/arccw/slog_osi_suck/att/l7.mdl"
 
 att.AdditionalSights = {
     {
-        Pos = Vector(0, 12, -0.9),
+        Pos = Vector(0, 7.5, -0.9),
         Ang = Angle(0, 0, 0),
         Magnification = 1.125,
         ScrollFunc = ArcCW.SCROLL_NONE
@@ -26,7 +26,7 @@ att.AdditionalSights = {
 att.Holosight = true
 att.HolosightReticle = Material("slog_tuna_reticle/braces.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 3.5
+att.HolosightSize = 4.5
 att.HolosightBone = "holosight"
 att.Colorable = true
 

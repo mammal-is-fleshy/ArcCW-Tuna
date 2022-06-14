@@ -141,8 +141,6 @@ SWEP.CustomizeAng = Angle(12 , 21.236, 17)
 SWEP.BarrelOffsetSighted = Vector(0, 0, -1)
 SWEP.BarrelOffsetHip = Vector(2, 0, -2)
 
-SWEP.ExtraSightDist = 2.5
-
 SWEP.AttachmentElements = {		
     ["iron_no"] = {
         VMBodygroups = {
