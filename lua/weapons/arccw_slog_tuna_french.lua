@@ -57,8 +57,8 @@ SWEP.MaxRecoilBlowback = 1.25
 
 SWEP.Recoil = 0.6
 SWEP.RecoilSide = 0.025
-SWEP.RecoilRise = 0.65
-SWEP.VisualRecoilMult = 0.2
+SWEP.RecoilRise = 0.25
+SWEP.VisualRecoilMult = 0.5
 
 SWEP.Delay = 60 / 1020 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.

@@ -56,9 +56,9 @@ SWEP.Primary.ClipSize = 40 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 2.5
 
 SWEP.Recoil = 0.5
-SWEP.RecoilSide = 0.25
+SWEP.RecoilSide = 0.175
 SWEP.RecoilRise = 0.8
-SWEP.VisualRecoilMult = 0.8
+SWEP.VisualRecoilMult = 0.75
 
 SWEP.Delay = 60 / 700 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.

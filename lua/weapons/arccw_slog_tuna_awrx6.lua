@@ -38,7 +38,7 @@ SWEP.ViewModel = "models/weapons/arccw/slog_osi_suck/c_awrx6.mdl"
 SWEP.WorldModel = "models/weapons/arccw/slog_osi_suck/c_awrx6.mdl"
 SWEP.ViewModelFOV = 70
 
-SWEP.Damage = 29
+SWEP.Damage = 32
 SWEP.DamageMin = 12 -- damage done at maximum range
 SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 7
@@ -55,10 +55,10 @@ SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 30 -- DefaultClip is automatically set.
 SWEP.MaxRecoilBlowback = 2.5
 
-SWEP.Recoil = 0.45
-SWEP.RecoilSide = 0.275
-SWEP.RecoilRise = 0.5
-SWEP.VisualRecoilMult = 0.8
+SWEP.Recoil = 0.5
+SWEP.RecoilSide = 0.175
+SWEP.RecoilRise = 0.25
+SWEP.VisualRecoilMult = 0.75
 
 SWEP.Delay = 60 / 800 -- 60 / RPM.
 SWEP.Num = 1 -- number of shots per trigger pull.
