@@ -37,7 +37,7 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep:PlayAnimation("fire_gl", 1, true, nil, nil, nil, true)
 
-    wep:FireRocket("arccw_slog_tuna_rpg_exp", 3000 * ArcCW.HUToM)
+    wep:FireRocket("arccw_slog_tuna_rpg_exp", 3000 )
 
     wep:EmitSound("weapons/arccw_slog/fortuna/ak/fire_rpg.ogg", 100)
 
