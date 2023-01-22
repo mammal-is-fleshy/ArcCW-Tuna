@@ -212,7 +212,7 @@ SWEP.Attachments = {
 }
 
 SWEP.Hook_TranslateAnimation = function(wep, anim)
-    if wep:Clip2() == 1 and wep:GetInUBGL() and wep:GetState() == ArcCW.STATE_SPRINT then --- i am so sorry for this
+    if wep:Clip2() != 0 and wep:GetInUBGL() and wep:GetState() == ArcCW.STATE_SPRINT then --- i am so sorry for this
 		if anim == "idle_ubgl" then --- dont judge me, this shit aint working
             return "idle_sprint_gl"			
 		end	
@@ -224,7 +224,7 @@ SWEP.Hook_TranslateAnimation = function(wep, anim)
 		end	
 	end		
 
-    if wep:Clip2() == 1 and wep:GetInUBGL() then
+    if wep:Clip2() != 0 and wep:GetInUBGL() then
 		if anim == "enter_sprint" then
             return "enter_sprint_gl"
 		elseif anim == "exit_sprint" then
@@ -242,7 +242,7 @@ SWEP.Hook_TranslateAnimation = function(wep, anim)
 		end	
 	end		
 
-    if wep:Clip2() == 1 then
+    if wep:Clip2() != 0 then
         if anim == "enter_nade" then
             return "enter_nade2"
 		end	

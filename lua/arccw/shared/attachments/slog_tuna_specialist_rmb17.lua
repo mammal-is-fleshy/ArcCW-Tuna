@@ -24,7 +24,7 @@ att.UBGL_Automatic = false
 att.UBGL_MuzzleEffect = "muzzleflash_m79"
 att.UBGL_ClipSize = 1
 att.UBGL_Ammo = "RPG_Round"
-att.UBGL_RPM = 120
+att.UBGL_RPM = 300
 att.UBGL_Recoil = 1
 att.UBGL_Capacity = 1
 
@@ -64,7 +64,6 @@ att.Hook_OnDeselectUBGL = function(wep)
     end
 end
 
-
 att.UBGL_Reload = function(wep, ubgl)
 	local clip = 1
 	
@@ -72,14 +71,14 @@ att.UBGL_Reload = function(wep, ubgl)
 
     if Ammo(wep) <= 0 then return end
 
+	wep:SetNextSecondaryFire(CurTime() + 103/40)
     wep:PlayAnimation(wep:Clip2() == 0 and "oicw_dry", 1, true, nil, nil, nil, true)
-	wep:SetNextSecondaryFire(CurTime() + 103/40)	
 
     local reserve = Ammo(wep)
 
     reserve = reserve + wep:Clip2()
 
-    local load = math.Clamp(5, 0, reserve)
+    local load = math.Clamp(clip, 0, reserve)
 
     wep.Owner:SetAmmo(reserve - load, "RPG_Round")
 

@@ -82,7 +82,7 @@ att.UBGL_Reload = function(wep, ubgl)
 
     reserve = reserve + wep:Clip2()
 
-    local load = math.Clamp(5, 0, reserve)
+    local load = math.Clamp(clip, 0, reserve)
 
     wep.Owner:SetAmmo(reserve - load, "AR2AltFire")
 
